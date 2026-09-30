@@ -1,0 +1,3855 @@
+{
+ "stand": "2026-09-30",
+ "quelle": "sebastianhanisch-website Repo (interne Seiten) + Vollerhebung aller 300 Demo-app.py-Dateien (Rueckl./Querlinks)",
+ "pages": [
+  "404.html",
+  "anomalie-erkennung.html",
+  "bestandsmanagement-optimierung.html",
+  "clusteranalyse.html",
+  "datenschutz.html",
+  "demos.html",
+  "hafenlogistik-optimierung.html",
+  "impressum.html",
+  "index.html",
+  "kontakt.html",
+  "konzepte-adversarische-suche.html",
+  "konzepte-anomalie-erkennung.html",
+  "konzepte-baumbasiert.html",
+  "konzepte-clustering.html",
+  "konzepte-dimensionsreduktion.html",
+  "konzepte-exakte-suche.html",
+  "konzepte-graph-neural-networks.html",
+  "konzepte-graphen-netzwerke.html",
+  "konzepte-heuristische-baumsuche.html",
+  "konzepte-klassische-scheduling-theorie.html",
+  "konzepte-kuerzeste-wege.html",
+  "konzepte-lineare-programmierung.html",
+  "konzepte-matching.html",
+  "konzepte-multiagenten.html",
+  "konzepte-netzwerkfluss.html",
+  "konzepte-neuronale-netze.html",
+  "konzepte-nichtlineare-optimierung.html",
+  "konzepte-populations-metaheuristiken.html",
+  "konzepte-quellentrennung.html",
+  "konzepte-reinforcement-learning.html",
+  "konzepte-spannbaum.html",
+  "konzepte-spieltheorie.html",
+  "konzepte-standortplanung.html",
+  "konzepte-trajektorien-metaheuristiken.html",
+  "konzepte-turnierplanung.html",
+  "konzepte-zeitreihen-prognose.html",
+  "konzepte.html",
+  "lagerlogistik-optimierung.html",
+  "leistungen.html",
+  "luftfracht-optimierung.html",
+  "netzwerkdesign-optimierung.html",
+  "oepnv-fernverkehr-optimierung.html",
+  "packen-zuschnitt-optimierung.html",
+  "projekte.html",
+  "schichtplanung-optimierung.html",
+  "seefracht-optimierung.html",
+  "tourenplanung-optimierung.html",
+  "ueber-mich.html",
+  "was-ist-operations-research.html",
+  "yard-management-optimierung.html"
+ ],
+ "page_edges": {
+  "anomalie-erkennung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-anomalie-erkennung.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "was-ist-operations-research.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "bestandsmanagement-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-zeitreihen-prognose.html",
+   "tourenplanung-optimierung.html",
+   "luftfracht-optimierung.html",
+   "seefracht-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "was-ist-operations-research.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "clusteranalyse.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "tourenplanung-optimierung.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-clustering.html",
+   "lagerlogistik-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "was-ist-operations-research.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "datenschutz.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html"
+  ],
+  "demos.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "konzepte.html",
+   "kontakt.html",
+   "was-ist-operations-research.html",
+   "datenschutz.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "bestandsmanagement-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "luftfracht-optimierung.html",
+   "yard-management-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "impressum.html"
+  ],
+  "hafenlogistik-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "yard-management-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "konzepte-baumbasiert.html",
+   "luftfracht-optimierung.html",
+   "konzepte-multiagenten.html",
+   "konzepte-heuristische-baumsuche.html",
+   "packen-zuschnitt-optimierung.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "was-ist-operations-research.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "impressum.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "datenschutz.html"
+  ],
+  "index.html": [
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "kontakt.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "datenschutz.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html"
+  ],
+  "konzepte-adversarische-suche.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-anomalie-erkennung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "anomalie-erkennung.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-baumbasiert.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "hafenlogistik-optimierung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-clustering.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "clusteranalyse.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-spannbaum.html",
+   "konzepte-standortplanung.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-multiagenten.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-dimensionsreduktion.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-clustering.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-multiagenten.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-exakte-suche.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "packen-zuschnitt-optimierung.html",
+   "konzepte-multiagenten.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-adversarische-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-graph-neural-networks.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-baumbasiert.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-graphen-netzwerke.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "netzwerkdesign-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "konzepte-spannbaum.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-matching.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-heuristische-baumsuche.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "tourenplanung-optimierung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-adversarische-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "was-ist-operations-research.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-klassische-scheduling-theorie.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "hafenlogistik-optimierung.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-kuerzeste-wege.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "tourenplanung-optimierung.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-matching.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-lineare-programmierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "netzwerkdesign-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-matching.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-multiagenten.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "hafenlogistik-optimierung.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-clustering.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-netzwerkfluss.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "netzwerkdesign-optimierung.html",
+   "tourenplanung-optimierung.html",
+   "konzepte-matching.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-spannbaum.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-neuronale-netze.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-multiagenten.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-nichtlineare-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "seefracht-optimierung.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-standortplanung.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-populations-metaheuristiken.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "tourenplanung-optimierung.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-quellentrennung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "clusteranalyse.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-clustering.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-multiagenten.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-reinforcement-learning.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-multiagenten.html",
+   "konzepte-adversarische-suche.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-spannbaum.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "netzwerkdesign-optimierung.html",
+   "tourenplanung-optimierung.html",
+   "konzepte-clustering.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-spieltheorie.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-multiagenten.html",
+   "yard-management-optimierung.html",
+   "tourenplanung-optimierung.html",
+   "konzepte-matching.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-standortplanung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "netzwerkdesign-optimierung.html",
+   "bestandsmanagement-optimierung.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-clustering.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-trajektorien-metaheuristiken.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-populations-metaheuristiken.html",
+   "tourenplanung-optimierung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-matching.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-turnierplanung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-matching.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte-zeitreihen-prognose.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "lagerlogistik-optimierung.html",
+   "bestandsmanagement-optimierung.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-multiagenten.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-matching.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "konzepte.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "kontakt.html",
+   "datenschutz.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-multiagenten.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-standortplanung.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-adversarische-suche.html",
+   "konzepte-clustering.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-baumbasiert.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-zeitreihen-prognose.html",
+   "konzepte-reinforcement-learning.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-matching.html",
+   "konzepte-spannbaum.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-turnierplanung.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html"
+  ],
+  "lagerlogistik-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "clusteranalyse.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "was-ist-operations-research.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "leistungen.html": [
+   "index.html",
+   "ueber-mich.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "was-ist-operations-research.html",
+   "konzepte-exakte-suche.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-matching.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-anomalie-erkennung.html",
+   "anomalie-erkennung.html",
+   "konzepte-clustering.html",
+   "clusteranalyse.html",
+   "konzepte-multiagenten.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "luftfracht-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "bestandsmanagement-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "was-ist-operations-research.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "netzwerkdesign-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-spannbaum.html",
+   "konzepte-graph-neural-networks.html",
+   "tourenplanung-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "was-ist-operations-research.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "oepnv-fernverkehr-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "netzwerkdesign-optimierung.html",
+   "konzepte-spannbaum.html",
+   "konzepte-kuerzeste-wege.html",
+   "tourenplanung-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "was-ist-operations-research.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "packen-zuschnitt-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "was-ist-operations-research.html",
+   "luftfracht-optimierung.html",
+   "konzepte-exakte-suche.html",
+   "hafenlogistik-optimierung.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "projekte.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "tourenplanung-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "seefracht-optimierung.html",
+   "yard-management-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "was-ist-operations-research.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "schichtplanung-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "was-ist-operations-research.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "seefracht-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "hafenlogistik-optimierung.html",
+   "luftfracht-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "tourenplanung-optimierung.html",
+   "bestandsmanagement-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "yard-management-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "was-ist-operations-research.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "tourenplanung-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "was-ist-operations-research.html",
+   "yard-management-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "clusteranalyse.html",
+   "netzwerkdesign-optimierung.html",
+   "bestandsmanagement-optimierung.html",
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-spannbaum.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "anomalie-erkennung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "ueber-mich.html": [
+   "index.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-graphen-netzwerke.html",
+   "clusteranalyse.html",
+   "schichtplanung-optimierung.html",
+   "konzepte-turnierplanung.html",
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-netzwerkfluss.html",
+   "was-ist-operations-research.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "was-ist-operations-research.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "tourenplanung-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "yard-management-optimierung.html",
+   "hafenlogistik-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "impressum.html",
+   "datenschutz.html"
+  ],
+  "yard-management-optimierung.html": [
+   "index.html",
+   "ueber-mich.html",
+   "leistungen.html",
+   "projekte.html",
+   "demos.html",
+   "konzepte.html",
+   "kontakt.html",
+   "hafenlogistik-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "tourenplanung-optimierung.html",
+   "konzepte-spieltheorie.html",
+   "netzwerkdesign-optimierung.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "seefracht-optimierung.html",
+   "schichtplanung-optimierung.html",
+   "clusteranalyse.html",
+   "anomalie-erkennung.html",
+   "bestandsmanagement-optimierung.html",
+   "luftfracht-optimierung.html",
+   "was-ist-operations-research.html",
+   "impressum.html",
+   "datenschutz.html"
+  ]
+ },
+ "demo_referrers": {
+  "https://sebastianhanisch-elliptic-envelope-demo.streamlit.app/": [
+   "anomalie-erkennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-dimensionsreduktion.html"
+  ],
+  "https://sebastianhanisch-ecod-demo.streamlit.app/": [
+   "anomalie-erkennung.html",
+   "konzepte-anomalie-erkennung.html"
+  ],
+  "https://sebastianhanisch-isolation-forest-demo.streamlit.app/": [
+   "anomalie-erkennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-baumbasiert.html"
+  ],
+  "https://sebastianhanisch-extended-isolation-forest-demo.streamlit.app/": [
+   "anomalie-erkennung.html",
+   "konzepte-anomalie-erkennung.html"
+  ],
+  "https://sebastianhanisch-lof-demo.streamlit.app/": [
+   "anomalie-erkennung.html",
+   "konzepte-anomalie-erkennung.html"
+  ],
+  "https://sebastianhanisch-feature-bagging-demo.streamlit.app/": [
+   "anomalie-erkennung.html",
+   "konzepte-anomalie-erkennung.html"
+  ],
+  "https://sebastianhanisch-ocsvm-demo.streamlit.app/": [
+   "anomalie-erkennung.html",
+   "konzepte-anomalie-erkennung.html"
+  ],
+  "https://sebastianhanisch-deepsvdd-demo.streamlit.app/": [
+   "anomalie-erkennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-neuronale-netze.html"
+  ],
+  "https://sebastianhanisch-autoencoder-anomalie-demo.streamlit.app/": [
+   "anomalie-erkennung.html",
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-neuronale-netze.html"
+  ],
+  "https://sebastianhanisch-naive-forecast-demo.streamlit.app/": [
+   "bestandsmanagement-optimierung.html",
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-exponential-smoothing-demo.streamlit.app/": [
+   "bestandsmanagement-optimierung.html",
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-forecast-inventory-demo.streamlit.app/": [
+   "bestandsmanagement-optimierung.html",
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-inventory-routing-demo.streamlit.app/": [
+   "bestandsmanagement-optimierung.html",
+   "demos.html"
+  ],
+  "https://sebastianhanisch-vrp-demo.streamlit.app/": [
+   "bestandsmanagement-optimierung.html",
+   "demos.html",
+   "projekte.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-leercontainer-demo.streamlit.app/": [
+   "bestandsmanagement-optimierung.html",
+   "demos.html",
+   "seefracht-optimierung.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-bullwhip-demo.streamlit.app/": [
+   "bestandsmanagement-optimierung.html",
+   "demos.html"
+  ],
+  "https://sebastianhanisch-dijkstra-demo.streamlit.app/": [
+   "bestandsmanagement-optimierung.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-matching.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-orderbatch-demo.streamlit.app/": [
+   "clusteranalyse.html",
+   "demos.html",
+   "lagerlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-kmeans-demo.streamlit.app/": [
+   "clusteranalyse.html",
+   "konzepte-clustering.html",
+   "konzepte-quellentrennung.html",
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-gmm-demo.streamlit.app/": [
+   "clusteranalyse.html",
+   "konzepte-clustering.html"
+  ],
+  "https://sebastianhanisch-dbscan-demo.streamlit.app/": [
+   "clusteranalyse.html",
+   "konzepte-clustering.html"
+  ],
+  "https://sebastianhanisch-agglomerative-demo.streamlit.app/": [
+   "clusteranalyse.html",
+   "konzepte-clustering.html",
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-hdbscan-demo.streamlit.app/": [
+   "clusteranalyse.html",
+   "konzepte-clustering.html",
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-dpmm-demo.streamlit.app/": [
+   "clusteranalyse.html",
+   "konzepte-clustering.html"
+  ],
+  "https://sebastianhanisch-spectral-demo.streamlit.app/": [
+   "clusteranalyse.html",
+   "konzepte-clustering.html",
+   "konzepte-dimensionsreduktion.html"
+  ],
+  "https://sebastianhanisch-leiden-demo.streamlit.app/": [
+   "clusteranalyse.html",
+   "konzepte-clustering.html"
+  ],
+  "https://sebastianhanisch-divisive-demo.streamlit.app/": [
+   "clusteranalyse.html",
+   "konzepte-clustering.html"
+  ],
+  "https://sebastianhanisch-clubs-demo.streamlit.app/": [
+   "clusteranalyse.html",
+   "konzepte-clustering.html"
+  ],
+  "https://sebastianhanisch-fernverkehr-demo.streamlit.app/": [
+   "demos.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-nahverkehr-demo.streamlit.app/": [
+   "demos.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-network-flow-demo.streamlit.app/": [
+   "demos.html",
+   "netzwerkdesign-optimierung.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-linehaul-demo.streamlit.app/": [
+   "demos.html",
+   "netzwerkdesign-optimierung.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-dc-standort-demo.streamlit.app/": [
+   "demos.html",
+   "netzwerkdesign-optimierung.html"
+  ],
+  "https://sebastianhanisch-netzdesign-unsicherheit-demo.streamlit.app/": [
+   "demos.html",
+   "netzwerkdesign-optimierung.html"
+  ],
+  "https://sebastianhanisch-intermodal-netzdesign-demo.streamlit.app/": [
+   "demos.html",
+   "netzwerkdesign-optimierung.html"
+  ],
+  "https://sebastianhanisch-gcpp-demo.streamlit.app/": [
+   "demos.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-transit-demo.streamlit.app/": [
+   "demos.html",
+   "oepnv-fernverkehr-optimierung.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-robuste-kaiplatz-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-berth-allocation-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-quaycrane-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html",
+   "lagerlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-stauplanung-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html",
+   "luftfracht-optimierung.html",
+   "seefracht-optimierung.html"
+  ],
+  "https://sebastianhanisch-doppelspiel-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-fahrzeugflotte-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-stapelplanung-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-reefer-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-blockzuweisung-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-verweilzeit-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-truck-appointment-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html",
+   "lagerlogistik-optimierung.html",
+   "tourenplanung-optimierung.html",
+   "yard-management-optimierung.html"
+  ],
+  "https://sebastianhanisch-gate-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html",
+   "tourenplanung-optimierung.html",
+   "yard-management-optimierung.html"
+  ],
+  "https://sebastianhanisch-bahnladeplan-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-yard-demo.streamlit.app/": [
+   "demos.html",
+   "hafenlogistik-optimierung.html",
+   "projekte.html",
+   "tourenplanung-optimierung.html",
+   "yard-management-optimierung.html"
+  ],
+  "https://sebastianhanisch-mehrhafenstau-demo.streamlit.app/": [
+   "demos.html",
+   "seefracht-optimierung.html"
+  ],
+  "https://sebastianhanisch-slow-steaming-demo.streamlit.app/": [
+   "demos.html",
+   "seefracht-optimierung.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-revenue-management-demo.streamlit.app/": [
+   "demos.html",
+   "luftfracht-optimierung.html",
+   "seefracht-optimierung.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-routenresilienz-demo.streamlit.app/": [
+   "demos.html",
+   "seefracht-optimierung.html"
+  ],
+  "https://sebastianhanisch-freight-demo.streamlit.app/": [
+   "demos.html",
+   "lagerlogistik-optimierung.html",
+   "netzwerkdesign-optimierung.html",
+   "projekte.html",
+   "seefracht-optimierung.html"
+  ],
+  "https://sebastianhanisch-uld-gewicht-demo.streamlit.app/": [
+   "demos.html",
+   "luftfracht-optimierung.html"
+  ],
+  "https://sebastianhanisch-uld-beladeplan-demo.streamlit.app/": [
+   "demos.html",
+   "luftfracht-optimierung.html"
+  ],
+  "https://sebastianhanisch-uld-gefahrgut-demo.streamlit.app/": [
+   "demos.html",
+   "luftfracht-optimierung.html"
+  ],
+  "https://sebastianhanisch-uld-buchungsannahme-demo.streamlit.app/": [
+   "demos.html",
+   "luftfracht-optimierung.html"
+  ],
+  "https://sebastianhanisch-lkw-fristen-demo.streamlit.app/": [
+   "demos.html",
+   "yard-management-optimierung.html"
+  ],
+  "https://sebastianhanisch-hofrobust-demo.streamlit.app/": [
+   "demos.html",
+   "tourenplanung-optimierung.html",
+   "yard-management-optimierung.html"
+  ],
+  "https://sebastianhanisch-hofstellplatz-demo.streamlit.app/": [
+   "demos.html",
+   "yard-management-optimierung.html"
+  ],
+  "https://sebastianhanisch-dockdoor-demo.streamlit.app/": [
+   "demos.html",
+   "lagerlogistik-optimierung.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-wellenfreigabe-demo.streamlit.app/": [
+   "demos.html",
+   "lagerlogistik-optimierung.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-warehouse-transfer-demo.streamlit.app/": [
+   "demos.html",
+   "lagerlogistik-optimierung.html"
+  ],
+  "https://sebastianhanisch-pack-demo.streamlit.app/": [
+   "demos.html",
+   "luftfracht-optimierung.html",
+   "packen-zuschnitt-optimierung.html",
+   "projekte.html",
+   "seefracht-optimierung.html",
+   "tourenplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-cutting-stock-demo.streamlit.app/": [
+   "demos.html",
+   "konzepte-exakte-suche.html",
+   "packen-zuschnitt-optimierung.html"
+  ],
+  "https://sebastianhanisch-shift-demo.streamlit.app/": [
+   "demos.html",
+   "schichtplanung-optimierung.html"
+  ],
+  "https://sebastianhanisch-ems-demo.streamlit.app/": [
+   "demos.html"
+  ],
+  "https://sebastianhanisch-nutrition-demo.streamlit.app/": [
+   "demos.html"
+  ],
+  "https://sebastianhanisch-battery-arbitrage-demo.streamlit.app/": [
+   "demos.html"
+  ],
+  "https://sebastianhanisch-vc-portfolio-demo.streamlit.app/": [
+   "demos.html"
+  ],
+  "https://sebastianhanisch-minimax-demo.streamlit.app/": [
+   "konzepte-adversarische-suche.html"
+  ],
+  "https://sebastianhanisch-alpha-beta-demo.streamlit.app/": [
+   "konzepte-adversarische-suche.html",
+   "konzepte-exakte-suche.html"
+  ],
+  "https://sebastianhanisch-evaluation-function-demo.streamlit.app/": [
+   "konzepte-adversarische-suche.html"
+  ],
+  "https://sebastianhanisch-transposition-table-demo.streamlit.app/": [
+   "konzepte-adversarische-suche.html"
+  ],
+  "https://sebastianhanisch-selfplay-evaluation-demo.streamlit.app/": [
+   "konzepte-adversarische-suche.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-endgame-tablebase-demo.streamlit.app/": [
+   "konzepte-adversarische-suche.html",
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-branch-bound-demo.streamlit.app/": [
+   "konzepte-adversarische-suche.html",
+   "konzepte-exakte-suche.html"
+  ],
+  "https://sebastianhanisch-mcts-demo.streamlit.app/": [
+   "konzepte-adversarische-suche.html",
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-actor-critic-demo.streamlit.app/": [
+   "konzepte-adversarische-suche.html",
+   "konzepte-multiagenten.html",
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-value-iteration-demo.streamlit.app/": [
+   "konzepte-adversarische-suche.html",
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-pca-demo.streamlit.app/": [
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html"
+  ],
+  "https://sebastianhanisch-autoencoder-demo.streamlit.app/": [
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-neuronale-netze.html"
+  ],
+  "https://sebastianhanisch-random-forest-demo.streamlit.app/": [
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-baumbasiert.html"
+  ],
+  "https://sebastianhanisch-extra-trees-demo.streamlit.app/": [
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-baumbasiert.html"
+  ],
+  "https://sebastianhanisch-mlp-backprop-demo.streamlit.app/": [
+   "konzepte-anomalie-erkennung.html",
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-graph-neural-networks.html",
+   "konzepte-multiagenten.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-cart-demo.streamlit.app/": [
+   "konzepte-baumbasiert.html"
+  ],
+  "https://sebastianhanisch-bagging-demo.streamlit.app/": [
+   "konzepte-baumbasiert.html"
+  ],
+  "https://sebastianhanisch-adaboost-demo.streamlit.app/": [
+   "konzepte-baumbasiert.html"
+  ],
+  "https://sebastianhanisch-gradient-boosting-demo.streamlit.app/": [
+   "konzepte-baumbasiert.html"
+  ],
+  "https://sebastianhanisch-xgboost-demo.streamlit.app/": [
+   "konzepte-baumbasiert.html"
+  ],
+  "https://sebastianhanisch-lightgbm-demo.streamlit.app/": [
+   "konzepte-baumbasiert.html",
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-catboost-demo.streamlit.app/": [
+   "konzepte-baumbasiert.html"
+  ],
+  "https://sebastianhanisch-boosting-forecast-demo.streamlit.app/": [
+   "konzepte-baumbasiert.html",
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-umap-demo.streamlit.app/": [
+   "konzepte-clustering.html",
+   "konzepte-dimensionsreduktion.html"
+  ],
+  "https://sebastianhanisch-spike-sorting-demo.streamlit.app/": [
+   "konzepte-clustering.html",
+   "konzepte-quellentrennung.html"
+  ],
+  "https://sebastianhanisch-sca-demo.streamlit.app/": [
+   "konzepte-clustering.html",
+   "konzepte-quellentrennung.html"
+  ],
+  "https://sebastianhanisch-euclidean-mst-demo.streamlit.app/": [
+   "konzepte-clustering.html",
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-standortplanung-demo.streamlit.app/": [
+   "konzepte-clustering.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-isomap-demo.streamlit.app/": [
+   "konzepte-dimensionsreduktion.html"
+  ],
+  "https://sebastianhanisch-lle-demo.streamlit.app/": [
+   "konzepte-dimensionsreduktion.html"
+  ],
+  "https://sebastianhanisch-tsne-demo.streamlit.app/": [
+   "konzepte-dimensionsreduktion.html"
+  ],
+  "https://sebastianhanisch-pacmap-demo.streamlit.app/": [
+   "konzepte-dimensionsreduktion.html"
+  ],
+  "https://sebastianhanisch-ica-demo.streamlit.app/": [
+   "konzepte-dimensionsreduktion.html",
+   "konzepte-quellentrennung.html"
+  ],
+  "https://sebastianhanisch-dynamic-programming-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html",
+   "konzepte-multiagenten.html"
+  ],
+  "https://sebastianhanisch-cutting-planes-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-branch-cut-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html",
+   "konzepte-lineare-programmierung.html"
+  ],
+  "https://sebastianhanisch-constraint-programming-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html"
+  ],
+  "https://sebastianhanisch-dcop-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html",
+   "konzepte-multiagenten.html"
+  ],
+  "https://sebastianhanisch-auction-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html",
+   "konzepte-multiagenten.html",
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-mcf-column-generation-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-column-generation-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-fixkosten-netzdesign-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-tableau-simplex-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-dualer-simplex-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html",
+   "konzepte-lineare-programmierung.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-cutting-stock-branch-bound-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html"
+  ],
+  "https://sebastianhanisch-cutting-stock-dp-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html"
+  ],
+  "https://sebastianhanisch-cutting-stock-cutting-planes-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html"
+  ],
+  "https://sebastianhanisch-cutting-stock-branch-cut-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html"
+  ],
+  "https://sebastianhanisch-cutting-stock-constraint-programming-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html"
+  ],
+  "https://sebastianhanisch-branch-and-price-demo.streamlit.app/": [
+   "konzepte-exakte-suche.html"
+  ],
+  "https://sebastianhanisch-gcn-demo.streamlit.app/": [
+   "konzepte-graph-neural-networks.html",
+   "konzepte-neuronale-netze.html"
+  ],
+  "https://sebastianhanisch-graphsage-demo.streamlit.app/": [
+   "konzepte-graph-neural-networks.html"
+  ],
+  "https://sebastianhanisch-gat-demo.streamlit.app/": [
+   "konzepte-graph-neural-networks.html"
+  ],
+  "https://sebastianhanisch-gin-demo.streamlit.app/": [
+   "konzepte-graph-neural-networks.html"
+  ],
+  "https://sebastianhanisch-graph-transformer-demo.streamlit.app/": [
+   "konzepte-graph-neural-networks.html"
+  ],
+  "https://sebastianhanisch-gatv2-demo.streamlit.app/": [
+   "konzepte-graph-neural-networks.html"
+  ],
+  "https://sebastianhanisch-bfs-dfs-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-kuerzeste-wege.html"
+  ],
+  "https://sebastianhanisch-bridges-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-scc-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html"
+  ],
+  "https://sebastianhanisch-graph-coloring-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-matching.html",
+   "konzepte-turnierplanung.html"
+  ],
+  "https://sebastianhanisch-centrality-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-bandbreite-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-lineare-programmierung.html"
+  ],
+  "https://sebastianhanisch-euler-tour-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html"
+  ],
+  "https://sebastianhanisch-cliquenbandbreite-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-quellentrennung.html"
+  ],
+  "https://sebastianhanisch-strukturkennzahlen-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html"
+  ],
+  "https://sebastianhanisch-haertung-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html"
+  ],
+  "https://sebastianhanisch-robustheit-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html"
+  ],
+  "https://sebastianhanisch-kaskaden-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html"
+  ],
+  "https://sebastianhanisch-mst-sensitivity-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-bfs-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-kuerzeste-wege.html"
+  ],
+  "https://sebastianhanisch-hopcroft-karp-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-matching.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-hungarian-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-matching.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-gomory-hu-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-netzwerkfluss.html",
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-revised-simplex-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-lineare-programmierung.html"
+  ],
+  "https://sebastianhanisch-innere-punkte-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-lineare-programmierung.html"
+  ],
+  "https://sebastianhanisch-delay-graph-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-quellentrennung.html"
+  ],
+  "https://sebastianhanisch-round-robin-demo.streamlit.app/": [
+   "konzepte-graphen-netzwerke.html",
+   "konzepte-turnierplanung.html"
+  ],
+  "https://sebastianhanisch-greedy-best-first-demo.streamlit.app/": [
+   "konzepte-heuristische-baumsuche.html"
+  ],
+  "https://sebastianhanisch-astar-demo.streamlit.app/": [
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-kuerzeste-wege.html"
+  ],
+  "https://sebastianhanisch-beam-search-demo.streamlit.app/": [
+   "konzepte-heuristische-baumsuche.html"
+  ],
+  "https://sebastianhanisch-ida-star-demo.streamlit.app/": [
+   "konzepte-heuristische-baumsuche.html"
+  ],
+  "https://sebastianhanisch-beam-stack-demo.streamlit.app/": [
+   "konzepte-heuristische-baumsuche.html"
+  ],
+  "https://sebastianhanisch-monobeam-demo.streamlit.app/": [
+   "konzepte-heuristische-baumsuche.html"
+  ],
+  "https://sebastianhanisch-diverse-beam-demo.streamlit.app/": [
+   "konzepte-heuristische-baumsuche.html"
+  ],
+  "https://sebastianhanisch-q-learning-demo.streamlit.app/": [
+   "konzepte-heuristische-baumsuche.html",
+   "konzepte-multiagenten.html",
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-spt-scheduling-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html"
+  ],
+  "https://sebastianhanisch-edd-scheduling-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html"
+  ],
+  "https://sebastianhanisch-moore-hodgson-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html"
+  ],
+  "https://sebastianhanisch-wspt-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html"
+  ],
+  "https://sebastianhanisch-johnson-rule-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html"
+  ],
+  "https://sebastianhanisch-lpt-scheduling-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html"
+  ],
+  "https://sebastianhanisch-weighted-tardiness-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html"
+  ],
+  "https://sebastianhanisch-job-shop-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html"
+  ],
+  "https://sebastianhanisch-shifting-bottleneck-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html"
+  ],
+  "https://sebastianhanisch-job-shop-tabu-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-rcpsp-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html"
+  ],
+  "https://sebastianhanisch-tabu-search-demo.streamlit.app/": [
+   "konzepte-klassische-scheduling-theorie.html",
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-bidirectional-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html"
+  ],
+  "https://sebastianhanisch-bellman-ford-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-multicriteria-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html"
+  ],
+  "https://sebastianhanisch-time-dependent-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html"
+  ],
+  "https://sebastianhanisch-raptor-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html"
+  ],
+  "https://sebastianhanisch-contraction-hierarchies-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html"
+  ],
+  "https://sebastianhanisch-2hop-labeling-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html"
+  ],
+  "https://sebastianhanisch-customizable-ch-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html"
+  ],
+  "https://sebastianhanisch-floyd-warshall-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html"
+  ],
+  "https://sebastianhanisch-johnson-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-kruskal-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-ssp-demo.streamlit.app/": [
+   "konzepte-kuerzeste-wege.html",
+   "konzepte-matching.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-pivotregeln-demo.streamlit.app/": [
+   "konzepte-lineare-programmierung.html"
+  ],
+  "https://sebastianhanisch-lp-dualitaet-demo.streamlit.app/": [
+   "konzepte-lineare-programmierung.html"
+  ],
+  "https://sebastianhanisch-ellipsoid-demo.streamlit.app/": [
+   "konzepte-lineare-programmierung.html"
+  ],
+  "https://sebastianhanisch-klee-minty-demo.streamlit.app/": [
+   "konzepte-lineare-programmierung.html"
+  ],
+  "https://sebastianhanisch-praesolve-demo.streamlit.app/": [
+   "konzepte-lineare-programmierung.html"
+  ],
+  "https://sebastianhanisch-pdlp-demo.streamlit.app/": [
+   "konzepte-lineare-programmierung.html"
+  ],
+  "https://sebastianhanisch-basis-recovery-demo.streamlit.app/": [
+   "konzepte-lineare-programmierung.html"
+  ],
+  "https://sebastianhanisch-netzwerksimplex-demo.streamlit.app/": [
+   "konzepte-lineare-programmierung.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-greedy-matching-demo.streamlit.app/": [
+   "konzepte-matching.html"
+  ],
+  "https://sebastianhanisch-augmenting-path-demo.streamlit.app/": [
+   "konzepte-matching.html"
+  ],
+  "https://sebastianhanisch-gale-shapley-demo.streamlit.app/": [
+   "konzepte-matching.html",
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-online-matching-demo.streamlit.app/": [
+   "konzepte-matching.html"
+  ],
+  "https://sebastianhanisch-edmonds-matching-demo.streamlit.app/": [
+   "konzepte-matching.html"
+  ],
+  "https://sebastianhanisch-auction-algorithm-demo.streamlit.app/": [
+   "konzepte-matching.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-weighted-edmonds-matching-demo.streamlit.app/": [
+   "konzepte-matching.html",
+   "konzepte-turnierplanung.html"
+  ],
+  "https://sebastianhanisch-stabile-mitbewohner-demo.streamlit.app/": [
+   "konzepte-matching.html"
+  ],
+  "https://sebastianhanisch-krankenhaus-zulassung-demo.streamlit.app/": [
+   "konzepte-matching.html"
+  ],
+  "https://sebastianhanisch-top-trading-cycles-demo.streamlit.app/": [
+   "konzepte-matching.html",
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-nierentausch-demo.streamlit.app/": [
+   "konzepte-matching.html"
+  ],
+  "https://sebastianhanisch-kern-demo.streamlit.app/": [
+   "konzepte-matching.html",
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-moulin-demo.streamlit.app/": [
+   "konzepte-matching.html",
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-dinic-demo.streamlit.app/": [
+   "konzepte-matching.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-cost-scaling-demo.streamlit.app/": [
+   "konzepte-matching.html",
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-schweizer-system-demo.streamlit.app/": [
+   "konzepte-matching.html",
+   "konzepte-turnierplanung.html"
+  ],
+  "https://sebastianhanisch-contract-net-demo.streamlit.app/": [
+   "konzepte-multiagenten.html"
+  ],
+  "https://sebastianhanisch-task-swap-demo.streamlit.app/": [
+   "konzepte-multiagenten.html"
+  ],
+  "https://sebastianhanisch-marl-demo.streamlit.app/": [
+   "konzepte-multiagenten.html",
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-ladcop-demo.streamlit.app/": [
+   "konzepte-multiagenten.html"
+  ],
+  "https://sebastianhanisch-mappo-demo.streamlit.app/": [
+   "konzepte-multiagenten.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-regretnet-demo.streamlit.app/": [
+   "konzepte-multiagenten.html",
+   "konzepte-neuronale-netze.html",
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-nash-demo.streamlit.app/": [
+   "konzepte-multiagenten.html",
+   "konzepte-spieltheorie.html",
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-edmonds-karp-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-push-relabel-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-cycle-canceling-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-multicommodity-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-garg-koenemann-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-benders-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-slope-scaling-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-projektauswahl-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html",
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-graph-cuts-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-frank-wolfe-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html",
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-gradient-projection-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-zeitfluss-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html"
+  ],
+  "https://sebastianhanisch-poa-braess-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html",
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-maut-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html",
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-random-spanning-tree-demo.streamlit.app/": [
+   "konzepte-netzwerkfluss.html",
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-perceptron-demo.streamlit.app/": [
+   "konzepte-neuronale-netze.html"
+  ],
+  "https://sebastianhanisch-cnn-demo.streamlit.app/": [
+   "konzepte-neuronale-netze.html"
+  ],
+  "https://sebastianhanisch-rnn-demo.streamlit.app/": [
+   "konzepte-neuronale-netze.html"
+  ],
+  "https://sebastianhanisch-lstm-demo.streamlit.app/": [
+   "konzepte-neuronale-netze.html"
+  ],
+  "https://sebastianhanisch-attention-transformer-demo.streamlit.app/": [
+   "konzepte-neuronale-netze.html"
+  ],
+  "https://sebastianhanisch-pretrained-net-demo.streamlit.app/": [
+   "konzepte-neuronale-netze.html",
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-stochastische-gradientenverfahren-demo.streamlit.app/": [
+   "konzepte-neuronale-netze.html",
+   "konzepte-nichtlineare-optimierung.html"
+  ],
+  "https://sebastianhanisch-gradient-descent-demo.streamlit.app/": [
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-populations-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-newton-verfahren-demo.streamlit.app/": [
+   "konzepte-nichtlineare-optimierung.html"
+  ],
+  "https://sebastianhanisch-quasi-newton-demo.streamlit.app/": [
+   "konzepte-nichtlineare-optimierung.html"
+  ],
+  "https://sebastianhanisch-lagrange-kkt-demo.streamlit.app/": [
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-straf-barriere-demo.streamlit.app/": [
+   "konzepte-nichtlineare-optimierung.html"
+  ],
+  "https://sebastianhanisch-sqp-demo.streamlit.app/": [
+   "konzepte-nichtlineare-optimierung.html"
+  ],
+  "https://sebastianhanisch-interior-point-nlp-demo.streamlit.app/": [
+   "konzepte-nichtlineare-optimierung.html"
+  ],
+  "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/": [
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-populations-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-kapazitierte-standortplanung-demo.streamlit.app/": [
+   "konzepte-nichtlineare-optimierung.html",
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-nsga2-demo.streamlit.app/": [
+   "konzepte-populations-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-cma-es-demo.streamlit.app/": [
+   "konzepte-populations-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-differential-evolution-demo.streamlit.app/": [
+   "konzepte-populations-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-pso-demo.streamlit.app/": [
+   "konzepte-populations-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-ant-system-demo.streamlit.app/": [
+   "konzepte-populations-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-memetic-demo.streamlit.app/": [
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-nsga3-demo.streamlit.app/": [
+   "konzepte-populations-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-moead-demo.streamlit.app/": [
+   "konzepte-populations-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-l-shade-demo.streamlit.app/": [
+   "konzepte-populations-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-max-min-ant-system-demo.streamlit.app/": [
+   "konzepte-populations-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-hill-climbing-demo.streamlit.app/": [
+   "konzepte-populations-metaheuristiken.html",
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-sobi-demo.streamlit.app/": [
+   "konzepte-quellentrennung.html"
+  ],
+  "https://sebastianhanisch-nmf-demo.streamlit.app/": [
+   "konzepte-quellentrennung.html"
+  ],
+  "https://sebastianhanisch-template-matching-demo.streamlit.app/": [
+   "konzepte-quellentrennung.html"
+  ],
+  "https://sebastianhanisch-bandit-demo.streamlit.app/": [
+   "konzepte-reinforcement-learning.html",
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-sarsa-demo.streamlit.app/": [
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-dyna-q-demo.streamlit.app/": [
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-dqn-demo.streamlit.app/": [
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-policy-gradient-demo.streamlit.app/": [
+   "konzepte-reinforcement-learning.html"
+  ],
+  "https://sebastianhanisch-noregret-demo.streamlit.app/": [
+   "konzepte-reinforcement-learning.html",
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-prim-demo.streamlit.app/": [
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-boruvka-demo.streamlit.app/": [
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-arborescence-demo.streamlit.app/": [
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-constrained-mst-demo.streamlit.app/": [
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-steiner-tree-demo.streamlit.app/": [
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-cmst-demo.streamlit.app/": [
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-pcst-demo.streamlit.app/": [
+   "konzepte-spannbaum.html"
+  ],
+  "https://sebastianhanisch-stackelberg-demo.streamlit.app/": [
+   "konzepte-spieltheorie.html",
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-korreliert-demo.streamlit.app/": [
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-shapley-demo.streamlit.app/": [
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-myerson-satterthwaite-demo.streamlit.app/": [
+   "konzepte-spieltheorie.html"
+  ],
+  "https://sebastianhanisch-wettbewerbsstandort-demo.streamlit.app/": [
+   "konzepte-spieltheorie.html",
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-p-center-demo.streamlit.app/": [
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-standort-bestand-demo.streamlit.app/": [
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-drehscheiben-demo.streamlit.app/": [
+   "konzepte-standortplanung.html"
+  ],
+  "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/": [
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-turnierplanung.html"
+  ],
+  "https://sebastianhanisch-iterated-local-search-demo.streamlit.app/": [
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-grasp-demo.streamlit.app/": [
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-lin-kernighan-demo.streamlit.app/": [
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-dynasearch-demo.streamlit.app/": [
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-vrp-nachbarschaften-demo.streamlit.app/": [
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-parallel-tempering-demo.streamlit.app/": [
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-variable-neighborhood-search-demo.streamlit.app/": [
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-alns-demo.streamlit.app/": [
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-guided-local-search-demo.streamlit.app/": [
+   "konzepte-trajektorien-metaheuristiken.html"
+  ],
+  "https://sebastianhanisch-traveling-tournament-demo.streamlit.app/": [
+   "konzepte-trajektorien-metaheuristiken.html",
+   "konzepte-turnierplanung.html"
+  ],
+  "https://sebastianhanisch-bracket-seeding-demo.streamlit.app/": [
+   "konzepte-turnierplanung.html"
+  ],
+  "https://sebastianhanisch-double-round-robin-demo.streamlit.app/": [
+   "konzepte-turnierplanung.html"
+  ],
+  "https://sebastianhanisch-group-knockout-demo.streamlit.app/": [
+   "konzepte-turnierplanung.html"
+  ],
+  "https://sebastianhanisch-double-elimination-demo.streamlit.app/": [
+   "konzepte-turnierplanung.html"
+  ],
+  "https://sebastianhanisch-arima-demo.streamlit.app/": [
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-dynamic-regression-demo.streamlit.app/": [
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-croston-demo.streamlit.app/": [
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-forecast-interval-demo.streamlit.app/": [
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-hierarchy-forecast-demo.streamlit.app/": [
+   "konzepte-zeitreihen-prognose.html"
+  ],
+  "https://sebastianhanisch-forecast-combination-demo.streamlit.app/": [
+   "konzepte-zeitreihen-prognose.html"
+  ]
+ },
+ "demo_home_page": {
+  "https://sebastianhanisch-vrp-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-fernverkehr-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-nahverkehr-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-network-flow-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-linehaul-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-dc-standort-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-netzdesign-unsicherheit-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-intermodal-netzdesign-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-gcpp-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-transit-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-inventory-routing-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-bullwhip-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-robuste-kaiplatz-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-berth-allocation-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-quaycrane-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-stauplanung-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-doppelspiel-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-fahrzeugflotte-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-stapelplanung-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-reefer-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-blockzuweisung-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-verweilzeit-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-bahnladeplan-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-leercontainer-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-mehrhafenstau-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-slow-steaming-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-revenue-management-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-routenresilienz-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-freight-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-uld-gewicht-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-uld-beladeplan-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-uld-gefahrgut-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-uld-buchungsannahme-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-truck-appointment-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-lkw-fristen-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-gate-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-yard-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-hofrobust-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-hofstellplatz-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-dockdoor-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-orderbatch-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-wellenfreigabe-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-warehouse-transfer-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-pack-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-cutting-stock-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-shift-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-ems-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-nutrition-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-battery-arbitrage-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-vc-portfolio-demo.streamlit.app/": "demos.html",
+  "https://sebastianhanisch-minimax-demo.streamlit.app/": "konzepte-adversarische-suche.html",
+  "https://sebastianhanisch-alpha-beta-demo.streamlit.app/": "konzepte-adversarische-suche.html",
+  "https://sebastianhanisch-transposition-table-demo.streamlit.app/": "konzepte-adversarische-suche.html",
+  "https://sebastianhanisch-evaluation-function-demo.streamlit.app/": "konzepte-adversarische-suche.html",
+  "https://sebastianhanisch-endgame-tablebase-demo.streamlit.app/": "konzepte-adversarische-suche.html",
+  "https://sebastianhanisch-selfplay-evaluation-demo.streamlit.app/": "konzepte-adversarische-suche.html",
+  "https://sebastianhanisch-elliptic-envelope-demo.streamlit.app/": "konzepte-anomalie-erkennung.html",
+  "https://sebastianhanisch-ecod-demo.streamlit.app/": "konzepte-anomalie-erkennung.html",
+  "https://sebastianhanisch-isolation-forest-demo.streamlit.app/": "konzepte-anomalie-erkennung.html",
+  "https://sebastianhanisch-extended-isolation-forest-demo.streamlit.app/": "konzepte-anomalie-erkennung.html",
+  "https://sebastianhanisch-lof-demo.streamlit.app/": "konzepte-anomalie-erkennung.html",
+  "https://sebastianhanisch-feature-bagging-demo.streamlit.app/": "konzepte-anomalie-erkennung.html",
+  "https://sebastianhanisch-ocsvm-demo.streamlit.app/": "konzepte-anomalie-erkennung.html",
+  "https://sebastianhanisch-deepsvdd-demo.streamlit.app/": "konzepte-anomalie-erkennung.html",
+  "https://sebastianhanisch-autoencoder-anomalie-demo.streamlit.app/": "konzepte-anomalie-erkennung.html",
+  "https://sebastianhanisch-cart-demo.streamlit.app/": "konzepte-baumbasiert.html",
+  "https://sebastianhanisch-bagging-demo.streamlit.app/": "konzepte-baumbasiert.html",
+  "https://sebastianhanisch-random-forest-demo.streamlit.app/": "konzepte-baumbasiert.html",
+  "https://sebastianhanisch-extra-trees-demo.streamlit.app/": "konzepte-baumbasiert.html",
+  "https://sebastianhanisch-adaboost-demo.streamlit.app/": "konzepte-baumbasiert.html",
+  "https://sebastianhanisch-gradient-boosting-demo.streamlit.app/": "konzepte-baumbasiert.html",
+  "https://sebastianhanisch-xgboost-demo.streamlit.app/": "konzepte-baumbasiert.html",
+  "https://sebastianhanisch-lightgbm-demo.streamlit.app/": "konzepte-baumbasiert.html",
+  "https://sebastianhanisch-catboost-demo.streamlit.app/": "konzepte-baumbasiert.html",
+  "https://sebastianhanisch-kmeans-demo.streamlit.app/": "konzepte-clustering.html",
+  "https://sebastianhanisch-gmm-demo.streamlit.app/": "konzepte-clustering.html",
+  "https://sebastianhanisch-dbscan-demo.streamlit.app/": "konzepte-clustering.html",
+  "https://sebastianhanisch-agglomerative-demo.streamlit.app/": "konzepte-clustering.html",
+  "https://sebastianhanisch-hdbscan-demo.streamlit.app/": "konzepte-clustering.html",
+  "https://sebastianhanisch-dpmm-demo.streamlit.app/": "konzepte-clustering.html",
+  "https://sebastianhanisch-spectral-demo.streamlit.app/": "konzepte-clustering.html",
+  "https://sebastianhanisch-leiden-demo.streamlit.app/": "konzepte-clustering.html",
+  "https://sebastianhanisch-divisive-demo.streamlit.app/": "konzepte-clustering.html",
+  "https://sebastianhanisch-clubs-demo.streamlit.app/": "konzepte-clustering.html",
+  "https://sebastianhanisch-pca-demo.streamlit.app/": "konzepte-dimensionsreduktion.html",
+  "https://sebastianhanisch-isomap-demo.streamlit.app/": "konzepte-dimensionsreduktion.html",
+  "https://sebastianhanisch-lle-demo.streamlit.app/": "konzepte-dimensionsreduktion.html",
+  "https://sebastianhanisch-tsne-demo.streamlit.app/": "konzepte-dimensionsreduktion.html",
+  "https://sebastianhanisch-umap-demo.streamlit.app/": "konzepte-dimensionsreduktion.html",
+  "https://sebastianhanisch-pacmap-demo.streamlit.app/": "konzepte-dimensionsreduktion.html",
+  "https://sebastianhanisch-autoencoder-demo.streamlit.app/": "konzepte-dimensionsreduktion.html",
+  "https://sebastianhanisch-branch-bound-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-dynamic-programming-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-cutting-planes-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-branch-cut-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-constraint-programming-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-cutting-stock-branch-bound-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-cutting-stock-dp-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-cutting-stock-cutting-planes-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-cutting-stock-branch-cut-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-cutting-stock-constraint-programming-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-column-generation-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-branch-and-price-demo.streamlit.app/": "konzepte-exakte-suche.html",
+  "https://sebastianhanisch-gcn-demo.streamlit.app/": "konzepte-graph-neural-networks.html",
+  "https://sebastianhanisch-graphsage-demo.streamlit.app/": "konzepte-graph-neural-networks.html",
+  "https://sebastianhanisch-gat-demo.streamlit.app/": "konzepte-graph-neural-networks.html",
+  "https://sebastianhanisch-gatv2-demo.streamlit.app/": "konzepte-graph-neural-networks.html",
+  "https://sebastianhanisch-gin-demo.streamlit.app/": "konzepte-graph-neural-networks.html",
+  "https://sebastianhanisch-graph-transformer-demo.streamlit.app/": "konzepte-graph-neural-networks.html",
+  "https://sebastianhanisch-bfs-dfs-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-bridges-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-scc-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-euler-tour-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-graph-coloring-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-centrality-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-strukturkennzahlen-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-robustheit-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-kaskaden-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-haertung-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-bandbreite-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-cliquenbandbreite-demo.streamlit.app/": "konzepte-graphen-netzwerke.html",
+  "https://sebastianhanisch-greedy-best-first-demo.streamlit.app/": "konzepte-heuristische-baumsuche.html",
+  "https://sebastianhanisch-astar-demo.streamlit.app/": "konzepte-heuristische-baumsuche.html",
+  "https://sebastianhanisch-ida-star-demo.streamlit.app/": "konzepte-heuristische-baumsuche.html",
+  "https://sebastianhanisch-beam-search-demo.streamlit.app/": "konzepte-heuristische-baumsuche.html",
+  "https://sebastianhanisch-monobeam-demo.streamlit.app/": "konzepte-heuristische-baumsuche.html",
+  "https://sebastianhanisch-beam-stack-demo.streamlit.app/": "konzepte-heuristische-baumsuche.html",
+  "https://sebastianhanisch-diverse-beam-demo.streamlit.app/": "konzepte-heuristische-baumsuche.html",
+  "https://sebastianhanisch-mcts-demo.streamlit.app/": "konzepte-heuristische-baumsuche.html",
+  "https://sebastianhanisch-spt-scheduling-demo.streamlit.app/": "konzepte-klassische-scheduling-theorie.html",
+  "https://sebastianhanisch-edd-scheduling-demo.streamlit.app/": "konzepte-klassische-scheduling-theorie.html",
+  "https://sebastianhanisch-moore-hodgson-demo.streamlit.app/": "konzepte-klassische-scheduling-theorie.html",
+  "https://sebastianhanisch-wspt-demo.streamlit.app/": "konzepte-klassische-scheduling-theorie.html",
+  "https://sebastianhanisch-weighted-tardiness-demo.streamlit.app/": "konzepte-klassische-scheduling-theorie.html",
+  "https://sebastianhanisch-johnson-rule-demo.streamlit.app/": "konzepte-klassische-scheduling-theorie.html",
+  "https://sebastianhanisch-lpt-scheduling-demo.streamlit.app/": "konzepte-klassische-scheduling-theorie.html",
+  "https://sebastianhanisch-job-shop-demo.streamlit.app/": "konzepte-klassische-scheduling-theorie.html",
+  "https://sebastianhanisch-shifting-bottleneck-demo.streamlit.app/": "konzepte-klassische-scheduling-theorie.html",
+  "https://sebastianhanisch-job-shop-tabu-demo.streamlit.app/": "konzepte-klassische-scheduling-theorie.html",
+  "https://sebastianhanisch-rcpsp-demo.streamlit.app/": "konzepte-klassische-scheduling-theorie.html",
+  "https://sebastianhanisch-bfs-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-dijkstra-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-bidirectional-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-contraction-hierarchies-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-bellman-ford-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-floyd-warshall-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-johnson-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-multicriteria-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-time-dependent-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-2hop-labeling-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-customizable-ch-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-raptor-demo.streamlit.app/": "konzepte-kuerzeste-wege.html",
+  "https://sebastianhanisch-tableau-simplex-demo.streamlit.app/": "konzepte-lineare-programmierung.html",
+  "https://sebastianhanisch-pivotregeln-demo.streamlit.app/": "konzepte-lineare-programmierung.html",
+  "https://sebastianhanisch-klee-minty-demo.streamlit.app/": "konzepte-lineare-programmierung.html",
+  "https://sebastianhanisch-revised-simplex-demo.streamlit.app/": "konzepte-lineare-programmierung.html",
+  "https://sebastianhanisch-praesolve-demo.streamlit.app/": "konzepte-lineare-programmierung.html",
+  "https://sebastianhanisch-lp-dualitaet-demo.streamlit.app/": "konzepte-lineare-programmierung.html",
+  "https://sebastianhanisch-dualer-simplex-demo.streamlit.app/": "konzepte-lineare-programmierung.html",
+  "https://sebastianhanisch-ellipsoid-demo.streamlit.app/": "konzepte-lineare-programmierung.html",
+  "https://sebastianhanisch-innere-punkte-demo.streamlit.app/": "konzepte-lineare-programmierung.html",
+  "https://sebastianhanisch-pdlp-demo.streamlit.app/": "konzepte-lineare-programmierung.html",
+  "https://sebastianhanisch-basis-recovery-demo.streamlit.app/": "konzepte-lineare-programmierung.html",
+  "https://sebastianhanisch-greedy-matching-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-augmenting-path-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-hopcroft-karp-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-hungarian-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-auction-algorithm-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-edmonds-matching-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-weighted-edmonds-matching-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-gale-shapley-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-stabile-mitbewohner-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-krankenhaus-zulassung-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-top-trading-cycles-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-nierentausch-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-online-matching-demo.streamlit.app/": "konzepte-matching.html",
+  "https://sebastianhanisch-contract-net-demo.streamlit.app/": "konzepte-multiagenten.html",
+  "https://sebastianhanisch-task-swap-demo.streamlit.app/": "konzepte-multiagenten.html",
+  "https://sebastianhanisch-dcop-demo.streamlit.app/": "konzepte-multiagenten.html",
+  "https://sebastianhanisch-marl-demo.streamlit.app/": "konzepte-multiagenten.html",
+  "https://sebastianhanisch-mappo-demo.streamlit.app/": "konzepte-multiagenten.html",
+  "https://sebastianhanisch-auction-demo.streamlit.app/": "konzepte-multiagenten.html",
+  "https://sebastianhanisch-regretnet-demo.streamlit.app/": "konzepte-multiagenten.html",
+  "https://sebastianhanisch-ladcop-demo.streamlit.app/": "konzepte-multiagenten.html",
+  "https://sebastianhanisch-edmonds-karp-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-dinic-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-push-relabel-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-ssp-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-cycle-canceling-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-cost-scaling-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-netzwerksimplex-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-multicommodity-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-mcf-column-generation-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-garg-koenemann-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-fixkosten-netzdesign-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-benders-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-slope-scaling-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-projektauswahl-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-graph-cuts-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-gomory-hu-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-frank-wolfe-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-gradient-projection-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-zeitfluss-demo.streamlit.app/": "konzepte-netzwerkfluss.html",
+  "https://sebastianhanisch-perceptron-demo.streamlit.app/": "konzepte-neuronale-netze.html",
+  "https://sebastianhanisch-mlp-backprop-demo.streamlit.app/": "konzepte-neuronale-netze.html",
+  "https://sebastianhanisch-cnn-demo.streamlit.app/": "konzepte-neuronale-netze.html",
+  "https://sebastianhanisch-rnn-demo.streamlit.app/": "konzepte-neuronale-netze.html",
+  "https://sebastianhanisch-lstm-demo.streamlit.app/": "konzepte-neuronale-netze.html",
+  "https://sebastianhanisch-attention-transformer-demo.streamlit.app/": "konzepte-neuronale-netze.html",
+  "https://sebastianhanisch-gradient-descent-demo.streamlit.app/": "konzepte-nichtlineare-optimierung.html",
+  "https://sebastianhanisch-newton-verfahren-demo.streamlit.app/": "konzepte-nichtlineare-optimierung.html",
+  "https://sebastianhanisch-quasi-newton-demo.streamlit.app/": "konzepte-nichtlineare-optimierung.html",
+  "https://sebastianhanisch-lagrange-kkt-demo.streamlit.app/": "konzepte-nichtlineare-optimierung.html",
+  "https://sebastianhanisch-straf-barriere-demo.streamlit.app/": "konzepte-nichtlineare-optimierung.html",
+  "https://sebastianhanisch-sqp-demo.streamlit.app/": "konzepte-nichtlineare-optimierung.html",
+  "https://sebastianhanisch-interior-point-nlp-demo.streamlit.app/": "konzepte-nichtlineare-optimierung.html",
+  "https://sebastianhanisch-stochastische-gradientenverfahren-demo.streamlit.app/": "konzepte-nichtlineare-optimierung.html",
+  "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/": "konzepte-populations-metaheuristiken.html",
+  "https://sebastianhanisch-nsga2-demo.streamlit.app/": "konzepte-populations-metaheuristiken.html",
+  "https://sebastianhanisch-nsga3-demo.streamlit.app/": "konzepte-populations-metaheuristiken.html",
+  "https://sebastianhanisch-moead-demo.streamlit.app/": "konzepte-populations-metaheuristiken.html",
+  "https://sebastianhanisch-cma-es-demo.streamlit.app/": "konzepte-populations-metaheuristiken.html",
+  "https://sebastianhanisch-differential-evolution-demo.streamlit.app/": "konzepte-populations-metaheuristiken.html",
+  "https://sebastianhanisch-l-shade-demo.streamlit.app/": "konzepte-populations-metaheuristiken.html",
+  "https://sebastianhanisch-pso-demo.streamlit.app/": "konzepte-populations-metaheuristiken.html",
+  "https://sebastianhanisch-ant-system-demo.streamlit.app/": "konzepte-populations-metaheuristiken.html",
+  "https://sebastianhanisch-max-min-ant-system-demo.streamlit.app/": "konzepte-populations-metaheuristiken.html",
+  "https://sebastianhanisch-memetic-demo.streamlit.app/": "konzepte-populations-metaheuristiken.html",
+  "https://sebastianhanisch-ica-demo.streamlit.app/": "konzepte-quellentrennung.html",
+  "https://sebastianhanisch-sobi-demo.streamlit.app/": "konzepte-quellentrennung.html",
+  "https://sebastianhanisch-sca-demo.streamlit.app/": "konzepte-quellentrennung.html",
+  "https://sebastianhanisch-nmf-demo.streamlit.app/": "konzepte-quellentrennung.html",
+  "https://sebastianhanisch-spike-sorting-demo.streamlit.app/": "konzepte-quellentrennung.html",
+  "https://sebastianhanisch-template-matching-demo.streamlit.app/": "konzepte-quellentrennung.html",
+  "https://sebastianhanisch-delay-graph-demo.streamlit.app/": "konzepte-quellentrennung.html",
+  "https://sebastianhanisch-bandit-demo.streamlit.app/": "konzepte-reinforcement-learning.html",
+  "https://sebastianhanisch-value-iteration-demo.streamlit.app/": "konzepte-reinforcement-learning.html",
+  "https://sebastianhanisch-q-learning-demo.streamlit.app/": "konzepte-reinforcement-learning.html",
+  "https://sebastianhanisch-sarsa-demo.streamlit.app/": "konzepte-reinforcement-learning.html",
+  "https://sebastianhanisch-dyna-q-demo.streamlit.app/": "konzepte-reinforcement-learning.html",
+  "https://sebastianhanisch-dqn-demo.streamlit.app/": "konzepte-reinforcement-learning.html",
+  "https://sebastianhanisch-policy-gradient-demo.streamlit.app/": "konzepte-reinforcement-learning.html",
+  "https://sebastianhanisch-actor-critic-demo.streamlit.app/": "konzepte-reinforcement-learning.html",
+  "https://sebastianhanisch-kruskal-demo.streamlit.app/": "konzepte-spannbaum.html",
+  "https://sebastianhanisch-prim-demo.streamlit.app/": "konzepte-spannbaum.html",
+  "https://sebastianhanisch-boruvka-demo.streamlit.app/": "konzepte-spannbaum.html",
+  "https://sebastianhanisch-euclidean-mst-demo.streamlit.app/": "konzepte-spannbaum.html",
+  "https://sebastianhanisch-arborescence-demo.streamlit.app/": "konzepte-spannbaum.html",
+  "https://sebastianhanisch-constrained-mst-demo.streamlit.app/": "konzepte-spannbaum.html",
+  "https://sebastianhanisch-cmst-demo.streamlit.app/": "konzepte-spannbaum.html",
+  "https://sebastianhanisch-steiner-tree-demo.streamlit.app/": "konzepte-spannbaum.html",
+  "https://sebastianhanisch-pcst-demo.streamlit.app/": "konzepte-spannbaum.html",
+  "https://sebastianhanisch-mst-sensitivity-demo.streamlit.app/": "konzepte-spannbaum.html",
+  "https://sebastianhanisch-random-spanning-tree-demo.streamlit.app/": "konzepte-spannbaum.html",
+  "https://sebastianhanisch-nash-demo.streamlit.app/": "konzepte-spieltheorie.html",
+  "https://sebastianhanisch-poa-braess-demo.streamlit.app/": "konzepte-spieltheorie.html",
+  "https://sebastianhanisch-maut-demo.streamlit.app/": "konzepte-spieltheorie.html",
+  "https://sebastianhanisch-noregret-demo.streamlit.app/": "konzepte-spieltheorie.html",
+  "https://sebastianhanisch-korreliert-demo.streamlit.app/": "konzepte-spieltheorie.html",
+  "https://sebastianhanisch-stackelberg-demo.streamlit.app/": "konzepte-spieltheorie.html",
+  "https://sebastianhanisch-shapley-demo.streamlit.app/": "konzepte-spieltheorie.html",
+  "https://sebastianhanisch-kern-demo.streamlit.app/": "konzepte-spieltheorie.html",
+  "https://sebastianhanisch-moulin-demo.streamlit.app/": "konzepte-spieltheorie.html",
+  "https://sebastianhanisch-myerson-satterthwaite-demo.streamlit.app/": "konzepte-spieltheorie.html",
+  "https://sebastianhanisch-standortplanung-demo.streamlit.app/": "konzepte-standortplanung.html",
+  "https://sebastianhanisch-kapazitierte-standortplanung-demo.streamlit.app/": "konzepte-standortplanung.html",
+  "https://sebastianhanisch-p-center-demo.streamlit.app/": "konzepte-standortplanung.html",
+  "https://sebastianhanisch-standort-bestand-demo.streamlit.app/": "konzepte-standortplanung.html",
+  "https://sebastianhanisch-wettbewerbsstandort-demo.streamlit.app/": "konzepte-standortplanung.html",
+  "https://sebastianhanisch-drehscheiben-demo.streamlit.app/": "konzepte-standortplanung.html",
+  "https://sebastianhanisch-hill-climbing-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-parallel-tempering-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-iterated-local-search-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-variable-neighborhood-search-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-tabu-search-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-guided-local-search-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-grasp-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-lin-kernighan-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-dynasearch-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-vrp-nachbarschaften-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-alns-demo.streamlit.app/": "konzepte-trajektorien-metaheuristiken.html",
+  "https://sebastianhanisch-round-robin-demo.streamlit.app/": "konzepte-turnierplanung.html",
+  "https://sebastianhanisch-bracket-seeding-demo.streamlit.app/": "konzepte-turnierplanung.html",
+  "https://sebastianhanisch-schweizer-system-demo.streamlit.app/": "konzepte-turnierplanung.html",
+  "https://sebastianhanisch-double-round-robin-demo.streamlit.app/": "konzepte-turnierplanung.html",
+  "https://sebastianhanisch-traveling-tournament-demo.streamlit.app/": "konzepte-turnierplanung.html",
+  "https://sebastianhanisch-group-knockout-demo.streamlit.app/": "konzepte-turnierplanung.html",
+  "https://sebastianhanisch-double-elimination-demo.streamlit.app/": "konzepte-turnierplanung.html",
+  "https://sebastianhanisch-naive-forecast-demo.streamlit.app/": "konzepte-zeitreihen-prognose.html",
+  "https://sebastianhanisch-exponential-smoothing-demo.streamlit.app/": "konzepte-zeitreihen-prognose.html",
+  "https://sebastianhanisch-arima-demo.streamlit.app/": "konzepte-zeitreihen-prognose.html",
+  "https://sebastianhanisch-dynamic-regression-demo.streamlit.app/": "konzepte-zeitreihen-prognose.html",
+  "https://sebastianhanisch-croston-demo.streamlit.app/": "konzepte-zeitreihen-prognose.html",
+  "https://sebastianhanisch-boosting-forecast-demo.streamlit.app/": "konzepte-zeitreihen-prognose.html",
+  "https://sebastianhanisch-pretrained-net-demo.streamlit.app/": "konzepte-zeitreihen-prognose.html",
+  "https://sebastianhanisch-forecast-interval-demo.streamlit.app/": "konzepte-zeitreihen-prognose.html",
+  "https://sebastianhanisch-hierarchy-forecast-demo.streamlit.app/": "konzepte-zeitreihen-prognose.html",
+  "https://sebastianhanisch-forecast-combination-demo.streamlit.app/": "konzepte-zeitreihen-prognose.html",
+  "https://sebastianhanisch-forecast-inventory-demo.streamlit.app/": "konzepte-zeitreihen-prognose.html"
+ },
+ "demo_title": {
+  "https://sebastianhanisch-vrp-demo.streamlit.app/": "Tourenplanung",
+  "https://sebastianhanisch-fernverkehr-demo.streamlit.app/": "Fernverkehr: Lenkzeiten und Elektro-Lkw",
+  "https://sebastianhanisch-nahverkehr-demo.streamlit.app/": "Nahverkehr: Same-Day-Aufträge und Planänderungen",
+  "https://sebastianhanisch-network-flow-demo.streamlit.app/": "Distributionsnetzwerk-Optimierung",
+  "https://sebastianhanisch-linehaul-demo.streamlit.app/": "Hauptlauf-Netzwerkdesign",
+  "https://sebastianhanisch-dc-standort-demo.streamlit.app/": "Distributionszentren-Standortplanung",
+  "https://sebastianhanisch-netzdesign-unsicherheit-demo.streamlit.app/": "Netzdesign unter Nachfrageunsicherheit",
+  "https://sebastianhanisch-intermodal-netzdesign-demo.streamlit.app/": "Intermodales Netzdesign",
+  "https://sebastianhanisch-gcpp-demo.streamlit.app/": "Winterdienst-Tourenplanung",
+  "https://sebastianhanisch-transit-demo.streamlit.app/": "ÖPNV-Liniennetz-Optimierung",
+  "https://sebastianhanisch-inventory-routing-demo.streamlit.app/": "Inventory Routing: Wer gehört heute auf die Tour?",
+  "https://sebastianhanisch-bullwhip-demo.streamlit.app/": "Bullwhip-Effekt: Wer zahlt für die Glättung?",
+  "https://sebastianhanisch-robuste-kaiplatz-demo.streamlit.app/": "Robuste Kaiplatzplanung",
+  "https://sebastianhanisch-berth-allocation-demo.streamlit.app/": "Kaiplatz-Zuteilung",
+  "https://sebastianhanisch-quaycrane-demo.streamlit.app/": "Containerbrücken-Einsatzplanung",
+  "https://sebastianhanisch-stauplanung-demo.streamlit.app/": "Schiffsstauplanung",
+  "https://sebastianhanisch-doppelspiel-demo.streamlit.app/": "Doppelspiel",
+  "https://sebastianhanisch-fahrzeugflotte-demo.streamlit.app/": "Fahrzeug-Disposition",
+  "https://sebastianhanisch-stapelplanung-demo.streamlit.app/": "Stapelplanung",
+  "https://sebastianhanisch-reefer-demo.streamlit.app/": "Reefer-Stellplätze",
+  "https://sebastianhanisch-blockzuweisung-demo.streamlit.app/": "Blockzuweisung im Export",
+  "https://sebastianhanisch-verweilzeit-demo.streamlit.app/": "Verweilzeit-Prognose",
+  "https://sebastianhanisch-bahnladeplan-demo.streamlit.app/": "Bahn-Ladeplan",
+  "https://sebastianhanisch-leercontainer-demo.streamlit.app/": "Leercontainer-Repositionierung",
+  "https://sebastianhanisch-mehrhafenstau-demo.streamlit.app/": "Mehrhafen-Stauplanung",
+  "https://sebastianhanisch-slow-steaming-demo.streamlit.app/": "Geschwindigkeitsoptimierung",
+  "https://sebastianhanisch-revenue-management-demo.streamlit.app/": "Buchungs-/Slot-Vergabe",
+  "https://sebastianhanisch-routenresilienz-demo.streamlit.app/": "Routenresilienz",
+  "https://sebastianhanisch-freight-demo.streamlit.app/": "Seefracht-Konsolidierung",
+  "https://sebastianhanisch-uld-gewicht-demo.streamlit.app/": "ULD-Beladung: Volumen gegen Schwerpunkt",
+  "https://sebastianhanisch-uld-beladeplan-demo.streamlit.app/": "Beladeplan: welche ULDs, welche Position?",
+  "https://sebastianhanisch-uld-gefahrgut-demo.streamlit.app/": "Gefahrgut-Trennung: sicher UND schwer beladen?",
+  "https://sebastianhanisch-uld-buchungsannahme-demo.streamlit.app/": "Buchungsannahme mit Gewichtslimit",
+  "https://sebastianhanisch-truck-appointment-demo.streamlit.app/": "LKW-Terminvergabe",
+  "https://sebastianhanisch-lkw-fristen-demo.streamlit.app/": "LKW-Terminvergabe: harte Fristen",
+  "https://sebastianhanisch-gate-demo.streamlit.app/": "Gate-Warteschlange",
+  "https://sebastianhanisch-yard-demo.streamlit.app/": "Hof-Disposition",
+  "https://sebastianhanisch-hofrobust-demo.streamlit.app/": "Robuste Hof-Disposition",
+  "https://sebastianhanisch-hofstellplatz-demo.streamlit.app/": "Stellplatzdisposition auf dem Hof",
+  "https://sebastianhanisch-dockdoor-demo.streamlit.app/": "Tor-Zuordnung (Cross-Dock)",
+  "https://sebastianhanisch-orderbatch-demo.streamlit.app/": "Kommissionier-Batchbildung",
+  "https://sebastianhanisch-wellenfreigabe-demo.streamlit.app/": "Kommissionierwellen",
+  "https://sebastianhanisch-warehouse-transfer-demo.streamlit.app/": "Lagerlogistik: Umschlagpunkte",
+  "https://sebastianhanisch-pack-demo.streamlit.app/": "Container- & Palettenstauung",
+  "https://sebastianhanisch-cutting-stock-demo.streamlit.app/": "Zuschnittoptimierung",
+  "https://sebastianhanisch-shift-demo.streamlit.app/": "Schichtplanung",
+  "https://sebastianhanisch-ems-demo.streamlit.app/": "Rettungsdienst-Standortplanung",
+  "https://sebastianhanisch-nutrition-demo.streamlit.app/": "Ernährungsoptimierung",
+  "https://sebastianhanisch-battery-arbitrage-demo.streamlit.app/": "Batteriespeicher-Arbitrage",
+  "https://sebastianhanisch-vc-portfolio-demo.streamlit.app/": "Startup-Portfolio-Optimierung",
+  "https://sebastianhanisch-minimax-demo.streamlit.app/": "Minimax: Adversarische Suche am Beispiel Mini-Vier-Gewinnt",
+  "https://sebastianhanisch-alpha-beta-demo.streamlit.app/": "Alpha-Beta-Pruning: derselbe Wert, viel weniger Suche",
+  "https://sebastianhanisch-transposition-table-demo.streamlit.app/": "Transpositionstabelle: dieselbe Stellung nur einmal lösen",
+  "https://sebastianhanisch-evaluation-function-demo.streamlit.app/": "Bewertungsfunktionen: schätzen statt bis zum Ende suchen",
+  "https://sebastianhanisch-endgame-tablebase-demo.streamlit.app/": "Endspiel-Tablebase: König+Turm gegen König, vollständig gelöst",
+  "https://sebastianhanisch-selfplay-evaluation-demo.streamlit.app/": "Selbstspiel: die Bewertungsfunktion lernt aus eigenen Partien",
+  "https://sebastianhanisch-elliptic-envelope-demo.streamlit.app/": "Elliptic Envelope an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-ecod-demo.streamlit.app/": "ECOD an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-isolation-forest-demo.streamlit.app/": "Isolation Forest an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-extended-isolation-forest-demo.streamlit.app/": "Extended Isolation Forest an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-lof-demo.streamlit.app/": "Local Outlier Factor an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-feature-bagging-demo.streamlit.app/": "Feature Bagging an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-ocsvm-demo.streamlit.app/": "One-Class SVM an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-deepsvdd-demo.streamlit.app/": "Deep SVDD an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-autoencoder-anomalie-demo.streamlit.app/": "Autoencoder an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-cart-demo.streamlit.app/": "CART an Lieferungen",
+  "https://sebastianhanisch-bagging-demo.streamlit.app/": "Bagging an Lieferungen",
+  "https://sebastianhanisch-random-forest-demo.streamlit.app/": "Random Forest an Lieferungen",
+  "https://sebastianhanisch-extra-trees-demo.streamlit.app/": "Extra Trees an Lieferungen",
+  "https://sebastianhanisch-adaboost-demo.streamlit.app/": "AdaBoost an Lieferungen",
+  "https://sebastianhanisch-gradient-boosting-demo.streamlit.app/": "Gradient Boosting an Lieferungen",
+  "https://sebastianhanisch-xgboost-demo.streamlit.app/": "XGBoost an Lieferungen",
+  "https://sebastianhanisch-lightgbm-demo.streamlit.app/": "LightGBM an Lieferungen",
+  "https://sebastianhanisch-catboost-demo.streamlit.app/": "CatBoost an Lieferungen",
+  "https://sebastianhanisch-kmeans-demo.streamlit.app/": "k-Means für die Standortwahl von Depots",
+  "https://sebastianhanisch-gmm-demo.streamlit.app/": "Gaussian Mixture Models für weiche Sammel-Routen-Zuordnung",
+  "https://sebastianhanisch-dbscan-demo.streamlit.app/": "DBSCAN: Sammel-Routen ohne feste Anzahl",
+  "https://sebastianhanisch-agglomerative-demo.streamlit.app/": "Agglomeratives Clustering: schrittweise Depot-Konsolidierung",
+  "https://sebastianhanisch-hdbscan-demo.streamlit.app/": "HDBSCAN: die Kombination, die Dichte UND Chaining löst",
+  "https://sebastianhanisch-dpmm-demo.streamlit.app/": "Dirichlet-Process-Mixture: Sammel-Routen ganz ohne feste Anzahl",
+  "https://sebastianhanisch-spectral-demo.streamlit.app/": "Spectral Clustering: nicht-konvexe Sammel-Routen ohne Dichtebegriff",
+  "https://sebastianhanisch-leiden-demo.streamlit.app/": "Leiden-Algorithmus: automatische Depot-Gruppierung ohne Ziel-k",
+  "https://sebastianhanisch-divisive-demo.streamlit.app/": "Divisive Clustering: schrittweise Depot-Aufspaltung von oben",
+  "https://sebastianhanisch-clubs-demo.streamlit.app/": "CluBS: Clustering nach Verhalten statt nach Position",
+  "https://sebastianhanisch-pca-demo.streamlit.app/": "PCA an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-isomap-demo.streamlit.app/": "Isomap an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-lle-demo.streamlit.app/": "LLE an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-tsne-demo.streamlit.app/": "t-SNE an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-umap-demo.streamlit.app/": "UMAP an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-pacmap-demo.streamlit.app/": "PaCMAP an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-autoencoder-demo.streamlit.app/": "Autoencoder an Lieferrouten-Kennzahlen",
+  "https://sebastianhanisch-branch-bound-demo.streamlit.app/": "Branch &amp; Bound am Rucksackproblem",
+  "https://sebastianhanisch-dynamic-programming-demo.streamlit.app/": "Dynamische Programmierung am Rucksackproblem",
+  "https://sebastianhanisch-cutting-planes-demo.streamlit.app/": "Schnittebenen am Rucksackproblem",
+  "https://sebastianhanisch-branch-cut-demo.streamlit.app/": "Branch &amp; Cut am Rucksackproblem",
+  "https://sebastianhanisch-constraint-programming-demo.streamlit.app/": "Constraint Programming am Rucksackproblem",
+  "https://sebastianhanisch-cutting-stock-branch-bound-demo.streamlit.app/": "Branch &amp; Bound am Cutting-Stock-Problem",
+  "https://sebastianhanisch-cutting-stock-dp-demo.streamlit.app/": "Dynamische Programmierung am Cutting-Stock-Problem",
+  "https://sebastianhanisch-cutting-stock-cutting-planes-demo.streamlit.app/": "Symmetrie-Schnitte am Cutting-Stock-Problem",
+  "https://sebastianhanisch-cutting-stock-branch-cut-demo.streamlit.app/": "Branch &amp; Cut am Cutting-Stock-Problem",
+  "https://sebastianhanisch-cutting-stock-constraint-programming-demo.streamlit.app/": "Constraint Programming am Cutting-Stock-Problem",
+  "https://sebastianhanisch-column-generation-demo.streamlit.app/": "Column Generation am Cutting-Stock-Problem",
+  "https://sebastianhanisch-branch-and-price-demo.streamlit.app/": "Branch & Price am Cutting-Stock-Problem",
+  "https://sebastianhanisch-gcn-demo.streamlit.app/": "GCN: Nachbarn statt Etiketten im Liefergebiet",
+  "https://sebastianhanisch-graphsage-demo.streamlit.app/": "GraphSAGE: ein Gewicht für den Kunden, eines für die Nachbarn",
+  "https://sebastianhanisch-gat-demo.streamlit.app/": "GAT: lernbare Aufmerksamkeit auf Nachbarn",
+  "https://sebastianhanisch-gatv2-demo.streamlit.app/": "GATv2: Aufmerksamkeit, die vom Fragenden abhängt",
+  "https://sebastianhanisch-gin-demo.streamlit.app/": "GIN: Summe statt Mittel, Nachbarn zählen",
+  "https://sebastianhanisch-graph-transformer-demo.streamlit.app/": "Graph Transformer: Aufmerksamkeit über das ganze Netz",
+  "https://sebastianhanisch-bfs-dfs-demo.streamlit.app/": "BFS und DFS: die Durchmusterung eines Netzes",
+  "https://sebastianhanisch-bridges-demo.streamlit.app/": "Brücken und Artikulationspunkte: welche Straße darf nicht ausfallen?",
+  "https://sebastianhanisch-scc-demo.streamlit.app/": "Starke Zusammenhangskomponenten: Einbahnstraßen im Netz",
+  "https://sebastianhanisch-euler-tour-demo.streamlit.app/": "Eulertouren: jede Kante genau einmal",
+  "https://sebastianhanisch-graph-coloring-demo.streamlit.app/": "Graphfärbung: Greedy, Welsh-Powell, DSATUR, exakt",
+  "https://sebastianhanisch-centrality-demo.streamlit.app/": "Zentralität: Grad, Closeness, Betweenness, PageRank",
+  "https://sebastianhanisch-strukturkennzahlen-demo.streamlit.app/": "Strukturkennzahlen und Nullmodelle: Clustering, Kleine Welt, Assortativität",
+  "https://sebastianhanisch-robustheit-demo.streamlit.app/": "Robustheit: Zufall gegen gezielten Angriff, Perkolationsschwelle",
+  "https://sebastianhanisch-kaskaden-demo.streamlit.app/": "Kaskaden und Ausbreitung: lastbasierte Ausfälle, SIR-Epidemieschwelle",
+  "https://sebastianhanisch-haertung-demo.streamlit.app/": "Kritische Knoten härten: Zufällig, Bypass, Schneider u. a. 2011",
+  "https://sebastianhanisch-bandbreite-demo.streamlit.app/": "Bandbreite eines Graphen: Cuthill-McKee und Reverse Cuthill-McKee",
+  "https://sebastianhanisch-cliquenbandbreite-demo.streamlit.app/": "Bandbreite von G(n,k,b) und Cliquenüberdeckung",
+  "https://sebastianhanisch-greedy-best-first-demo.streamlit.app/": "Greedy Best-First Search auf einem Netz mit Hindernissen",
+  "https://sebastianhanisch-astar-demo.streamlit.app/": "A* auf demselben Netz",
+  "https://sebastianhanisch-ida-star-demo.streamlit.app/": "IDA* auf demselben Netz",
+  "https://sebastianhanisch-beam-search-demo.streamlit.app/": "Beam Search auf demselben Netz",
+  "https://sebastianhanisch-monobeam-demo.streamlit.app/": "Monobeam auf demselben Netz",
+  "https://sebastianhanisch-beam-stack-demo.streamlit.app/": "Beam Stack Search auf demselben Netz",
+  "https://sebastianhanisch-diverse-beam-demo.streamlit.app/": "Diverse Beam Search auf demselben Netz",
+  "https://sebastianhanisch-mcts-demo.streamlit.app/": "Monte Carlo Tree Search auf demselben Netz",
+  "https://sebastianhanisch-spt-scheduling-demo.streamlit.app/": "SPT — eine Warteschlange, die sich selbst optimal sortiert",
+  "https://sebastianhanisch-edd-scheduling-demo.streamlit.app/": "EDD — eine Warteschlange, die die schlimmste Verspätung klein hält",
+  "https://sebastianhanisch-moore-hodgson-demo.streamlit.app/": "Moore-Hodgson — möglichst wenige Aufträge verspäten",
+  "https://sebastianhanisch-wspt-demo.streamlit.app/": "WSPT / Smith's Rule — wenn nicht jeder Auftrag gleich wichtig ist",
+  "https://sebastianhanisch-weighted-tardiness-demo.streamlit.app/": "ATC — wenn keine einfache Regel mehr beweisbar optimal ist",
+  "https://sebastianhanisch-johnson-rule-demo.streamlit.app/": "Johnson-Regel — die erste Erweiterung auf zwei Maschinen",
+  "https://sebastianhanisch-lpt-scheduling-demo.streamlit.app/": "LPT — eine bewiesene Garantie statt eines Beweises",
+  "https://sebastianhanisch-job-shop-demo.streamlit.app/": "Job Shop — der Konvergenzpunkt dieser Linie",
+  "https://sebastianhanisch-shifting-bottleneck-demo.streamlit.app/": "Shifting Bottleneck — Engpässe zuerst, dann nachbessern",
+  "https://sebastianhanisch-job-shop-tabu-demo.streamlit.app/": "Job-Shop-Tabu-Search — kritischer Pfad, gezielt verbessert",
+  "https://sebastianhanisch-rcpsp-demo.streamlit.app/": "RCPSP — der wachsende Endpunkt dieser Linie",
+  "https://sebastianhanisch-bfs-demo.streamlit.app/": "Breitensuche im Straßennetz",
+  "https://sebastianhanisch-dijkstra-demo.streamlit.app/": "Dijkstra an Lieferwegen und Straßennetzen",
+  "https://sebastianhanisch-bidirectional-demo.streamlit.app/": "Bidirektionale Suche im Stadt- und Toronto-Netz",
+  "https://sebastianhanisch-contraction-hierarchies-demo.streamlit.app/": "Contraction Hierarchies im Toronto-Netz",
+  "https://sebastianhanisch-bellman-ford-demo.streamlit.app/": "Bellman-Ford an Frachtnetzen und Devisen",
+  "https://sebastianhanisch-floyd-warshall-demo.streamlit.app/": "Floyd-Warshall an kleinen und großen Netzen",
+  "https://sebastianhanisch-johnson-demo.streamlit.app/": "Johnson an E-Lieferwagen und Zufallsnetzen",
+  "https://sebastianhanisch-multicriteria-demo.streamlit.app/": "Mehrkriterien-Routing: Zeit gegen CO₂",
+  "https://sebastianhanisch-time-dependent-demo.streamlit.app/": "Zeitabhängiges Routing im Stadtnetz",
+  "https://sebastianhanisch-2hop-labeling-demo.streamlit.app/": "Hub Labeling im Stadt- und Zufallsnetz",
+  "https://sebastianhanisch-customizable-ch-demo.streamlit.app/": "Customizable CH bei wechselndem Verkehr",
+  "https://sebastianhanisch-raptor-demo.streamlit.app/": "RAPTOR an Fahrplänen",
+  "https://sebastianhanisch-tableau-simplex-demo.streamlit.app/": "Tableau-Simplex: von Ecke zu Ecke, Pivot für Pivot",
+  "https://sebastianhanisch-pivotregeln-demo.streamlit.app/": "Pivotregeln und Entartung: klügere Wahl, seltene Zyklen",
+  "https://sebastianhanisch-klee-minty-demo.streamlit.app/": "Klee-Minty: der Würfel, der nur Dantzig überlistet",
+  "https://sebastianhanisch-revised-simplex-demo.streamlit.app/": "Revised Simplex: derselbe Pfad, ein anderer Aufwand",
+  "https://sebastianhanisch-praesolve-demo.streamlit.app/": "Präsolve und Skalierung: Aufräumen vor dem Lösen",
+  "https://sebastianhanisch-lp-dualitaet-demo.streamlit.app/": "Dualität und Sensitivität: Schattenpreise gelten nur im Bereich",
+  "https://sebastianhanisch-dualer-simplex-demo.streamlit.app/": "Dualer Simplex: von der alten Basis weiterrechnen",
+  "https://sebastianhanisch-ellipsoid-demo.streamlit.app/": "Ellipsoid-Methode: polynomial, aber weit hinter dem Simplex",
+  "https://sebastianhanisch-innere-punkte-demo.streamlit.app/": "Innere Punkte: durch das Innere, in wenigen Iterationen",
+  "https://sebastianhanisch-pdlp-demo.streamlit.app/": "PDLP: fünf Bausteine machen PDHG brauchbar",
+  "https://sebastianhanisch-basis-recovery-demo.streamlit.app/": "Crossover: aus dem Inneren zurück zur exakten Ecke",
+  "https://sebastianhanisch-greedy-matching-demo.streamlit.app/": "Greedy-Matching an Fahrzeugen und Aufträgen",
+  "https://sebastianhanisch-augmenting-path-demo.streamlit.app/": "Augmentierende Pfade an Fahrzeugen und Aufträgen",
+  "https://sebastianhanisch-hopcroft-karp-demo.streamlit.app/": "Hopcroft–Karp an Fahrzeugen und Aufträgen",
+  "https://sebastianhanisch-hungarian-demo.streamlit.app/": "Ungarische Methode an Fahrzeugen und Aufträgen",
+  "https://sebastianhanisch-auction-algorithm-demo.streamlit.app/": "Auktionsalgorithmus an Fahrzeugen und Aufträgen",
+  "https://sebastianhanisch-edmonds-matching-demo.streamlit.app/": "Blossom an Fahrern ohne zwei Seiten",
+  "https://sebastianhanisch-weighted-edmonds-matching-demo.streamlit.app/": "Gewichteter Blossom an Fahrern mit Kosten",
+  "https://sebastianhanisch-gale-shapley-demo.streamlit.app/": "Gale–Shapley an Fahrzeugen mit Vorlieben",
+  "https://sebastianhanisch-stabile-mitbewohner-demo.streamlit.app/": "Stabile Mitbewohner in einer einzigen Gruppe",
+  "https://sebastianhanisch-krankenhaus-zulassung-demo.streamlit.app/": "Krankenhaus-Zulassung mit mehreren Plätzen je Klinik",
+  "https://sebastianhanisch-top-trading-cycles-demo.streamlit.app/": "Top Trading Cycles auf dem Dauerparkplatz-Markt",
+  "https://sebastianhanisch-nierentausch-demo.streamlit.app/": "Nierentausch unter medizinischen Zwängen",
+  "https://sebastianhanisch-online-matching-demo.streamlit.app/": "Online-Matching bei Aufträgen, die nacheinander eintreffen",
+  "https://sebastianhanisch-contract-net-demo.streamlit.app/": "Contract Net Protocol an der Kran-Auftragsvergabe",
+  "https://sebastianhanisch-task-swap-demo.streamlit.app/": "Task-Swap-Verhandlung nach dem Contract Net Protocol",
+  "https://sebastianhanisch-dcop-demo.streamlit.app/": "DCOP mit DPOP an der Kran-Auftragsvergabe",
+  "https://sebastianhanisch-marl-demo.streamlit.app/": "Unabhängiges Q-Learning an der Kran-Auftragsvergabe",
+  "https://sebastianhanisch-mappo-demo.streamlit.app/": "MAPPO mit zentralem Kritiker an der Kran-Auftragsvergabe",
+  "https://sebastianhanisch-auction-demo.streamlit.app/": "Kombinatorische Auktionen an der Kran-Auftragsvergabe",
+  "https://sebastianhanisch-regretnet-demo.streamlit.app/": "RegretNet: ein gelernter Mechanismus für die Kran-Auftragsvergabe",
+  "https://sebastianhanisch-ladcop-demo.streamlit.app/": "Learning-augmented DCOP an der Kran-Auftragsvergabe",
+  "https://sebastianhanisch-edmonds-karp-demo.streamlit.app/": "Maximaler Fluss und minimaler Schnitt: Edmonds-Karp",
+  "https://sebastianhanisch-dinic-demo.streamlit.app/": "Dinic: Niveaugraph und blockierender Fluss",
+  "https://sebastianhanisch-push-relabel-demo.streamlit.app/": "Push-Relabel: Fluss ohne Wege",
+  "https://sebastianhanisch-ssp-demo.streamlit.app/": "Successive Shortest Paths: der billigste Fluss",
+  "https://sebastianhanisch-cycle-canceling-demo.streamlit.app/": "Cycle-Canceling: negative Kreise löschen",
+  "https://sebastianhanisch-cost-scaling-demo.streamlit.app/": "Cost Scaling: erst grob, dann fein",
+  "https://sebastianhanisch-netzwerksimplex-demo.streamlit.app/": "Netzwerksimplex: was ist ein Pivot, und was kostet er?",
+  "https://sebastianhanisch-multicommodity-demo.streamlit.app/": "Mehrgüterfluss: Güter teilen sich die Kanten",
+  "https://sebastianhanisch-mcf-column-generation-demo.streamlit.app/": "Pfad-Formulierung und Column Generation: nur die Pfade, die sich lohnen",
+  "https://sebastianhanisch-garg-koenemann-demo.streamlit.app/": "Garg–Könemann: Näherung ohne LP-Löser",
+  "https://sebastianhanisch-fixkosten-netzdesign-demo.streamlit.app/": "Fixkosten-Netzdesign: warum die Schranke schwach ist",
+  "https://sebastianhanisch-benders-demo.streamlit.app/": "Benders-Zerlegung: Entwurf im Master, Fluss im Teilproblem",
+  "https://sebastianhanisch-slope-scaling-demo.streamlit.app/": "Slope Scaling: Fixkosten linearisieren",
+  "https://sebastianhanisch-projektauswahl-demo.streamlit.app/": "Projektauswahl: Voraussetzungen als Schnitt",
+  "https://sebastianhanisch-graph-cuts-demo.streamlit.app/": "Graph Cuts: glatte Zonen aus verrauschten Messwerten",
+  "https://sebastianhanisch-gomory-hu-demo.streamlit.app/": "Gomory-Hu-Baum: alle Schnitte in einem Baum",
+  "https://sebastianhanisch-frank-wolfe-demo.streamlit.app/": "Frank-Wolfe: wohin fährt der Verkehr?",
+  "https://sebastianhanisch-gradient-projection-demo.streamlit.app/": "Gradient Projection: verschwindet der Endspurt von Frank-Wolfe?",
+  "https://sebastianhanisch-zeitfluss-demo.streamlit.app/": "Fluss über die Zeit: wie viele Lkw kommen in T Minuten an?",
+  "https://sebastianhanisch-perceptron-demo.streamlit.app/": "Perceptron: wo hört eine Gerade auf zu reichen?",
+  "https://sebastianhanisch-mlp-backprop-demo.streamlit.app/": "MLP + Backpropagation: wie eine verdeckte Schicht XOR löst",
+  "https://sebastianhanisch-cnn-demo.streamlit.app/": "CNN: was Gewichtsteilung bringt",
+  "https://sebastianhanisch-rnn-demo.streamlit.app/": "RNN: Zustand über die Zeit",
+  "https://sebastianhanisch-lstm-demo.streamlit.app/": "LSTM: wie Gatter den Gradienten retten",
+  "https://sebastianhanisch-attention-transformer-demo.streamlit.app/": "Attention/Transformer: Zugriff statt Weitergabe",
+  "https://sebastianhanisch-gradient-descent-demo.streamlit.app/": "Gradientenabstieg: der erste Schritt bergab",
+  "https://sebastianhanisch-newton-verfahren-demo.streamlit.app/": "Newton-Verfahren: Krümmung nutzen",
+  "https://sebastianhanisch-quasi-newton-demo.streamlit.app/": "Quasi-Newton (BFGS/L-BFGS): Krümmung schätzen",
+  "https://sebastianhanisch-lagrange-kkt-demo.streamlit.app/": "Lagrange/KKT: Nebenbedingungen zum ersten Mal",
+  "https://sebastianhanisch-straf-barriere-demo.streamlit.app/": "Straf-/Barriere-Verfahren",
+  "https://sebastianhanisch-sqp-demo.streamlit.app/": "SQP: Sequential Quadratic Programming",
+  "https://sebastianhanisch-interior-point-nlp-demo.streamlit.app/": "Innere-Punkte-Verfahren für NLP",
+  "https://sebastianhanisch-stochastische-gradientenverfahren-demo.streamlit.app/": "Stochastische Gradientenverfahren – die Brücke zu Deep Learning",
+  "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/": "Genetischer Algorithmus an einer Lieferroute und Standortwahl",
+  "https://sebastianhanisch-nsga2-demo.streamlit.app/": "NSGA-II an einer Lieferroute mit zwei Zielen",
+  "https://sebastianhanisch-nsga3-demo.streamlit.app/": "NSGA-III an einer Lieferroute mit vier Zielen",
+  "https://sebastianhanisch-moead-demo.streamlit.app/": "MOEA/D an derselben Lieferroute",
+  "https://sebastianhanisch-cma-es-demo.streamlit.app/": "CMA-ES an einer mehrgipfligen Standortwahl",
+  "https://sebastianhanisch-differential-evolution-demo.streamlit.app/": "Differential Evolution an derselben Standortwahl",
+  "https://sebastianhanisch-l-shade-demo.streamlit.app/": "L-SHADE an derselben Standortwahl",
+  "https://sebastianhanisch-pso-demo.streamlit.app/": "Partikelschwarm-Optimierung an derselben Standortwahl",
+  "https://sebastianhanisch-ant-system-demo.streamlit.app/": "Ant System an derselben Lieferroute",
+  "https://sebastianhanisch-max-min-ant-system-demo.streamlit.app/": "Max-Min Ant System an derselben Lieferroute",
+  "https://sebastianhanisch-memetic-demo.streamlit.app/": "Memetischer Algorithmus an derselben Lieferroute",
+  "https://sebastianhanisch-ica-demo.streamlit.app/": "ICA an Mehrelektroden-Signalen",
+  "https://sebastianhanisch-sobi-demo.streamlit.app/": "SOBI an Mehrelektroden-Signalen",
+  "https://sebastianhanisch-sca-demo.streamlit.app/": "Sparse Component Analysis an Mehrelektroden-Signalen",
+  "https://sebastianhanisch-nmf-demo.streamlit.app/": "NMF an Mehrelektroden-Signalen",
+  "https://sebastianhanisch-spike-sorting-demo.streamlit.app/": "Spike-Sorting-Pipeline an Mehrelektroden-Signalen",
+  "https://sebastianhanisch-template-matching-demo.streamlit.app/": "Vorlagenabgleich an Mehrelektroden-Signalen",
+  "https://sebastianhanisch-delay-graph-demo.streamlit.app/": "Verzögerungsgraph an einem Elektrodengitter",
+  "https://sebastianhanisch-bandit-demo.streamlit.app/": "🎰 Bandit – Exploration gegen Exploitation",
+  "https://sebastianhanisch-value-iteration-demo.streamlit.app/": "🗺️ Value Iteration und Policy Iteration",
+  "https://sebastianhanisch-q-learning-demo.streamlit.app/": "🤖 Q-Learning",
+  "https://sebastianhanisch-sarsa-demo.streamlit.app/": "🧗 SARSA gegen Q-Learning",
+  "https://sebastianhanisch-dyna-q-demo.streamlit.app/": "🗺️ Dyna-Q",
+  "https://sebastianhanisch-dqn-demo.streamlit.app/": "🧠 DQN / Funktionsapproximation",
+  "https://sebastianhanisch-policy-gradient-demo.streamlit.app/": "🧭 Policy Gradient / REINFORCE",
+  "https://sebastianhanisch-actor-critic-demo.streamlit.app/": "🎭 Actor-Critic",
+  "https://sebastianhanisch-kruskal-demo.streamlit.app/": "Kruskal: der billigste Weg, alle zu verbinden",
+  "https://sebastianhanisch-prim-demo.streamlit.app/": "Prim: ein Baum, der von einem Punkt aus wächst",
+  "https://sebastianhanisch-boruvka-demo.streamlit.app/": "Borůvka: alle Komponenten wählen gleichzeitig",
+  "https://sebastianhanisch-euclidean-mst-demo.streamlit.app/": "Euklidischer MST: Delaunay statt n² Kanten",
+  "https://sebastianhanisch-arborescence-demo.streamlit.app/": "Gerichteter Spannbaum: die Arboreszenz",
+  "https://sebastianhanisch-constrained-mst-demo.streamlit.app/": "Beschränkte Spannbäume: Bottleneck, Knotengrad, Hops",
+  "https://sebastianhanisch-cmst-demo.streamlit.app/": "Kapazitierter Spannbaum: Esau-Williams, Kruskal, Lokalsuche, exakt",
+  "https://sebastianhanisch-steiner-tree-demo.streamlit.app/": "Steiner-Baum: Kreuzungen als Verzweigung",
+  "https://sebastianhanisch-pcst-demo.streamlit.app/": "Prize-Collecting Steiner-Baum: wer wird angeschlossen?",
+  "https://sebastianhanisch-mst-sensitivity-demo.streamlit.app/": "MST-Sensitivität: Toleranzen, Ausfall, dynamischer Baum",
+  "https://sebastianhanisch-random-spanning-tree-demo.streamlit.app/": "Zufällige Spannbäume: zählen und würfeln statt optimieren",
+  "https://sebastianhanisch-nash-demo.streamlit.app/": "Nash-Gleichgewicht und Best-Response bei der Torwahl",
+  "https://sebastianhanisch-poa-braess-demo.streamlit.app/": "Preis der Anarchie und Braess-Paradox im Straßennetz",
+  "https://sebastianhanisch-maut-demo.streamlit.app/": "Maut und Grenzkosten-Preise im Straßennetz",
+  "https://sebastianhanisch-noregret-demo.streamlit.app/": "No-Regret-Lernen bei der Torwahl",
+  "https://sebastianhanisch-korreliert-demo.streamlit.app/": "Korrelierte Gleichgewichte bei der Torwahl",
+  "https://sebastianhanisch-stackelberg-demo.streamlit.app/": "Stackelberg: Anführer-Lkw bei der Torwahl",
+  "https://sebastianhanisch-shapley-demo.streamlit.app/": "Shapley-Wert bei der Kostenteilung einer Sammeltour",
+  "https://sebastianhanisch-kern-demo.streamlit.app/": "Kern und Nukleolus bei der Kostenteilung einer Sammeltour",
+  "https://sebastianhanisch-moulin-demo.streamlit.app/": "Moulin-Mechanismus bei privater Zahlungsbereitschaft",
+  "https://sebastianhanisch-myerson-satterthwaite-demo.streamlit.app/": "Myerson-Satterthwaite beim Handel mit einem Laderaum-Slot",
+  "https://sebastianhanisch-standortplanung-demo.streamlit.app/": "Standortplanung: warum ist die Schranke hier fast exakt?",
+  "https://sebastianhanisch-kapazitierte-standortplanung-demo.streamlit.app/": "Kapazitierte Standortplanung: was leistet die Lagrange-Relaxation?",
+  "https://sebastianhanisch-p-center-demo.streamlit.app/": "p-Center: wie weit ist der Weiteste noch weg?",
+  "https://sebastianhanisch-standort-bestand-demo.streamlit.app/": "Standort + Bestand: warum wenige große Lager billiger sind",
+  "https://sebastianhanisch-wettbewerbsstandort-demo.streamlit.app/": "Standortwettbewerb: wer vorwegnimmt, gewinnt",
+  "https://sebastianhanisch-drehscheiben-demo.streamlit.app/": "p-Hub-Median: wer profitiert vom Rabatt?",
+  "https://sebastianhanisch-hill-climbing-demo.streamlit.app/": "Hill Climbing an einer Lieferroute",
+  "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/": "Simulated Annealing an derselben Lieferroute",
+  "https://sebastianhanisch-parallel-tempering-demo.streamlit.app/": "Parallel Tempering an derselben Lieferroute",
+  "https://sebastianhanisch-iterated-local-search-demo.streamlit.app/": "Iterated Local Search an derselben Lieferroute",
+  "https://sebastianhanisch-variable-neighborhood-search-demo.streamlit.app/": "Variable Neighborhood Search an derselben Lieferroute",
+  "https://sebastianhanisch-tabu-search-demo.streamlit.app/": "Tabu Search an derselben Lieferroute",
+  "https://sebastianhanisch-guided-local-search-demo.streamlit.app/": "Guided Local Search an derselben Lieferroute",
+  "https://sebastianhanisch-grasp-demo.streamlit.app/": "GRASP an derselben Lieferroute",
+  "https://sebastianhanisch-lin-kernighan-demo.streamlit.app/": "Lin-Kernighan an derselben Lieferroute",
+  "https://sebastianhanisch-dynasearch-demo.streamlit.app/": "Dynasearch an derselben Lieferroute",
+  "https://sebastianhanisch-vrp-nachbarschaften-demo.streamlit.app/": "VRP-Nachbarschaften an mehreren Routen mit Kapazität",
+  "https://sebastianhanisch-alns-demo.streamlit.app/": "ALNS an mehreren Routen mit Kapazität",
+  "https://sebastianhanisch-round-robin-demo.streamlit.app/": "Rundenturnier: die Zirkelmethode (Berger-Tafeln)",
+  "https://sebastianhanisch-bracket-seeding-demo.streamlit.app/": "K.-o.-System und Setzliste (Bracket-Seeding)",
+  "https://sebastianhanisch-schweizer-system-demo.streamlit.app/": "Schweizer System (FIDE Dutch System)",
+  "https://sebastianhanisch-double-round-robin-demo.streamlit.app/": "Doppelrunden-Liga: Heim/Auswärts-Balance",
+  "https://sebastianhanisch-traveling-tournament-demo.streamlit.app/": "Traveling Tournament Problem",
+  "https://sebastianhanisch-group-knockout-demo.streamlit.app/": "Gruppenphase + K.-o.: die Fußball-WM-Struktur",
+  "https://sebastianhanisch-double-elimination-demo.streamlit.app/": "Doppel-K.-o.-System: eine zweite Chance",
+  "https://sebastianhanisch-naive-forecast-demo.streamlit.app/": "Naive Prognose an Tagesaufträgen",
+  "https://sebastianhanisch-exponential-smoothing-demo.streamlit.app/": "Exponentielle Glättung an Tagesaufträgen",
+  "https://sebastianhanisch-arima-demo.streamlit.app/": "ARIMA an Tagesaufträgen",
+  "https://sebastianhanisch-dynamic-regression-demo.streamlit.app/": "Dynamische Regression an Tagesaufträgen",
+  "https://sebastianhanisch-croston-demo.streamlit.app/": "Croston, SBA und TSB an Lagerartikeln",
+  "https://sebastianhanisch-boosting-forecast-demo.streamlit.app/": "Boosting mit Lag-Merkmalen an Tagesaufträgen",
+  "https://sebastianhanisch-pretrained-net-demo.streamlit.app/": "Vortrainiertes Netz für neue Depots",
+  "https://sebastianhanisch-forecast-interval-demo.streamlit.app/": "Prognoseintervalle an Tagesaufträgen",
+  "https://sebastianhanisch-hierarchy-forecast-demo.streamlit.app/": "Hierarchische Abstimmung an einem Depot-Netz",
+  "https://sebastianhanisch-forecast-combination-demo.streamlit.app/": "Prognosekombination an Tagesaufträgen",
+  "https://sebastianhanisch-forecast-inventory-demo.streamlit.app/": "Von der Prognose zum Bestand"
+ },
+ "demo_cross_links": {
+  "https://sebastianhanisch-ant-system-demo.streamlit.app/": [
+   "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/",
+   "https://sebastianhanisch-nsga2-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-cma-es-demo.streamlit.app/": [
+   "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-differential-evolution-demo.streamlit.app/": [
+   "https://sebastianhanisch-cma-es-demo.streamlit.app/",
+   "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-dynasearch-demo.streamlit.app/": [
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+   "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-edd-scheduling-demo.streamlit.app/": [
+   "https://sebastianhanisch-spt-scheduling-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/": [
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-grasp-demo.streamlit.app/": [
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+   "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-guided-local-search-demo.streamlit.app/": [
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+   "https://sebastianhanisch-tabu-search-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-hill-climbing-demo.streamlit.app/": [
+   "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-iterated-local-search-demo.streamlit.app/": [
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+   "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-kern-demo.streamlit.app/": [
+   "https://sebastianhanisch-maut-demo.streamlit.app/",
+   "https://sebastianhanisch-shapley-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-korreliert-demo.streamlit.app/": [
+   "https://sebastianhanisch-maut-demo.streamlit.app/",
+   "https://sebastianhanisch-nash-demo.streamlit.app/",
+   "https://sebastianhanisch-noregret-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-l-shade-demo.streamlit.app/": [
+   "https://sebastianhanisch-cma-es-demo.streamlit.app/",
+   "https://sebastianhanisch-differential-evolution-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-lin-kernighan-demo.streamlit.app/": [
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+   "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-lkw-fristen-demo.streamlit.app/": [
+   "https://sebastianhanisch-truck-appointment-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-maut-demo.streamlit.app/": [
+   "https://sebastianhanisch-auction-demo.streamlit.app/",
+   "https://sebastianhanisch-nash-demo.streamlit.app/",
+   "https://sebastianhanisch-poa-braess-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-max-min-ant-system-demo.streamlit.app/": [
+   "https://sebastianhanisch-ant-system-demo.streamlit.app/",
+   "https://sebastianhanisch-nsga2-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-memetic-demo.streamlit.app/": [
+   "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/",
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-moead-demo.streamlit.app/": [
+   "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/",
+   "https://sebastianhanisch-nsga2-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-moore-hodgson-demo.streamlit.app/": [
+   "https://sebastianhanisch-edd-scheduling-demo.streamlit.app/",
+   "https://sebastianhanisch-spt-scheduling-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-moulin-demo.streamlit.app/": [
+   "https://sebastianhanisch-kern-demo.streamlit.app/",
+   "https://sebastianhanisch-maut-demo.streamlit.app/",
+   "https://sebastianhanisch-shapley-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-myerson-satterthwaite-demo.streamlit.app/": [
+   "https://sebastianhanisch-maut-demo.streamlit.app/",
+   "https://sebastianhanisch-moulin-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-nash-demo.streamlit.app/": [
+   "https://sebastianhanisch-gate-demo.streamlit.app/",
+   "https://sebastianhanisch-marl-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-noregret-demo.streamlit.app/": [
+   "https://sebastianhanisch-marl-demo.streamlit.app/",
+   "https://sebastianhanisch-nash-demo.streamlit.app/",
+   "https://sebastianhanisch-poa-braess-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-nsga2-demo.streamlit.app/": [
+   "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-nsga3-demo.streamlit.app/": [
+   "https://sebastianhanisch-nsga2-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-parallel-tempering-demo.streamlit.app/": [
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+   "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-poa-braess-demo.streamlit.app/": [
+   "https://sebastianhanisch-marl-demo.streamlit.app/",
+   "https://sebastianhanisch-nash-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-pso-demo.streamlit.app/": [
+   "https://sebastianhanisch-cma-es-demo.streamlit.app/",
+   "https://sebastianhanisch-differential-evolution-demo.streamlit.app/",
+   "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-shapley-demo.streamlit.app/": [
+   "https://sebastianhanisch-maut-demo.streamlit.app/",
+   "https://sebastianhanisch-stackelberg-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/": [
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-stackelberg-demo.streamlit.app/": [
+   "https://sebastianhanisch-korreliert-demo.streamlit.app/",
+   "https://sebastianhanisch-marl-demo.streamlit.app/",
+   "https://sebastianhanisch-maut-demo.streamlit.app/",
+   "https://sebastianhanisch-nash-demo.streamlit.app/",
+   "https://sebastianhanisch-noregret-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-tabu-search-demo.streamlit.app/": [
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+   "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-variable-neighborhood-search-demo.streamlit.app/": [
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+   "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/"
+  ],
+  "https://sebastianhanisch-vrp-nachbarschaften-demo.streamlit.app/": [
+   "https://sebastianhanisch-hill-climbing-demo.streamlit.app/"
+  ]
+ },
+ "demo_backlink_targets": [
+  "index.html",
+  "kontakt.html"
+ ]
+}
