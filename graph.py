@@ -26,14 +26,29 @@ class Snapshot:
     demo_title: dict[str, str]
     demo_cross_links: dict[str, list[str]]
     demo_backlink_targets: list[str]
+    crosslink_map: dict[str, list[str]]
 
     @property
     def demo_urls(self) -> list[str]:
         return sorted(self.demo_referrers)
 
+    def demos_of(self, page: str) -> list[str]:
+        """Alle Demo-URLs, deren Heimatseite (demo_registry) genau `page` ist."""
+        return sorted(u for u, home in self.demo_home_page.items() if home == page)
+
+    def relevant_candidates(self, target: str) -> tuple[list[str], list[str]]:
+        """(eigene Demos der Ziel-Linie, Demos crosslink-verwandter Linien) - nur diese beiden
+        Gruppen sind inhaltlich plausible Rücklink-Kandidaten fuer `target`, nicht beliebige Demos."""
+        eigene = self.demos_of(target)
+        nachbarn: list[str] = []
+        for nachbar_linie in self.crosslink_map.get(target, []):
+            nachbarn.extend(self.demos_of(nachbar_linie))
+        return eigene, sorted(nachbarn)
+
 
 def load_snapshot(path: Path = DATA_PATH) -> Snapshot:
     raw = json.loads(path.read_text(encoding="utf-8"))
+    crosslink_map = json.loads((path.parent / "crosslink_map.json").read_text(encoding="utf-8"))
     return Snapshot(
         stand=raw["stand"],
         pages=raw["pages"],
@@ -43,6 +58,7 @@ def load_snapshot(path: Path = DATA_PATH) -> Snapshot:
         demo_title=raw["demo_title"],
         demo_cross_links=raw["demo_cross_links"],
         demo_backlink_targets=raw["demo_backlink_targets"],
+        crosslink_map=crosslink_map,
     )
 
 
@@ -79,6 +95,17 @@ def build_base_graph(snap: Snapshot, extra_backlinks: dict[str, str] | None = No
         for url, extra_target in extra_backlinks.items():
             g.add_edge(url, extra_target)
     return g
+
+
+def build_graph_mit_fix(snap: Snapshot, target: str, gewaehlte_nachbarn: frozenset[str] = frozenset()) -> Graph:
+    """Baugrundlage fuer alle Vergleiche ab dem Basis-Fix: JEDE Demo der Ziel-Linie selbst bekommt
+    automatisch den (aktuell fehlenden) Rücklink auf ihre eigene Linie - das ist keine Optimierung,
+    sondern schlicht Korrektheit, siehe relevant_candidates(). Die eigentliche Auswahlfrage betrifft
+    nur `gewaehlte_nachbarn`: Demos crosslink-verwandter Linien, die zusätzlich auf `target`
+    zurückverlinken."""
+    eigene, _ = snap.relevant_candidates(target)
+    extra = {url: target for url in eigene} | {url: target for url in gewaehlte_nachbarn}
+    return build_base_graph(snap, extra_backlinks=extra)
 
 
 def pagerank(g: Graph, damping: float = 0.85, iterations: int = 100) -> dict[str, float]:

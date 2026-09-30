@@ -14,12 +14,14 @@ def test_app_startet_ohne_fehler():
     assert not at.exception
 
 
-def test_app_zeigt_ist_zustand_und_bestes_verfahren():
+def test_app_zeigt_ist_zustand_basis_fix_und_bestes_verfahren():
     at = AppTest.from_file(APP, default_timeout=60)
     at.run()
-    assert len(at.metric) == 2
+    assert len(at.metric) == 3
     werte = [float(m.value) for m in at.metric]
     assert all(w > 0 for w in werte)
+    # Basis-Fix (eigene Demos) sollte den Ist-Zustand nie verschlechtern
+    assert werte[1] >= werte[0]
 
 
 def test_zielseite_wechseln_aendert_die_metrik():

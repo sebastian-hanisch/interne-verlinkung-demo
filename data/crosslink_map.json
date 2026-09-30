@@ -1,0 +1,150 @@
+{
+ "konzepte-adversarische-suche.html": [
+  "konzepte-exakte-suche.html",
+  "konzepte-heuristische-baumsuche.html",
+  "konzepte-reinforcement-learning.html"
+ ],
+ "konzepte-anomalie-erkennung.html": [
+  "konzepte-baumbasiert.html",
+  "konzepte-dimensionsreduktion.html",
+  "konzepte-neuronale-netze.html"
+ ],
+ "konzepte-baumbasiert.html": [
+  "konzepte-anomalie-erkennung.html",
+  "konzepte-zeitreihen-prognose.html"
+ ],
+ "konzepte-clustering.html": [
+  "konzepte-dimensionsreduktion.html",
+  "konzepte-quellentrennung.html",
+  "konzepte-spannbaum.html",
+  "konzepte-standortplanung.html"
+ ],
+ "konzepte-dimensionsreduktion.html": [
+  "konzepte-anomalie-erkennung.html",
+  "konzepte-clustering.html",
+  "konzepte-neuronale-netze.html",
+  "konzepte-quellentrennung.html"
+ ],
+ "konzepte-exakte-suche.html": [
+  "konzepte-adversarische-suche.html",
+  "konzepte-lineare-programmierung.html",
+  "konzepte-multiagenten.html",
+  "konzepte-netzwerkfluss.html"
+ ],
+ "konzepte-graph-neural-networks.html": [
+  "konzepte-neuronale-netze.html"
+ ],
+ "konzepte-graphen-netzwerke.html": [
+  "konzepte-kuerzeste-wege.html",
+  "konzepte-lineare-programmierung.html",
+  "konzepte-matching.html",
+  "konzepte-netzwerkfluss.html",
+  "konzepte-quellentrennung.html",
+  "konzepte-spannbaum.html",
+  "konzepte-turnierplanung.html"
+ ],
+ "konzepte-heuristische-baumsuche.html": [
+  "konzepte-adversarische-suche.html",
+  "konzepte-kuerzeste-wege.html",
+  "konzepte-reinforcement-learning.html"
+ ],
+ "konzepte-klassische-scheduling-theorie.html": [
+  "konzepte-trajektorien-metaheuristiken.html"
+ ],
+ "konzepte-kuerzeste-wege.html": [
+  "konzepte-graphen-netzwerke.html",
+  "konzepte-heuristische-baumsuche.html",
+  "konzepte-matching.html",
+  "konzepte-netzwerkfluss.html",
+  "konzepte-spannbaum.html"
+ ],
+ "konzepte-lineare-programmierung.html": [
+  "konzepte-exakte-suche.html",
+  "konzepte-graphen-netzwerke.html",
+  "konzepte-netzwerkfluss.html"
+ ],
+ "konzepte-matching.html": [
+  "konzepte-graphen-netzwerke.html",
+  "konzepte-kuerzeste-wege.html",
+  "konzepte-netzwerkfluss.html",
+  "konzepte-spieltheorie.html",
+  "konzepte-turnierplanung.html"
+ ],
+ "konzepte-multiagenten.html": [
+  "konzepte-exakte-suche.html",
+  "konzepte-neuronale-netze.html",
+  "konzepte-reinforcement-learning.html",
+  "konzepte-spieltheorie.html"
+ ],
+ "konzepte-netzwerkfluss.html": [
+  "konzepte-exakte-suche.html",
+  "konzepte-graphen-netzwerke.html",
+  "konzepte-kuerzeste-wege.html",
+  "konzepte-lineare-programmierung.html",
+  "konzepte-matching.html",
+  "konzepte-spannbaum.html",
+  "konzepte-spieltheorie.html",
+  "konzepte-standortplanung.html"
+ ],
+ "konzepte-neuronale-netze.html": [
+  "konzepte-anomalie-erkennung.html",
+  "konzepte-dimensionsreduktion.html",
+  "konzepte-graph-neural-networks.html",
+  "konzepte-multiagenten.html",
+  "konzepte-nichtlineare-optimierung.html",
+  "konzepte-zeitreihen-prognose.html"
+ ],
+ "konzepte-nichtlineare-optimierung.html": [
+  "konzepte-neuronale-netze.html",
+  "konzepte-populations-metaheuristiken.html",
+  "konzepte-standortplanung.html"
+ ],
+ "konzepte-populations-metaheuristiken.html": [
+  "konzepte-nichtlineare-optimierung.html",
+  "konzepte-trajektorien-metaheuristiken.html"
+ ],
+ "konzepte-quellentrennung.html": [
+  "konzepte-clustering.html",
+  "konzepte-dimensionsreduktion.html",
+  "konzepte-graphen-netzwerke.html"
+ ],
+ "konzepte-reinforcement-learning.html": [
+  "konzepte-adversarische-suche.html",
+  "konzepte-heuristische-baumsuche.html",
+  "konzepte-multiagenten.html",
+  "konzepte-spieltheorie.html"
+ ],
+ "konzepte-spannbaum.html": [
+  "konzepte-clustering.html",
+  "konzepte-graphen-netzwerke.html",
+  "konzepte-kuerzeste-wege.html",
+  "konzepte-netzwerkfluss.html"
+ ],
+ "konzepte-spieltheorie.html": [
+  "konzepte-matching.html",
+  "konzepte-multiagenten.html",
+  "konzepte-netzwerkfluss.html",
+  "konzepte-reinforcement-learning.html",
+  "konzepte-standortplanung.html"
+ ],
+ "konzepte-standortplanung.html": [
+  "konzepte-clustering.html",
+  "konzepte-netzwerkfluss.html",
+  "konzepte-nichtlineare-optimierung.html",
+  "konzepte-spieltheorie.html"
+ ],
+ "konzepte-trajektorien-metaheuristiken.html": [
+  "konzepte-klassische-scheduling-theorie.html",
+  "konzepte-populations-metaheuristiken.html",
+  "konzepte-turnierplanung.html"
+ ],
+ "konzepte-turnierplanung.html": [
+  "konzepte-graphen-netzwerke.html",
+  "konzepte-matching.html",
+  "konzepte-trajektorien-metaheuristiken.html"
+ ],
+ "konzepte-zeitreihen-prognose.html": [
+  "konzepte-baumbasiert.html",
+  "konzepte-neuronale-netze.html"
+ ]
+}
