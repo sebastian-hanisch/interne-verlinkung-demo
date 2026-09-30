@@ -1,14 +1,11 @@
-"""Interne Verlinkung optimieren - Streamlit-Demo.
+"""Interne Verlinkung: Diagnose und Wirkungsanalyse - Streamlit-Demo.
 
-Anders als die Fall-Demos im Portfolio (ein Anwendungsfall, mehrere Verfahren im Vergleich) und wie
-die Konzepte-Demos üblich zeigt diese Demo EIN Verfahren (PageRank-Budget-Optimierung) - aber mit
-echten Daten statt eines wachsenden künstlichen Beispiels: der tatsächliche Verlinkungsgraph von
-sebastianhanisch.net samt aller 300 Demos, Stand 2026-09-30.
-
-Wichtig: Kandidaten für einen zusätzlichen Rücklink sind NIE beliebige Demos, sondern nur die der
-Ziel-Linie selbst (bekommen den Rücklink immer - das ist Korrektheit, keine Wahl) und Demos aus
-Linien, die laut den echten Crosslink-Angaben der Website inhaltlich mit der Zielseite verbunden
-sind. Ein Rücklink ohne inhaltlichen Bezug wäre irreführend, nicht nur suboptimal.
+Anders als das übliche Konzepte-Demo-Muster (ein Verfahren an einem wachsenden künstlichen Beispiel)
+und anders als eine Optimierung (mehrere Verfahren im Vergleich) ist das hier eine Netzwerkanalyse
+am echten Fall: Wie fließt PageRank tatsächlich durch sebastianhanisch.net, und was ändert eine
+konkrete, inhaltlich begründete Korrektur der Demo-Rücklinks daran? Passt zu den anderen
+Analyse-Karten der Graphen-und-Netzwerke-Linie (Zentralität, Strukturkennzahlen) - eine Kennzahl
+berechnen und interpretieren, nicht Verfahren gegeneinander optimieren.
 """
 
 from __future__ import annotations
@@ -16,130 +13,130 @@ from __future__ import annotations
 import plotly.graph_objects as go
 import streamlit as st
 
-from graph import build_base_graph, build_graph_mit_fix, load_snapshot, pagerank
-from optimierung import exakt, greedy, groesste_seiten_pagerank_zuerst, target_score, zufaellig
+from analyse import groesste_gewinner, index_kontakt_anteil, konzepte_linien, linien_mittel
+from graph import build_base_graph, build_mit_basis_fix, build_mit_vollem_fix, load_snapshot, pagerank
 
-st.set_page_config(page_title="Interne Verlinkung optimieren", page_icon="🔗", layout="wide")
+st.set_page_config(page_title="Interne Verlinkung: Diagnose und Wirkung", page_icon="🔗", layout="wide")
 
 SNAP = load_snapshot()
-ALLE_LINIEN = sorted(p for p in SNAP.pages if p.startswith("konzepte-") and p != "konzepte.html")
+LINIEN = konzepte_linien(SNAP)
 
 
 @st.cache_data
-def _ist_zustand_pagerank() -> dict[str, float]:
-    return pagerank(build_base_graph(SNAP))
+def _pageranks() -> dict[str, dict[str, float]]:
+    return {
+        "Ist-Zustand": pagerank(build_base_graph(SNAP)),
+        "Basis-Fix (eigene Linie)": pagerank(build_mit_basis_fix(SNAP)),
+        "Voller Fix (+ verwandte Linien)": pagerank(build_mit_vollem_fix(SNAP)),
+    }
 
 
-st.title("🔗 Interne Verlinkung optimieren")
+PR = _pageranks()
+
+st.title("🔗 Interne Verlinkung: Diagnose und Wirkungsanalyse")
 st.caption(f"Echte Daten von sebastianhanisch.net, Stand {SNAP.stand} - kein künstliches Beispiel.")
 
+st.header("1. Diagnose: wohin fließt die Linkkraft heute?")
 st.markdown(
-    "Alle 300 Demos verlinken heute einheitlich auf `sebastianhanisch.net/` und `/kontakt.html` "
-    "zurück - unabhängig davon, zu welcher Konzepte-Linie sie eigentlich gehören. Ergebnis: "
-    "**66,9 % der internen Linkkraft der Website verschwindet an den 300 externen Demos**, und der "
-    "zurückfließende Teil landet fast nur bei Startseite und Kontakt, nie bei der einzelnen Linie.\n\n"
-    "**Kandidaten für einen zusätzlichen Rücklink sind hier nie beliebige Demos** - nur die der "
-    "Ziel-Linie selbst (bekommen ihn immer, das ist schlicht Korrektheit) und Demos aus Linien, die "
-    "laut den echten Crosslink-Angaben der Website inhaltlich verwandt sind. Offene Frage: Wenn ein "
-    "Budget verhindert, dass jede verwandte Demo jede Nachbarlinie erwähnt - welche sollten Vorrang "
-    "bekommen?"
+    "Alle 300 Demos der Website verlinken im laufenden `app.py`-Footer einheitlich auf "
+    "`sebastianhanisch.net/` und `/kontakt.html` zurück - unabhängig davon, zu welcher Konzepte-Linie "
+    "sie inhaltlich gehören. Dazu kommen 69 echte Demo-zu-Demo-Querverlinkungen in 35 Repos, die der "
+    "Baureihenfolge der jeweiligen Linie folgen."
 )
 
-with st.sidebar:
-    st.header("Einstellungen")
-    ziel = st.selectbox("Zielseite", ALLE_LINIEN, index=ALLE_LINIEN.index("konzepte-lineare-programmierung.html")
-                         if "konzepte-lineare-programmierung.html" in ALLE_LINIEN else 0,
-                         format_func=lambda p: p.removeprefix("konzepte-").removesuffix(".html"))
+ist = PR["Ist-Zustand"]
+ik_anteil = index_kontakt_anteil(ist)
+linien_summe = linien_mittel(SNAP, ist) * len(LINIEN)
+col1, col2, col3 = st.columns(3)
+col1.metric("PageRank auf index.html + kontakt.html allein", f"{ik_anteil*100:.1f} %")
+col2.metric("PageRank auf allen 26 Konzepte-Linien zusammen", f"{linien_summe*100:.1f} %")
+col3.metric("Ø PageRank je Konzepte-Linie", f"{linien_mittel(SNAP, ist):.5f}")
 
-eigene, nachbarn = SNAP.relevant_candidates(ziel)
+fig_diag = go.Figure(go.Bar(
+    x=[ist[p] for p in LINIEN],
+    y=[p.removeprefix("konzepte-").removesuffix(".html") for p in LINIEN],
+    orientation="h", marker_color="#8A96A6",
+))
+fig_diag.add_vline(x=ist["index.html"], line_dash="dash", line_color="#D68A2E",
+                    annotation_text="index.html", annotation_position="top")
+fig_diag.update_layout(title="PageRank der 26 Konzepte-Linien heute, zum Vergleich die Startseite",
+                        xaxis_title="PageRank", height=560, margin=dict(l=10, r=10, t=40, b=10))
+st.plotly_chart(fig_diag, width="stretch")
+st.caption(
+    f"index.html und kontakt.html halten zusammen **{ik_anteil*100:.1f} %** des gesamten PageRank "
+    f"der Website - mehr als alle 26 Konzepte-Linien zusammen ({linien_summe*100:.1f} %), obwohl "
+    "jede Linie eigene Demos hat, die inhaltlich genau zu ihr gehören. Die Linkkraft, die die Demos "
+    "zurückgeben, landet fast vollständig bei den zwei generischen Seiten statt bei der Linie, die "
+    "sie tatsächlich verdient hätte."
+)
 
-with st.sidebar:
-    st.caption(f"{len(eigene)} eigene Demos, {len(nachbarn)} Demos in crosslink-verwandten Linien.")
-    budget = st.slider("Budget (Nachbar-Demos mit Zusatz-Rücklink)", 0, min(8, len(nachbarn) or 1),
-                        min(3, len(nachbarn) or 0))
-    exakt_pool_groesse = st.slider("Kandidatenpool NUR für die exakte Referenz", 2, min(16, max(len(nachbarn), 2)),
-                                    min(10, max(len(nachbarn), 2)),
-                                    help="Erschöpfende Suche über alle Teilmengen wächst mit C(n, Budget) - "
-                                         "muss deshalb auf die vielversprechendsten Nachbar-Demos begrenzt "
-                                         "bleiben, sonst dauert sie bei großen Linien zu lange.")
+st.header("2. Wirkungsanalyse: was ändert eine Korrektur der Rücklinks?")
+st.markdown(
+    "Zwei feste Szenarien, keine Auswahl unter Alternativen - beides ist Korrektheit, keine "
+    "Optimierung:\n\n"
+    "- **Basis-Fix:** jede Demo verlinkt zusätzlich auf ihre eigene Heimatseite (Konzepte-Linie "
+    "oder Themenseite) zurück - sie gehört ohnehin genau dorthin (`demo_registry.py`).\n"
+    "- **Voller Fix:** zusätzlich verlinkt jede Demo auch auf die Linien, die laut den echten "
+    "`crosslinks`-Feldern der Website mit ihrer eigenen Linie verwandt sind."
+)
 
-ist_pr = _ist_zustand_pagerank()[ziel]
-basis_fix_pr = target_score(SNAP, ziel, frozenset())  # nur der Basis-Fix (eigene Demos), keine Nachbarn
+vergleich = {name: linien_mittel(SNAP, pr) for name, pr in PR.items()}
+vergleich_ik = {name: index_kontakt_anteil(pr) for name, pr in PR.items()}
 
-if not nachbarn:
-    st.info(f"{ziel} hat laut Crosslink-Angaben keine verwandte Linie - hier gibt es keine "
-            "Nachbar-Demos, unter denen man wählen könnte.")
-    kandidaten_exakt = []
-else:
-    ist_zustand_pr_alle = _ist_zustand_pagerank()
-    kandidaten_exakt_sortiert = groesste_seiten_pagerank_zuerst(
-        SNAP, ziel, len(nachbarn), nachbarn, ist_zustand_pr_alle)
-    kandidaten_exakt = list(kandidaten_exakt_sortiert)[:exakt_pool_groesse]
+col1, col2 = st.columns(2)
+with col1:
+    fig1 = go.Figure(go.Bar(
+        x=list(vergleich.values()), y=list(vergleich.keys()), orientation="h",
+        text=[f"{v:.5f}" for v in vergleich.values()], textposition="outside",
+        marker_color=["#8A96A6", "#3E8E86", "#14233B"],
+    ))
+    fig1.update_layout(title="Ø PageRank der 26 Konzepte-Linien je Szenario", xaxis_title="PageRank",
+                        height=280, margin=dict(l=10, r=80, t=40, b=10))
+    st.plotly_chart(fig1, width="stretch")
+with col2:
+    fig2 = go.Figure(go.Bar(
+        x=[v * 100 for v in vergleich_ik.values()], y=list(vergleich_ik.keys()), orientation="h",
+        text=[f"{v*100:.1f} %" for v in vergleich_ik.values()], textposition="outside",
+        marker_color=["#8A96A6", "#3E8E86", "#14233B"],
+    ))
+    fig2.update_layout(title="Anteil des PageRank auf index.html + kontakt.html je Szenario", xaxis_title="Prozent",
+                        height=280, margin=dict(l=10, r=80, t=40, b=10))
+    st.plotly_chart(fig2, width="stretch")
 
-    with st.spinner("Rechne Zufällig, Referrer-Heuristik, Greedy und Exakt durch..."):
-        auswahl = {
-            "Ist-Zustand (nur bestehender Rücklink)": frozenset(),
-            "Zufällig": zufaellig(nachbarn, budget),
-            "Referrer-Heuristik": groesste_seiten_pagerank_zuerst(SNAP, ziel, budget, nachbarn, ist_zustand_pr_alle),
-            "Greedy": greedy(SNAP, ziel, budget, nachbarn),
-            f"Exakt (Pool {len(kandidaten_exakt)})": exakt(SNAP, ziel, budget, kandidaten_exakt),
-        }
-        scores = {name: target_score(SNAP, ziel, wahl) for name, wahl in auswahl.items()}
+basis_zuwachs = (vergleich["Basis-Fix (eigene Linie)"] / vergleich["Ist-Zustand"] - 1) * 100
+voll_zuwachs = (vergleich["Voller Fix (+ verwandte Linien)"] / vergleich["Ist-Zustand"] - 1) * 100
+ik_basis_delta = (vergleich_ik["Basis-Fix (eigene Linie)"] - vergleich_ik["Ist-Zustand"]) * 100
+ik_voll_delta = (vergleich_ik["Voller Fix (+ verwandte Linien)"] - vergleich_ik["Ist-Zustand"]) * 100
+st.markdown(
+    f"Der Basis-Fix allein hebt den durchschnittlichen PageRank der Konzepte-Linien um "
+    f"**{basis_zuwachs:+.1f} %**, der volle Fix um **{voll_zuwachs:+.1f} %** - während der Anteil "
+    f"auf index.html + kontakt.html von {vergleich_ik['Ist-Zustand']*100:.1f} % auf "
+    f"{vergleich_ik['Basis-Fix (eigene Linie)']*100:.1f} % ({ik_basis_delta:+.1f} Punkte) bzw. "
+    f"{vergleich_ik['Voller Fix (+ verwandte Linien)']*100:.1f} % ({ik_voll_delta:+.1f} Punkte) "
+    "sinkt - beides ohne dass irgendeine Demo einen inhaltlich unpassenden Rücklink bekommt."
+)
 
-    col1, col2 = st.columns([2, 1])
-    with col1:
-        fig = go.Figure(go.Bar(
-            x=list(scores.values()), y=list(scores.keys()), orientation="h",
-            text=[f"{v:.5f}" for v in scores.values()], textposition="outside",
-            marker_color=["#8A96A6", "#B7BEC7", "#D68A2E", "#3E8E86", "#14233B"],
-        ))
-        fig.update_layout(title=f"PageRank von {ziel} je Verfahren", xaxis_title="PageRank",
-                           height=320, margin=dict(l=10, r=80, t=40, b=10))
-        st.plotly_chart(fig, width="stretch")
-    with col2:
-        st.metric("Ist-Zustand (heute)", f"{ist_pr:.5f}")
-        st.metric("Nach Basis-Fix (nur eigene Demos)", f"{basis_fix_pr:.5f}",
-                  f"{(basis_fix_pr/ist_pr-1)*100:+.1f} %")
-        bester = max((n for n in scores if not n.startswith("Ist-Zustand")), key=lambda n: scores[n])
-        st.metric(f"+ Nachbarn, bestes Verfahren: {bester}", f"{scores[bester]:.5f}",
-                  f"{(scores[bester]/basis_fix_pr-1)*100:+.1f} % ggü. Basis-Fix")
+st.subheader("Größte Gewinner (Ist-Zustand → voller Fix)")
+gewinner = groesste_gewinner(SNAP, PR["Ist-Zustand"], PR["Voller Fix (+ verwandte Linien)"])
+gewinner = [g for g in gewinner if g[0].startswith("konzepte-")][:8]
+fig3 = go.Figure()
+fig3.add_trace(go.Bar(name="Ist-Zustand", y=[g[0].removeprefix("konzepte-").removesuffix(".html") for g in gewinner],
+                       x=[g[1] for g in gewinner], orientation="h", marker_color="#8A96A6"))
+fig3.add_trace(go.Bar(name="Voller Fix", y=[g[0].removeprefix("konzepte-").removesuffix(".html") for g in gewinner],
+                       x=[g[2] for g in gewinner], orientation="h", marker_color="#14233B"))
+fig3.update_layout(barmode="group", height=380, xaxis_title="PageRank", margin=dict(l=10, r=10, t=20, b=10))
+st.plotly_chart(fig3, width="stretch")
 
-    st.subheader("Welche Nachbar-Demos wurden gewählt?")
-    for name in ("Referrer-Heuristik", "Greedy", f"Exakt (Pool {len(kandidaten_exakt)})"):
-        gewaehlt = auswahl[name]
-        titel = [SNAP.demo_title.get(u, u) for u in gewaehlt]
-        st.markdown(f"**{name}:** {', '.join(titel) if titel else '–'}")
-
-st.subheader(f"Eigene Demos von {ziel.removeprefix('konzepte-').removesuffix('.html')} (immer verlinkt)")
-st.markdown(", ".join(SNAP.demo_title.get(u, u) for u in eigene) or "–")
-
-with st.expander("Warum ist Greedy hier eine gute Wahl, nicht nur bequem?"):
+with st.expander("Warum keine Auswahl/Optimierung unter den Demos?"):
     st.markdown(
-        "Der Grenzgewinn einer weiteren Nachbar-Demo nimmt ab, je mehr schon gewählt sind - die "
-        "zusätzliche Linkkraft überschneidet sich mit der schon vorhandenen. Das ist dieselbe "
-        "Struktur wie bei Facility Location oder Einflussmaximierung in Netzwerken: eine "
-        "(näherungsweise) submodulare Zielfunktion, bei der Greedy nachweislich nah am Optimum "
-        "bleibt, ohne alle Teilmengen prüfen zu müssen. Die exakte Referenz läuft deshalb bewusst "
-        "nur auf den vielversprechendsten Nachbar-Demos, nicht auf allen - bei großen Linien mit "
-        "80+ verwandten Demos wäre eine erschöpfende Suche über alle sonst nicht zumutbar."
-    )
-
-with st.expander("Warum nur eigene und crosslink-verwandte Demos, nicht alle 300?"):
-    st.markdown(
-        "Ein Rücklink ohne inhaltlichen Bezug (z. B. eine Dijkstra-Demo, die zusätzlich auf die "
-        "Standortplanung-Seite verlinkt, nur weil das irgendwo den PageRank erhöht) wäre für "
-        "Besucher irreführend und liest sich wie Linkmanipulation, nicht wie eine echte Empfehlung. "
-        "Deshalb sind Kandidaten hier immer auf inhaltlich bereits dokumentierte Beziehungen "
-        "beschränkt: die eigene Linie einer Demo, oder Linien, die im Beziehungsgraphen der "
-        "Konzepte-Seite als verwandt markiert sind."
-    )
-
-with st.expander("Gesamtbild: wie viel Linkkraft fließt insgesamt an die 300 Demos?"):
-    demo_pr = sum(v for k, v in _ist_zustand_pagerank().items() if k in SNAP.demo_urls)
-    st.markdown(
-        f"Im Ist-Zustand liegen **{demo_pr*100:.1f} %** des gesamten PageRank auf den 300 externen "
-        f"Demo-Knoten (Stand {SNAP.stand}) - ohne dass eine einzelne Konzepte-Linie oder Themenseite "
-        "davon gezielt profitiert, weil alle Demos einheitlich auf Startseite und Kontakt zurückzeigen."
+        "Eine frühere Fassung dieser Demo hat versucht, unter allen 300 Demos die 'optimale' "
+        "Teilmenge für einen Rücklink auszuwählen - das führte dazu, dass z. B. eine Dijkstra-Demo "
+        "'optimal' auf eine völlig unverwandte Seite verlinken konnte, nur weil das irgendwo den "
+        "PageRank erhöhte. Das wäre für Besucher irreführend und liest sich wie Linkmanipulation, "
+        "nicht wie eine echte Empfehlung. Die beiden Szenarien hier sind deshalb keine Optimierung "
+        "unter Alternativen, sondern feste, inhaltlich begründete Korrekturen: Jede Demo bekommt "
+        "genau die Rücklinks, die zu ihrer bereits dokumentierten Position auf der Website passen "
+        "(eigene Linie, echte Crosslink-Nachbarn) - nicht mehr und nicht weniger."
     )
 
 st.caption(

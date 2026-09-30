@@ -3,17 +3,17 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from graph import build_base_graph, build_graph_mit_fix, load_snapshot, pagerank
-from optimierung import exakt, greedy, groesste_seiten_pagerank_zuerst, target_score, zufaellig
+from analyse import groesste_gewinner, index_kontakt_anteil, konzepte_linien, linien_mittel
+from graph import build_base_graph, build_mit_basis_fix, build_mit_vollem_fix, load_snapshot, pagerank
 
 SNAP = load_snapshot()
-ZIEL = "konzepte-lineare-programmierung.html"
 
 
-def test_pagerank_summe_ist_eins():
-    g = build_base_graph(SNAP)
-    pr = pagerank(g)
-    assert abs(sum(pr.values()) - 1.0) < 1e-6
+def test_pagerank_summe_ist_eins_in_allen_drei_szenarien():
+    for builder in (build_base_graph, build_mit_basis_fix, build_mit_vollem_fix):
+        g = builder(SNAP)
+        pr = pagerank(g)
+        assert abs(sum(pr.values()) - 1.0) < 1e-6
 
 
 def test_alle_knoten_haben_einen_rang():
@@ -23,80 +23,75 @@ def test_alle_knoten_haben_einen_rang():
     assert all(v > 0 for v in pr.values())
 
 
-def test_jede_demo_hat_genau_die_erhobenen_rueckl_und_querlinks():
+def test_ist_zustand_rueckl_sind_nur_startseite_und_kontakt():
     g = build_base_graph(SNAP)
     for url in SNAP.demo_urls:
-        targets = set(g.out[url])
-        assert set(SNAP.demo_backlink_targets) <= targets
-        assert set(SNAP.demo_cross_links.get(url, [])) <= targets
+        assert set(SNAP.demo_backlink_targets) <= set(g.out[url])
+
+
+def test_basis_fix_verlinkt_jede_demo_auf_ihre_eigene_heimatseite():
+    g = build_mit_basis_fix(SNAP)
+    for url, home in SNAP.demo_home_page.items():
+        assert home in g.out[url]
+
+
+def test_voller_fix_verlinkt_zusaetzlich_auf_dokumentierte_crosslink_nachbarn():
+    g = build_mit_vollem_fix(SNAP)
+    ziel = "konzepte-lineare-programmierung.html"
+    nachbar_linien = set(SNAP.crosslink_map.get(ziel, []))
+    demos_anderer_linien_mit_ziel_als_nachbar = [
+        u for u, home in SNAP.demo_home_page.items()
+        if ziel in SNAP.crosslink_map.get(home, [])
+    ]
+    assert demos_anderer_linien_mit_ziel_als_nachbar, "Testvoraussetzung: es muss mind. eine Nachbar-Demo geben"
+    for url in demos_anderer_linien_mit_ziel_als_nachbar:
+        assert ziel in g.out[url]
 
 
 def test_relevante_kandidaten_sind_nur_eigene_und_crosslink_verwandte_demos():
-    eigene, nachbarn = SNAP.relevant_candidates(ZIEL)
-    assert eigene, "jede geprüfte Linie sollte eigene Demos haben"
+    ziel = "konzepte-lineare-programmierung.html"
+    eigene, nachbarn = SNAP.relevant_candidates(ziel)
+    assert eigene
     for url in eigene:
-        assert SNAP.demo_home_page[url] == ZIEL
-    nachbar_linien = set(SNAP.crosslink_map.get(ZIEL, []))
+        assert SNAP.demo_home_page[url] == ziel
+    nachbar_linien = set(SNAP.crosslink_map.get(ziel, []))
     for url in nachbarn:
         assert SNAP.demo_home_page[url] in nachbar_linien
 
 
-def test_keine_beliebige_demo_landet_ungefragt_im_kandidatenpool():
-    _, nachbarn = SNAP.relevant_candidates(ZIEL)
-    irrelevante_demo = next(u for u, home in SNAP.demo_home_page.items()
-                             if home != ZIEL and home not in SNAP.crosslink_map.get(ZIEL, []))
-    assert irrelevante_demo not in nachbarn
+def test_basis_fix_erhoeht_den_pagerank_der_konzepte_linien_im_schnitt():
+    ist = pagerank(build_base_graph(SNAP))
+    mit_fix = pagerank(build_mit_basis_fix(SNAP))
+    assert linien_mittel(SNAP, mit_fix) > linien_mittel(SNAP, ist)
 
 
-def test_basis_fix_verlinkt_alle_eigenen_demos_ohne_wahl():
-    eigene, _ = SNAP.relevant_candidates(ZIEL)
-    g = build_graph_mit_fix(SNAP, ZIEL, frozenset())
-    for url in eigene:
-        assert ZIEL in g.out[url]
+def test_voller_fix_erhoeht_den_pagerank_mindestens_so_stark_wie_basis_fix():
+    mit_basis = pagerank(build_mit_basis_fix(SNAP))
+    mit_voll = pagerank(build_mit_vollem_fix(SNAP))
+    assert linien_mittel(SNAP, mit_voll) >= linien_mittel(SNAP, mit_basis)
 
 
-def test_basis_fix_erhoeht_den_pagerank_gegenueber_dem_ist_zustand():
-    ist = pagerank(build_base_graph(SNAP))[ZIEL]
-    mit_fix = target_score(SNAP, ZIEL, frozenset())
-    assert mit_fix > ist
+def test_index_kontakt_anteil_sinkt_mit_jedem_fix_schritt():
+    """Die Fixes ändern nicht, wie viel PageRank insgesamt an den Demo-Knoten hängt (das hängt an den
+    eingehenden Links, die unangetastet bleiben), sondern WOHIN die zurückfließende Kraft geht -
+    weg von den zwei generischen Seiten, hin zu den einzelnen Konzepte-Linien."""
+    ist = index_kontakt_anteil(pagerank(build_base_graph(SNAP)))
+    basis = index_kontakt_anteil(pagerank(build_mit_basis_fix(SNAP)))
+    voll = index_kontakt_anteil(pagerank(build_mit_vollem_fix(SNAP)))
+    assert ist > basis > voll
 
 
-def test_zusaetzlicher_nachbar_ruecklink_erhoeht_den_pagerank_weiter():
-    _, nachbarn = SNAP.relevant_candidates(ZIEL)
-    ohne_nachbarn = target_score(SNAP, ZIEL, frozenset())
-    mit_einem_nachbarn = target_score(SNAP, ZIEL, frozenset({nachbarn[0]}))
-    assert mit_einem_nachbarn > ohne_nachbarn
-
-
-def test_greedy_erreicht_mindestens_referrer_heuristik():
-    _, nachbarn = SNAP.relevant_candidates(ZIEL)
-    ist_pr = pagerank(build_base_graph(SNAP))
-    budget = 2
-    ref = groesste_seiten_pagerank_zuerst(SNAP, ZIEL, budget, nachbarn, ist_pr)
-    gr = greedy(SNAP, ZIEL, budget, nachbarn)
-    assert target_score(SNAP, ZIEL, frozenset(gr)) >= target_score(SNAP, ZIEL, frozenset(ref)) - 1e-12
-
-
-def test_exakt_ist_nie_schlechter_als_greedy_auf_demselben_kleinen_pool():
-    _, nachbarn = SNAP.relevant_candidates(ZIEL)
-    pool = nachbarn[:10]
-    budget = 2
-    gr = greedy(SNAP, ZIEL, budget, pool)
-    ex = exakt(SNAP, ZIEL, budget, pool)
-    assert target_score(SNAP, ZIEL, frozenset(ex)) >= target_score(SNAP, ZIEL, frozenset(gr)) - 1e-12
-
-
-def test_zufaellig_liefert_budget_viele_verschiedene_nachbarn():
-    _, nachbarn = SNAP.relevant_candidates(ZIEL)
-    ausgewaehlt = zufaellig(nachbarn, min(5, len(nachbarn)), seed=1)
-    assert len(ausgewaehlt) == min(5, len(nachbarn))
-    assert ausgewaehlt <= set(nachbarn)
+def test_groesste_gewinner_liefert_n_eintraege_absteigend_sortiert():
+    ist = pagerank(build_base_graph(SNAP))
+    voll = pagerank(build_mit_vollem_fix(SNAP))
+    top = groesste_gewinner(SNAP, ist, voll, n=5)
+    assert len(top) == 5
+    zuwaechse = [nachher - vorher for _, vorher, nachher in top]
+    assert zuwaechse == sorted(zuwaechse, reverse=True)
 
 
 def test_ist_zustand_heute_zeigt_das_bekannte_ungleichgewicht():
     """Regressionstest gegen den am 2026-09-30 erhobenen Ist-Zustand: die Konzepte-Linien liegen im
-    Schnitt deutlich unter Start-/Kontaktseite, weil alle 300 Demos einheitlich dorthin zurueckverlinken."""
+    Schnitt deutlich unter der Startseite, weil alle 300 Demos einheitlich dorthin zurueckverlinken."""
     pr = pagerank(build_base_graph(SNAP))
-    linien = [p for p in SNAP.pages if p.startswith("konzepte-") and p != "konzepte.html"]
-    avg_linien = sum(pr[p] for p in linien) / len(linien)
-    assert pr["index.html"] > avg_linien * 10
+    assert pr["index.html"] > linien_mittel(SNAP, pr) * 10

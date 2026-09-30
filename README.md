@@ -1,50 +1,51 @@
-# Interne Verlinkung optimieren – Streamlit-Demo
+# Interne Verlinkung: Diagnose und Wirkungsanalyse – Streamlit-Demo
 
 **[→ Demo live ausprobieren](https://sebastianhanisch-interne-verlinkung-demo.streamlit.app/)**
 
-Konzepte-Demo der **Graphen-und-Netzwerke-Linie** der "Konzepte"-Reihe für die Website
-"Sebastian Hanisch – Operations Research und Machine Learning": anders als das übliche Muster
-der Linie (ein wachsendes künstliches Beispiel) rechnet diese Demo mit dem **echten**
-Verlinkungsgraphen von sebastianhanisch.net selbst – keine synthetischen Daten.
+Analyse-Karte der **Graphen-und-Netzwerke-Linie** der "Konzepte"-Reihe für die Website
+"Sebastian Hanisch – Operations Research und Machine Learning": anders als eine Optimierung
+(mehrere Verfahren im Vergleich) ist das hier eine Netzwerkanalyse am echten Fall – passend zu den
+anderen Analyse-Karten der Linie (Zentralität, Strukturkennzahlen): eine Kennzahl berechnen und
+interpretieren, keine Verfahren gegeneinander optimieren. Rechnet mit dem **echten**
+Verlinkungsgraphen von sebastianhanisch.net selbst, nicht mit synthetischen Daten.
 
-## Ausgangsbefund (Stand 2026-09-30, vollständig erhoben, keine Stichprobe)
+## Diagnose (Stand 2026-09-30, vollständig erhoben, keine Stichprobe)
 
 Alle 300 Demos der Website verlinken im laufenden `app.py`-Footer einheitlich auf
 `sebastianhanisch.net/` und `/kontakt.html` zurück – unabhängig davon, zu welcher Konzepte-Linie
-oder Themenseite sie inhaltlich gehören. Zusätzlich gibt es 69 echte Demo-zu-Demo-Querverlinkungen
-in 35 Repos, die der Baureihenfolge der jeweiligen Linie folgen (z. B. Hill Climbing → Simulated
-Annealing → Tabu Search).
+sie inhaltlich gehören. Dazu kommen 69 echte Demo-zu-Demo-Querverlinkungen in 35 Repos, die der
+Baureihenfolge der jeweiligen Linie folgen (z. B. Hill Climbing → Simulated Annealing → Tabu
+Search).
 
-Ergebnis: **66,9 % des gesamten PageRank der Website hängt an den 300 externen Demo-Knoten**, und
-der zurückfließende Teil konzentriert sich fast vollständig auf zwei Seiten (Startseite, Kontakt)
-statt auf die einzelne Konzepte-Linie, zu der die Demo eigentlich gehört – eine Dijkstra-Demo
-schickt keine Linkkraft zurück zur Kürzeste-Wege-Seite.
+Ergebnis: **index.html und kontakt.html halten zusammen 22,1 % des gesamten PageRank der Website –
+mehr als alle 26 Konzepte-Linien zusammen (6,7 %)**, obwohl jede Linie eigene Demos hat, die
+inhaltlich genau zu ihr gehören. Die Linkkraft, die die Demos zurückgeben, landet fast vollständig
+bei zwei generischen Seiten statt bei der Linie, die sie tatsächlich verdient hätte.
 
-## Das Optimierungsproblem
+## Wirkungsanalyse: zwei feste Szenarien, keine Optimierung
 
-**Wichtige Einschränkung zuerst:** Kandidaten für einen zusätzlichen Rücklink sind nie beliebige
-Demos. Ein Rücklink ohne inhaltlichen Bezug (z. B. eine Dijkstra-Demo, die zusätzlich auf die
-Standortplanung-Seite verlinkt, nur weil das irgendwo den PageRank erhöht) wäre für Besucher
-irreführend und liest sich wie Linkmanipulation, nicht wie eine echte Empfehlung. Die Demo
-unterscheidet deshalb zwei Gruppen:
+**Wichtig:** Das hier ist keine Auswahl unter beliebigen Alternativen. Eine frühere Fassung dieser
+Demo hat versucht, unter allen 300 Demos die "optimale" Teilmenge für einen Rücklink auszuwählen –
+das hätte z. B. dazu führen können, dass eine Dijkstra-Demo "optimal" auf eine völlig unverwandte
+Seite verlinkt, nur weil das irgendwo den PageRank erhöht. Das wäre für Besucher irreführend und
+liest sich wie Linkmanipulation, nicht wie eine echte Empfehlung.
 
-1. **Eigene Demos der Ziel-Linie** – bekommen den Rücklink auf ihre eigene Linie immer. Das ist
-   schlicht Korrektheit (der aktuelle Zustand fehlt ihn schlicht), keine Wahl. Dieser "Basis-Fix"
-   allein bringt den größten Effekt.
-2. **Demos aus Linien, die laut den echten Crosslink-Angaben der Website mit der Zielseite
-   verwandt sind** – hier bleibt eine echte Auswahlfrage: Wenn ein Budget verhindert, dass jede
-   verwandte Demo jede Nachbarlinie erwähnt, welche sollten Vorrang bekommen?
+Stattdessen zwei feste, inhaltlich begründete Korrekturen – reine Korrektheit, keine Wahl:
 
-Der Grenzgewinn einer weiteren Nachbar-Demo nimmt ab, je mehr schon gewählt sind (die zusätzliche
-Linkkraft überschneidet sich mit der schon vorhandenen) – dieselbe Struktur wie bei Facility
-Location oder Einflussmaximierung in Netzwerken. Vier Verfahren für die Nachbar-Auswahl im Vergleich:
+1. **Basis-Fix:** jede Demo verlinkt zusätzlich auf ihre eigene Heimatseite (Konzepte-Linie) zurück
+   – sie gehört laut `demo_registry.py` ohnehin genau dorthin.
+2. **Voller Fix:** zusätzlich verlinkt jede Demo auch auf die Linien, die laut den echten
+   `crosslinks`-Feldern der Website mit ihrer eigenen Linie verwandt sind.
 
-| Verfahren | Idee |
-|---|---|
-| Zufällig | Baseline ohne jede Überlegung |
-| Referrer-Heuristik | wählt Nachbar-Demos, deren verweisende Seite schon jetzt hohen PageRank hat – ohne Rückkopplung |
-| **Greedy** | wählt iterativ die Nachbar-Demo mit dem größten Grenzgewinn, neu bewertet nach jeder Wahl |
-| Exakt | erschöpfende Suche über alle Teilmengen – nur auf den vielversprechendsten Nachbar-Demos zumutbar (manche Linien haben über 80 crosslink-verwandte Demos) |
+| Szenario | Ø PageRank je Konzepte-Linie | Anteil auf index.html + kontakt.html |
+|---|---|---|
+| Ist-Zustand | 0,00258 | 22,1 % |
+| Basis-Fix | 0,00475 (+83,8 %) | 16,9 % |
+| Voller Fix | 0,00766 (+196,6 %) | 12,4 % |
+
+Der Gesamtanteil, der überhaupt an den 300 Demo-Knoten hängt, ändert sich dabei kaum (er hängt an
+den eingehenden Links der 50 Website-Seiten, die die Fixes nicht anfassen) – die Fixes ändern nicht,
+*wie viel* Linkkraft an den Demos hängt, sondern *wohin* sie von dort zurückfließt.
 
 ## Daten
 
@@ -54,22 +55,23 @@ verweisen, und – durch Abruf aller 300 `app.py`-Dateien der Demo-Repos über d
 tatsächlichen Rücklink-Fußzeilentext und die 69 echten Demo-zu-Demo-Querverlinkungen. Erhoben am
 2026-09-30, nicht künstlich erzeugt. `data/crosslink_map.json` enthält zusätzlich die echten
 Crosslink-Beziehungen zwischen den 26 Konzepte-Linien (aus den `crosslinks`-Feldern der
-Linien-JSONs) – die Grundlage dafür, welche Demos überhaupt als Kandidaten infrage kommen.
+Linien-JSONs) – die Grundlage für den vollen Fix.
 
 ## Was die Demo zeigt
 
-Zielseite (eine der 26 Konzepte-Linien) und Budget für die Nachbar-Auswahl wählbar; Ist-Zustand,
-Basis-Fix (eigene Demos) und die vier Nachbar-Auswahl-Verfahren werden live berechnet und als
-Balkendiagramm verglichen, dazu die konkret gewählten Demos je Verfahren und eine kurze
-Einordnung, warum Greedy hier eine begründete statt nur bequeme Wahl ist – und warum der
-Kandidatenpool überhaupt inhaltlich beschränkt ist, statt alle 300 Demos zuzulassen.
+**1. Diagnose:** PageRank je Konzepte-Linie im Ist-Zustand, zum Vergleich die Startseite; Kennzahlen
+zur Konzentration auf index.html + kontakt.html.
+
+**2. Wirkungsanalyse:** Ø PageRank der Linien und Anteil auf index.html + kontakt.html in allen drei
+Szenarien nebeneinander; die größten Gewinner beim vollen Fix; eine Einordnung, warum das eine feste
+Korrektur und keine Optimierung unter Alternativen ist.
 
 ## Dateien
 
-- `graph.py` – lädt den Schnappschuss, baut den PageRank-Graphen, berechnet PageRank, bestimmt die inhaltlich relevanten Kandidaten (eigene + crosslink-verwandte Demos)
-- `optimierung.py` – die vier Auswahlverfahren für die Nachbar-Demos (Zufällig, Referrer-Heuristik, Greedy, Exakt)
+- `graph.py` – lädt den Schnappschuss, baut die drei Szenario-Graphen (Ist-Zustand, Basis-Fix, voller Fix), berechnet PageRank
+- `analyse.py` – Kennzahlen für die Diagnose/Wirkungsanalyse (Konzentration auf index+kontakt, Ø PageRank je Linie, größte Gewinner)
 - `app.py` – die Streamlit-Oberfläche
-- `tests/` – Korrektheitstests (PageRank-Summe, Kandidatenpool nur eigene+verwandte Demos, Greedy ≥ Referrer-Heuristik, Exakt ≥ Greedy, AppTest-Smoke-Tests)
+- `tests/` – Korrektheitstests (PageRank-Summe in allen drei Szenarien, Fix verlinkt tatsächlich die richtigen Seiten, AppTest-Smoke-Tests)
 
 ## Lokal ausführen
 

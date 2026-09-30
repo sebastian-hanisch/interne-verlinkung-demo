@@ -97,15 +97,28 @@ def build_base_graph(snap: Snapshot, extra_backlinks: dict[str, str] | None = No
     return g
 
 
-def build_graph_mit_fix(snap: Snapshot, target: str, gewaehlte_nachbarn: frozenset[str] = frozenset()) -> Graph:
-    """Baugrundlage fuer alle Vergleiche ab dem Basis-Fix: JEDE Demo der Ziel-Linie selbst bekommt
-    automatisch den (aktuell fehlenden) Rücklink auf ihre eigene Linie - das ist keine Optimierung,
-    sondern schlicht Korrektheit, siehe relevant_candidates(). Die eigentliche Auswahlfrage betrifft
-    nur `gewaehlte_nachbarn`: Demos crosslink-verwandter Linien, die zusätzlich auf `target`
-    zurückverlinken."""
-    eigene, _ = snap.relevant_candidates(target)
-    extra = {url: target for url in eigene} | {url: target for url in gewaehlte_nachbarn}
+def build_mit_basis_fix(snap: Snapshot) -> Graph:
+    """Szenario 1 (Wirkungsanalyse): JEDE Demo verlinkt zusätzlich zurück auf ihre eigene Heimatseite
+    (Konzepte-Linie oder Themenseite) - keine Auswahl, keine Optimierung, sondern die Korrektur eines
+    Versehens: der aktuelle Rücklink fehlt schlicht, obwohl jede Demo ohnehin genau einer Linie
+    zugeordnet ist (demo_registry.py)."""
+    extra = {url: home for url, home in snap.demo_home_page.items() if home in snap.pages}
     return build_base_graph(snap, extra_backlinks=extra)
+
+
+def build_mit_vollem_fix(snap: Snapshot) -> Graph:
+    """Szenario 2 (Wirkungsanalyse): zusätzlich zum Basis-Fix verlinkt jede Demo auch auf die
+    Linien, die laut den echten crosslinks-Feldern der Website mit ihrer eigenen Linie verwandt
+    sind - wieder ohne Auswahl: WENN eine Verwandtschaft dokumentiert ist, wird sie auch verlinkt,
+    kein Budget, keine Bevorzugung einzelner Nachbar-Demos."""
+    g = build_mit_basis_fix(snap)
+    for url, home in snap.demo_home_page.items():
+        bereits = set(g.out.get(url, []))
+        for nachbar in snap.crosslink_map.get(home, []):
+            if nachbar in snap.pages and nachbar not in bereits:
+                g.add_edge(url, nachbar)
+                bereits.add(nachbar)
+    return g
 
 
 def pagerank(g: Graph, damping: float = 0.85, iterations: int = 100) -> dict[str, float]:
