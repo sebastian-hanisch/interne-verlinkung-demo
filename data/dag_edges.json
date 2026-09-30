@@ -1,0 +1,2042 @@
+[
+ {
+  "linie_seite": "konzepte-adversarische-suche.html",
+  "quelle_url": "https://sebastianhanisch-minimax-demo.streamlit.app/",
+  "quelle_titel": "Minimax Wurzel: erschöpfende Baumsuche",
+  "ziel_url": "https://sebastianhanisch-alpha-beta-demo.streamlit.app/",
+  "ziel_titel": "Alpha-Beta-Pruning Zweige ohne Einfluss überspringen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-adversarische-suche.html",
+  "quelle_url": "https://sebastianhanisch-minimax-demo.streamlit.app/",
+  "quelle_titel": "Minimax Wurzel: erschöpfende Baumsuche",
+  "ziel_url": "https://sebastianhanisch-evaluation-function-demo.streamlit.app/",
+  "ziel_titel": "Bewertungsfunktionen Suche früh abbrechen, schätzen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-adversarische-suche.html",
+  "quelle_url": "https://sebastianhanisch-alpha-beta-demo.streamlit.app/",
+  "quelle_titel": "Alpha-Beta-Pruning Zweige ohne Einfluss überspringen",
+  "ziel_url": "https://sebastianhanisch-transposition-table-demo.streamlit.app/",
+  "ziel_titel": "Transpositionstabelle Zobrist-Hashing, Memoisierung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-adversarische-suche.html",
+  "quelle_url": "https://sebastianhanisch-evaluation-function-demo.streamlit.app/",
+  "quelle_titel": "Bewertungsfunktionen Suche früh abbrechen, schätzen",
+  "ziel_url": "https://sebastianhanisch-endgame-tablebase-demo.streamlit.app/",
+  "ziel_titel": "Endspiel-Tablebase Retrograde-Analyse, exakt vorgelöst",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-adversarische-suche.html",
+  "quelle_url": "https://sebastianhanisch-transposition-table-demo.streamlit.app/",
+  "quelle_titel": "Transpositionstabelle Zobrist-Hashing, Memoisierung",
+  "ziel_url": "https://sebastianhanisch-selfplay-evaluation-demo.streamlit.app/",
+  "ziel_titel": "Selbstspiel Konvergenz: Bewertung aus eigenem Spiel lernen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-adversarische-suche.html",
+  "quelle_url": "https://sebastianhanisch-evaluation-function-demo.streamlit.app/",
+  "quelle_titel": "Bewertungsfunktionen Suche früh abbrechen, schätzen",
+  "ziel_url": "https://sebastianhanisch-selfplay-evaluation-demo.streamlit.app/",
+  "ziel_titel": "Selbstspiel Konvergenz: Bewertung aus eigenem Spiel lernen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-anomalie-erkennung.html",
+  "quelle_url": "https://sebastianhanisch-elliptic-envelope-demo.streamlit.app/",
+  "quelle_titel": "Elliptic Envelope robuste Ellipse als Normalbereich",
+  "ziel_url": "https://sebastianhanisch-ecod-demo.streamlit.app/",
+  "ziel_titel": "ECOD Randverteilungen, keine Parameter",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-anomalie-erkennung.html",
+  "quelle_url": "https://sebastianhanisch-elliptic-envelope-demo.streamlit.app/",
+  "quelle_titel": "Elliptic Envelope robuste Ellipse als Normalbereich",
+  "ziel_url": "https://sebastianhanisch-isolation-forest-demo.streamlit.app/",
+  "ziel_titel": "Isolation Forest leicht abzutrennen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-anomalie-erkennung.html",
+  "quelle_url": "https://sebastianhanisch-elliptic-envelope-demo.streamlit.app/",
+  "quelle_titel": "Elliptic Envelope robuste Ellipse als Normalbereich",
+  "ziel_url": "https://sebastianhanisch-lof-demo.streamlit.app/",
+  "ziel_titel": "Local Outlier Factor dünnere Nachbarschaft",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-anomalie-erkennung.html",
+  "quelle_url": "https://sebastianhanisch-elliptic-envelope-demo.streamlit.app/",
+  "quelle_titel": "Elliptic Envelope robuste Ellipse als Normalbereich",
+  "ziel_url": "https://sebastianhanisch-ocsvm-demo.streamlit.app/",
+  "ziel_titel": "One-Class SVM eine gelernte Grenze",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-anomalie-erkennung.html",
+  "quelle_url": "https://sebastianhanisch-elliptic-envelope-demo.streamlit.app/",
+  "quelle_titel": "Elliptic Envelope robuste Ellipse als Normalbereich",
+  "ziel_url": "https://sebastianhanisch-autoencoder-anomalie-demo.streamlit.app/",
+  "ziel_titel": "Autoencoder Rekonstruktionsfehler",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-anomalie-erkennung.html",
+  "quelle_url": "https://sebastianhanisch-isolation-forest-demo.streamlit.app/",
+  "quelle_titel": "Isolation Forest leicht abzutrennen",
+  "ziel_url": "https://sebastianhanisch-extended-isolation-forest-demo.streamlit.app/",
+  "ziel_titel": "Extended Isolation Forest schräge Schnitte",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-anomalie-erkennung.html",
+  "quelle_url": "https://sebastianhanisch-lof-demo.streamlit.app/",
+  "quelle_titel": "Local Outlier Factor dünnere Nachbarschaft",
+  "ziel_url": "https://sebastianhanisch-feature-bagging-demo.streamlit.app/",
+  "ziel_titel": "Feature Bagging Ensemble auf Teilmengen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-anomalie-erkennung.html",
+  "quelle_url": "https://sebastianhanisch-ocsvm-demo.streamlit.app/",
+  "quelle_titel": "One-Class SVM eine gelernte Grenze",
+  "ziel_url": "https://sebastianhanisch-deepsvdd-demo.streamlit.app/",
+  "ziel_titel": "Deep SVDD eine gelernte Abbildung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-anomalie-erkennung.html",
+  "quelle_url": "https://sebastianhanisch-autoencoder-demo.streamlit.app/",
+  "quelle_titel": "Autoencoder (Dimensionsreduktion)",
+  "ziel_url": "https://sebastianhanisch-autoencoder-anomalie-demo.streamlit.app/",
+  "ziel_titel": "Autoencoder Rekonstruktionsfehler",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-baumbasiert.html",
+  "quelle_url": "https://sebastianhanisch-cart-demo.streamlit.app/",
+  "quelle_titel": "CART ein Entscheidungsbaum",
+  "ziel_url": "https://sebastianhanisch-bagging-demo.streamlit.app/",
+  "ziel_titel": "Bagging Bootstrap-Aggregating",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-baumbasiert.html",
+  "quelle_url": "https://sebastianhanisch-bagging-demo.streamlit.app/",
+  "quelle_titel": "Bagging Bootstrap-Aggregating",
+  "ziel_url": "https://sebastianhanisch-random-forest-demo.streamlit.app/",
+  "ziel_titel": "Random Forest zufällige Merkmalsteilmenge",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-baumbasiert.html",
+  "quelle_url": "https://sebastianhanisch-random-forest-demo.streamlit.app/",
+  "quelle_titel": "Random Forest zufällige Merkmalsteilmenge",
+  "ziel_url": "https://sebastianhanisch-extra-trees-demo.streamlit.app/",
+  "ziel_titel": "Extra Trees zufällige Schwellen",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-baumbasiert.html",
+  "quelle_url": "https://sebastianhanisch-cart-demo.streamlit.app/",
+  "quelle_titel": "CART ein Entscheidungsbaum",
+  "ziel_url": "https://sebastianhanisch-adaboost-demo.streamlit.app/",
+  "ziel_titel": "AdaBoost falsch klassifizierte Zeilen höher gewichtet",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-baumbasiert.html",
+  "quelle_url": "https://sebastianhanisch-adaboost-demo.streamlit.app/",
+  "quelle_titel": "AdaBoost falsch klassifizierte Zeilen höher gewichtet",
+  "ziel_url": "https://sebastianhanisch-gradient-boosting-demo.streamlit.app/",
+  "ziel_titel": "Gradient Boosting beliebige Verlustfunktion",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-baumbasiert.html",
+  "quelle_url": "https://sebastianhanisch-gradient-boosting-demo.streamlit.app/",
+  "quelle_titel": "Gradient Boosting beliebige Verlustfunktion",
+  "ziel_url": "https://sebastianhanisch-xgboost-demo.streamlit.app/",
+  "ziel_titel": "XGBoost regularisiertes Ziel, Newton-Schritt",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-baumbasiert.html",
+  "quelle_url": "https://sebastianhanisch-gradient-boosting-demo.streamlit.app/",
+  "quelle_titel": "Gradient Boosting beliebige Verlustfunktion",
+  "ziel_url": "https://sebastianhanisch-lightgbm-demo.streamlit.app/",
+  "ziel_titel": "LightGBM blattweises Wachsen, Histogramme",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-baumbasiert.html",
+  "quelle_url": "https://sebastianhanisch-gradient-boosting-demo.streamlit.app/",
+  "quelle_titel": "Gradient Boosting beliebige Verlustfunktion",
+  "ziel_url": "https://sebastianhanisch-catboost-demo.streamlit.app/",
+  "ziel_titel": "CatBoost geordnetes Boosting",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-clustering.html",
+  "quelle_url": "https://sebastianhanisch-kmeans-demo.streamlit.app/",
+  "quelle_titel": "k-Means Rund, gleich verteilt, hart",
+  "ziel_url": "https://sebastianhanisch-dbscan-demo.streamlit.app/",
+  "ziel_titel": "DBSCAN Beliebige Form, feste Dichte",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-clustering.html",
+  "quelle_url": "https://sebastianhanisch-dbscan-demo.streamlit.app/",
+  "quelle_titel": "DBSCAN Beliebige Form, feste Dichte",
+  "ziel_url": "https://sebastianhanisch-hdbscan-demo.streamlit.app/",
+  "ziel_titel": "HDBSCAN Beliebige Form, variable Dichte",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-clustering.html",
+  "quelle_url": "https://sebastianhanisch-agglomerative-demo.streamlit.app/",
+  "quelle_titel": "Agglomerativ Bottom-Up, volle Hierarchie",
+  "ziel_url": "https://sebastianhanisch-hdbscan-demo.streamlit.app/",
+  "ziel_titel": "HDBSCAN Beliebige Form, variable Dichte",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-clustering.html",
+  "quelle_url": "https://sebastianhanisch-kmeans-demo.streamlit.app/",
+  "quelle_titel": "k-Means Rund, gleich verteilt, hart",
+  "ziel_url": "https://sebastianhanisch-gmm-demo.streamlit.app/",
+  "ziel_titel": "GMM Elliptisch, weiche Zuordnung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-clustering.html",
+  "quelle_url": "https://sebastianhanisch-gmm-demo.streamlit.app/",
+  "quelle_titel": "GMM Elliptisch, weiche Zuordnung",
+  "ziel_url": "https://sebastianhanisch-dpmm-demo.streamlit.app/",
+  "ziel_titel": "DPMM Elliptisch, ohne festes k",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-clustering.html",
+  "quelle_url": "https://sebastianhanisch-kmeans-demo.streamlit.app/",
+  "quelle_titel": "k-Means Rund, gleich verteilt, hart",
+  "ziel_url": "https://sebastianhanisch-spectral-demo.streamlit.app/",
+  "ziel_titel": "Spectral Clustering Graph-Clustering mit Ziel-k",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-clustering.html",
+  "quelle_url": "https://sebastianhanisch-spectral-demo.streamlit.app/",
+  "quelle_titel": "Spectral Clustering Graph-Clustering mit Ziel-k",
+  "ziel_url": "https://sebastianhanisch-leiden-demo.streamlit.app/",
+  "ziel_titel": "Leiden Graph-Clustering ohne Ziel-k",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-clustering.html",
+  "quelle_url": "https://sebastianhanisch-kmeans-demo.streamlit.app/",
+  "quelle_titel": "k-Means Rund, gleich verteilt, hart",
+  "ziel_url": "https://sebastianhanisch-divisive-demo.streamlit.app/",
+  "ziel_titel": "Divisive Top-Down, grobe Schnitte",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-clustering.html",
+  "quelle_url": "https://sebastianhanisch-agglomerative-demo.streamlit.app/",
+  "quelle_titel": "Agglomerativ Bottom-Up, volle Hierarchie",
+  "ziel_url": "https://sebastianhanisch-divisive-demo.streamlit.app/",
+  "ziel_titel": "Divisive Top-Down, grobe Schnitte",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-clustering.html",
+  "quelle_url": "https://sebastianhanisch-dbscan-demo.streamlit.app/",
+  "quelle_titel": "DBSCAN Beliebige Form, feste Dichte",
+  "ziel_url": "https://sebastianhanisch-spectral-demo.streamlit.app/",
+  "ziel_titel": "Spectral Clustering Graph-Clustering mit Ziel-k",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-clustering.html",
+  "quelle_url": "https://sebastianhanisch-spectral-demo.streamlit.app/",
+  "quelle_titel": "Spectral Clustering Graph-Clustering mit Ziel-k",
+  "ziel_url": "https://sebastianhanisch-umap-demo.streamlit.app/",
+  "ziel_titel": "UMAP (Dimensionsreduktion)",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-cutting-stock-branch-bound-demo.streamlit.app/",
+  "quelle_titel": "Branch & Bound Verzweigung, Symmetrie unbehandelt",
+  "ziel_url": "https://sebastianhanisch-cutting-stock-dp-demo.streamlit.app/",
+  "ziel_titel": "Dynamische Programmierung Zustandsvektor statt Suchbaum",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-cutting-stock-branch-bound-demo.streamlit.app/",
+  "quelle_titel": "Branch & Bound Verzweigung, Symmetrie unbehandelt",
+  "ziel_url": "https://sebastianhanisch-cutting-stock-cutting-planes-demo.streamlit.app/",
+  "ziel_titel": "Symmetrie-Schnitt Suchraum direkt beschnitten",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-cutting-stock-cutting-planes-demo.streamlit.app/",
+  "quelle_titel": "Symmetrie-Schnitt Suchraum direkt beschnitten",
+  "ziel_url": "https://sebastianhanisch-cutting-stock-branch-cut-demo.streamlit.app/",
+  "ziel_titel": "Branch & Cut Verzweigung + Schnitt + LP pro Knoten",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-cutting-stock-branch-bound-demo.streamlit.app/",
+  "quelle_titel": "Branch & Bound Verzweigung, Symmetrie unbehandelt",
+  "ziel_url": "https://sebastianhanisch-cutting-stock-branch-cut-demo.streamlit.app/",
+  "ziel_titel": "Branch & Cut Verzweigung + Schnitt + LP pro Knoten",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-cutting-stock-branch-bound-demo.streamlit.app/",
+  "quelle_titel": "Branch & Bound Verzweigung, Symmetrie unbehandelt",
+  "ziel_url": "https://sebastianhanisch-cutting-stock-constraint-programming-demo.streamlit.app/",
+  "ziel_titel": "Constraint Programming Propagation statt Schranke",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-cutting-stock-branch-bound-demo.streamlit.app/",
+  "quelle_titel": "Branch & Bound Verzweigung, Symmetrie unbehandelt",
+  "ziel_url": "https://sebastianhanisch-column-generation-demo.streamlit.app/",
+  "ziel_titel": "Column Generation LP statt Suchbaum",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-column-generation-demo.streamlit.app/",
+  "quelle_titel": "Column Generation LP statt Suchbaum",
+  "ziel_url": "https://sebastianhanisch-branch-and-price-demo.streamlit.app/",
+  "ziel_titel": "Branch & Price Verzweigung + Spaltengenerierung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-cutting-stock-branch-bound-demo.streamlit.app/",
+  "quelle_titel": "Branch & Bound Verzweigung, Symmetrie unbehandelt",
+  "ziel_url": "https://sebastianhanisch-branch-and-price-demo.streamlit.app/",
+  "ziel_titel": "Branch & Price Verzweigung + Spaltengenerierung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-dimensionsreduktion.html",
+  "quelle_url": "https://sebastianhanisch-pca-demo.streamlit.app/",
+  "quelle_titel": "PCA lineare Achsen maximaler Varianz",
+  "ziel_url": "https://sebastianhanisch-isomap-demo.streamlit.app/",
+  "ziel_titel": "Isomap geodätische Abstände",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-dimensionsreduktion.html",
+  "quelle_url": "https://sebastianhanisch-pca-demo.streamlit.app/",
+  "quelle_titel": "PCA lineare Achsen maximaler Varianz",
+  "ziel_url": "https://sebastianhanisch-lle-demo.streamlit.app/",
+  "ziel_titel": "LLE lokal-linear rekonstruiert",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-dimensionsreduktion.html",
+  "quelle_url": "https://sebastianhanisch-isomap-demo.streamlit.app/",
+  "quelle_titel": "Isomap geodätische Abstände",
+  "ziel_url": "https://sebastianhanisch-lle-demo.streamlit.app/",
+  "ziel_titel": "LLE lokal-linear rekonstruiert",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-dimensionsreduktion.html",
+  "quelle_url": "https://sebastianhanisch-pca-demo.streamlit.app/",
+  "quelle_titel": "PCA lineare Achsen maximaler Varianz",
+  "ziel_url": "https://sebastianhanisch-tsne-demo.streamlit.app/",
+  "ziel_titel": "t-SNE Nachbarschafts-Wahrscheinlichkeiten",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-dimensionsreduktion.html",
+  "quelle_url": "https://sebastianhanisch-pca-demo.streamlit.app/",
+  "quelle_titel": "PCA lineare Achsen maximaler Varianz",
+  "ziel_url": "https://sebastianhanisch-autoencoder-demo.streamlit.app/",
+  "ziel_titel": "Autoencoder gelernter Encoder und Decoder",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-dimensionsreduktion.html",
+  "quelle_url": "https://sebastianhanisch-tsne-demo.streamlit.app/",
+  "quelle_titel": "t-SNE Nachbarschafts-Wahrscheinlichkeiten",
+  "ziel_url": "https://sebastianhanisch-umap-demo.streamlit.app/",
+  "ziel_titel": "UMAP Nachbarschaftsgraph + Kräfte",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-dimensionsreduktion.html",
+  "quelle_url": "https://sebastianhanisch-isomap-demo.streamlit.app/",
+  "quelle_titel": "Isomap geodätische Abstände",
+  "ziel_url": "https://sebastianhanisch-umap-demo.streamlit.app/",
+  "ziel_titel": "UMAP Nachbarschaftsgraph + Kräfte",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-dimensionsreduktion.html",
+  "quelle_url": "https://sebastianhanisch-lle-demo.streamlit.app/",
+  "quelle_titel": "LLE lokal-linear rekonstruiert",
+  "ziel_url": "https://sebastianhanisch-umap-demo.streamlit.app/",
+  "ziel_titel": "UMAP Nachbarschaftsgraph + Kräfte",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-dimensionsreduktion.html",
+  "quelle_url": "https://sebastianhanisch-spectral-demo.streamlit.app/",
+  "quelle_titel": "Spectral Clustering (Clustering)",
+  "ziel_url": "https://sebastianhanisch-umap-demo.streamlit.app/",
+  "ziel_titel": "UMAP Nachbarschaftsgraph + Kräfte",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-dimensionsreduktion.html",
+  "quelle_url": "https://sebastianhanisch-umap-demo.streamlit.app/",
+  "quelle_titel": "UMAP Nachbarschaftsgraph + Kräfte",
+  "ziel_url": "https://sebastianhanisch-pacmap-demo.streamlit.app/",
+  "ziel_titel": "PaCMAP drei Paartypen, drei Phasen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-branch-bound-demo.streamlit.app/",
+  "quelle_titel": "Branch & Bound Suchbaum + LP-Schranke",
+  "ziel_url": "https://sebastianhanisch-dynamic-programming-demo.streamlit.app/",
+  "ziel_titel": "Dynamische Programmierung Tabellierung, keine Suche",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-branch-bound-demo.streamlit.app/",
+  "quelle_titel": "Branch & Bound Suchbaum + LP-Schranke",
+  "ziel_url": "https://sebastianhanisch-cutting-planes-demo.streamlit.app/",
+  "ziel_titel": "Schnittebenen LP schärfen, nicht verzweigen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-cutting-planes-demo.streamlit.app/",
+  "quelle_titel": "Schnittebenen LP schärfen, nicht verzweigen",
+  "ziel_url": "https://sebastianhanisch-branch-cut-demo.streamlit.app/",
+  "ziel_titel": "Branch & Cut Verzweigen + Schnitte",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-branch-bound-demo.streamlit.app/",
+  "quelle_titel": "Branch & Bound Suchbaum + LP-Schranke",
+  "ziel_url": "https://sebastianhanisch-branch-cut-demo.streamlit.app/",
+  "ziel_titel": "Branch & Cut Verzweigen + Schnitte",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-exakte-suche.html",
+  "quelle_url": "https://sebastianhanisch-branch-bound-demo.streamlit.app/",
+  "quelle_titel": "Branch & Bound Suchbaum + LP-Schranke",
+  "ziel_url": "https://sebastianhanisch-constraint-programming-demo.streamlit.app/",
+  "ziel_titel": "Constraint Programming Propagation statt Schranke",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graph-neural-networks.html",
+  "quelle_url": "https://sebastianhanisch-gcn-demo.streamlit.app/",
+  "quelle_titel": "GCN Nachbarn statt Etiketten",
+  "ziel_url": "https://sebastianhanisch-graphsage-demo.streamlit.app/",
+  "ziel_titel": "GraphSAGE ein Gewicht für mich, ein anderes für meine Nachbarn",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graph-neural-networks.html",
+  "quelle_url": "https://sebastianhanisch-gcn-demo.streamlit.app/",
+  "quelle_titel": "GCN Nachbarn statt Etiketten",
+  "ziel_url": "https://sebastianhanisch-gat-demo.streamlit.app/",
+  "ziel_titel": "GAT lernbare Aufmerksamkeit auf Nachbarn",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graph-neural-networks.html",
+  "quelle_url": "https://sebastianhanisch-gat-demo.streamlit.app/",
+  "quelle_titel": "GAT lernbare Aufmerksamkeit auf Nachbarn",
+  "ziel_url": "https://sebastianhanisch-gatv2-demo.streamlit.app/",
+  "ziel_titel": "GATv2 Aufmerksamkeit, die vom Fragenden abhängt",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graph-neural-networks.html",
+  "quelle_url": "https://sebastianhanisch-gcn-demo.streamlit.app/",
+  "quelle_titel": "GCN Nachbarn statt Etiketten",
+  "ziel_url": "https://sebastianhanisch-gin-demo.streamlit.app/",
+  "ziel_titel": "GIN Summe statt Mittel: Nachbarn zählen",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-graph-neural-networks.html",
+  "quelle_url": "https://sebastianhanisch-gatv2-demo.streamlit.app/",
+  "quelle_titel": "GATv2 Aufmerksamkeit, die vom Fragenden abhängt",
+  "ziel_url": "https://sebastianhanisch-graph-transformer-demo.streamlit.app/",
+  "ziel_titel": "Graph Transformer Aufmerksamkeit über das ganze Netz",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graph-neural-networks.html",
+  "quelle_url": "https://sebastianhanisch-graphsage-demo.streamlit.app/",
+  "quelle_titel": "GraphSAGE ein Gewicht für mich, ein anderes für meine Nachbarn",
+  "ziel_url": "https://sebastianhanisch-graph-transformer-demo.streamlit.app/",
+  "ziel_titel": "Graph Transformer Aufmerksamkeit über das ganze Netz",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-bfs-dfs-demo.streamlit.app/",
+  "quelle_titel": "BFS und DFS die Durchmusterung eines Netzes",
+  "ziel_url": "https://sebastianhanisch-bridges-demo.streamlit.app/",
+  "ziel_titel": "Brücken und Artikulationspunkte Tarjans Low-Link",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-bridges-demo.streamlit.app/",
+  "quelle_titel": "Brücken und Artikulationspunkte Tarjans Low-Link",
+  "ziel_url": "https://sebastianhanisch-euler-tour-demo.streamlit.app/",
+  "ziel_titel": "Eulertouren jede Kante genau einmal",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-bfs-dfs-demo.streamlit.app/",
+  "quelle_titel": "BFS und DFS die Durchmusterung eines Netzes",
+  "ziel_url": "https://sebastianhanisch-scc-demo.streamlit.app/",
+  "ziel_titel": "Starke Zusammenhangskomponenten Einbahnstraßen im Netz",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-bfs-dfs-demo.streamlit.app/",
+  "quelle_titel": "BFS und DFS die Durchmusterung eines Netzes",
+  "ziel_url": "https://sebastianhanisch-graph-coloring-demo.streamlit.app/",
+  "ziel_titel": "Graphfärbung Greedy, Welsh-Powell, DSATUR, exakt",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-bfs-dfs-demo.streamlit.app/",
+  "quelle_titel": "BFS und DFS die Durchmusterung eines Netzes",
+  "ziel_url": "https://sebastianhanisch-centrality-demo.streamlit.app/",
+  "ziel_titel": "Zentralität Grad, Closeness, Betweenness, PageRank",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-bridges-demo.streamlit.app/",
+  "quelle_titel": "Brücken und Artikulationspunkte Tarjans Low-Link",
+  "ziel_url": "https://sebastianhanisch-centrality-demo.streamlit.app/",
+  "ziel_titel": "Zentralität Grad, Closeness, Betweenness, PageRank",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-centrality-demo.streamlit.app/",
+  "quelle_titel": "Zentralität Grad, Closeness, Betweenness, PageRank",
+  "ziel_url": "https://sebastianhanisch-strukturkennzahlen-demo.streamlit.app/",
+  "ziel_titel": "Strukturkennzahlen und Nullmodelle Clustering, Kleine Welt, Assortativität",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-strukturkennzahlen-demo.streamlit.app/",
+  "quelle_titel": "Strukturkennzahlen und Nullmodelle Clustering, Kleine Welt, Assortativität",
+  "ziel_url": "https://sebastianhanisch-robustheit-demo.streamlit.app/",
+  "ziel_titel": "Robustheit Zufall gegen gezielten Angriff",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-robustheit-demo.streamlit.app/",
+  "quelle_titel": "Robustheit Zufall gegen gezielten Angriff",
+  "ziel_url": "https://sebastianhanisch-kaskaden-demo.streamlit.app/",
+  "ziel_titel": "Kaskaden und Ausbreitung Motter-Lai, SIR-Epidemieschwelle",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-centrality-demo.streamlit.app/",
+  "quelle_titel": "Zentralität Grad, Closeness, Betweenness, PageRank",
+  "ziel_url": "https://sebastianhanisch-haertung-demo.streamlit.app/",
+  "ziel_titel": "Kritische Knoten härten Zufällig, Bypass, Schneider u. a. 2011",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-robustheit-demo.streamlit.app/",
+  "quelle_titel": "Robustheit Zufall gegen gezielten Angriff",
+  "ziel_url": "https://sebastianhanisch-haertung-demo.streamlit.app/",
+  "ziel_titel": "Kritische Knoten härten Zufällig, Bypass, Schneider u. a. 2011",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-kaskaden-demo.streamlit.app/",
+  "quelle_titel": "Kaskaden und Ausbreitung Motter-Lai, SIR-Epidemieschwelle",
+  "ziel_url": "https://sebastianhanisch-haertung-demo.streamlit.app/",
+  "ziel_titel": "Kritische Knoten härten Zufällig, Bypass, Schneider u. a. 2011",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-bfs-dfs-demo.streamlit.app/",
+  "quelle_titel": "BFS und DFS die Durchmusterung eines Netzes",
+  "ziel_url": "https://sebastianhanisch-bandbreite-demo.streamlit.app/",
+  "ziel_titel": "Bandbreite Cuthill-McKee, Reverse Cuthill-McKee",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-bandbreite-demo.streamlit.app/",
+  "quelle_titel": "Bandbreite Cuthill-McKee, Reverse Cuthill-McKee",
+  "ziel_url": "https://sebastianhanisch-cliquenbandbreite-demo.streamlit.app/",
+  "ziel_titel": "Bandbreite von G(n,k,b) und Cliquenüberdeckung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-graphen-netzwerke.html",
+  "quelle_url": "https://sebastianhanisch-graph-coloring-demo.streamlit.app/",
+  "quelle_titel": "Graphfärbung Greedy, Welsh-Powell, DSATUR, exakt",
+  "ziel_url": "https://sebastianhanisch-cliquenbandbreite-demo.streamlit.app/",
+  "ziel_titel": "Bandbreite von G(n,k,b) und Cliquenüberdeckung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-heuristische-baumsuche.html",
+  "quelle_url": "https://sebastianhanisch-greedy-best-first-demo.streamlit.app/",
+  "quelle_titel": "Greedy Best-First schnell, aber kurzsichtig",
+  "ziel_url": "https://sebastianhanisch-astar-demo.streamlit.app/",
+  "ziel_titel": "A* optimal und informiert",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-heuristische-baumsuche.html",
+  "quelle_url": "https://sebastianhanisch-greedy-best-first-demo.streamlit.app/",
+  "quelle_titel": "Greedy Best-First schnell, aber kurzsichtig",
+  "ziel_url": "https://sebastianhanisch-beam-search-demo.streamlit.app/",
+  "ziel_titel": "Beam Search begrenzte Breite, kein Zurück",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-heuristische-baumsuche.html",
+  "quelle_url": "https://sebastianhanisch-greedy-best-first-demo.streamlit.app/",
+  "quelle_titel": "Greedy Best-First schnell, aber kurzsichtig",
+  "ziel_url": "https://sebastianhanisch-mcts-demo.streamlit.app/",
+  "ziel_titel": "Monte Carlo Tree Search ohne Heuristik, per Rollout",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-heuristische-baumsuche.html",
+  "quelle_url": "https://sebastianhanisch-astar-demo.streamlit.app/",
+  "quelle_titel": "A* optimal und informiert",
+  "ziel_url": "https://sebastianhanisch-ida-star-demo.streamlit.app/",
+  "ziel_titel": "IDA* Speicher sparen, Zeit zahlen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-heuristische-baumsuche.html",
+  "quelle_url": "https://sebastianhanisch-beam-search-demo.streamlit.app/",
+  "quelle_titel": "Beam Search begrenzte Breite, kein Zurück",
+  "ziel_url": "https://sebastianhanisch-monobeam-demo.streamlit.app/",
+  "ziel_titel": "Monobeam mehr Breite schadet nie",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-heuristische-baumsuche.html",
+  "quelle_url": "https://sebastianhanisch-beam-search-demo.streamlit.app/",
+  "quelle_titel": "Beam Search begrenzte Breite, kein Zurück",
+  "ziel_url": "https://sebastianhanisch-diverse-beam-demo.streamlit.app/",
+  "ziel_titel": "Diverse Beam Search mehrere verschiedene Routen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-heuristische-baumsuche.html",
+  "quelle_url": "https://sebastianhanisch-beam-search-demo.streamlit.app/",
+  "quelle_titel": "Beam Search begrenzte Breite, kein Zurück",
+  "ziel_url": "https://sebastianhanisch-beam-stack-demo.streamlit.app/",
+  "ziel_titel": "Beam Stack Search Beweis mit Rücksprung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-heuristische-baumsuche.html",
+  "quelle_url": "https://sebastianhanisch-astar-demo.streamlit.app/",
+  "quelle_titel": "A* optimal und informiert",
+  "ziel_url": "https://sebastianhanisch-beam-stack-demo.streamlit.app/",
+  "ziel_titel": "Beam Stack Search Beweis mit Rücksprung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-spt-scheduling-demo.streamlit.app/",
+  "quelle_titel": "SPT Vertauschungsargument, eine Maschine",
+  "ziel_url": "https://sebastianhanisch-edd-scheduling-demo.streamlit.app/",
+  "ziel_titel": "EDD größte Verspätung statt Summe",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-spt-scheduling-demo.streamlit.app/",
+  "quelle_titel": "SPT Vertauschungsargument, eine Maschine",
+  "ziel_url": "https://sebastianhanisch-moore-hodgson-demo.streamlit.app/",
+  "ziel_titel": "Moore-Hodgson einplanen und gezielt streichen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-spt-scheduling-demo.streamlit.app/",
+  "quelle_titel": "SPT Vertauschungsargument, eine Maschine",
+  "ziel_url": "https://sebastianhanisch-wspt-demo.streamlit.app/",
+  "ziel_titel": "WSPT / Smith's Rule Gewichte je Auftrag",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-wspt-demo.streamlit.app/",
+  "quelle_titel": "WSPT / Smith's Rule Gewichte je Auftrag",
+  "ziel_url": "https://sebastianhanisch-weighted-tardiness-demo.streamlit.app/",
+  "ziel_titel": "ATC Frist UND Gewicht zugleich",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-spt-scheduling-demo.streamlit.app/",
+  "quelle_titel": "SPT Vertauschungsargument, eine Maschine",
+  "ziel_url": "https://sebastianhanisch-johnson-rule-demo.streamlit.app/",
+  "ziel_titel": "Johnson-Regel zwei Maschinen, seriell",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-spt-scheduling-demo.streamlit.app/",
+  "quelle_titel": "SPT Vertauschungsargument, eine Maschine",
+  "ziel_url": "https://sebastianhanisch-lpt-scheduling-demo.streamlit.app/",
+  "ziel_titel": "LPT mehrere Maschinen, parallel",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-johnson-rule-demo.streamlit.app/",
+  "quelle_titel": "Johnson-Regel zwei Maschinen, seriell",
+  "ziel_url": "https://sebastianhanisch-job-shop-demo.streamlit.app/",
+  "ziel_titel": "Job Shop Konvergenzpunkt: eigene Reihenfolge je Auftrag",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-lpt-scheduling-demo.streamlit.app/",
+  "quelle_titel": "LPT mehrere Maschinen, parallel",
+  "ziel_url": "https://sebastianhanisch-job-shop-demo.streamlit.app/",
+  "ziel_titel": "Job Shop Konvergenzpunkt: eigene Reihenfolge je Auftrag",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-job-shop-demo.streamlit.app/",
+  "quelle_titel": "Job Shop Konvergenzpunkt: eigene Reihenfolge je Auftrag",
+  "ziel_url": "https://sebastianhanisch-shifting-bottleneck-demo.streamlit.app/",
+  "ziel_titel": "Shifting Bottleneck engpassträchtigste Maschine zuerst",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-job-shop-demo.streamlit.app/",
+  "quelle_titel": "Job Shop Konvergenzpunkt: eigene Reihenfolge je Auftrag",
+  "ziel_url": "https://sebastianhanisch-job-shop-tabu-demo.streamlit.app/",
+  "ziel_titel": "Job-Shop-Tabu-Search N5-Nachbarschaft am kritischen Pfad",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-shifting-bottleneck-demo.streamlit.app/",
+  "quelle_titel": "Shifting Bottleneck engpassträchtigste Maschine zuerst",
+  "ziel_url": "https://sebastianhanisch-job-shop-tabu-demo.streamlit.app/",
+  "ziel_titel": "Job-Shop-Tabu-Search N5-Nachbarschaft am kritischen Pfad",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-klassische-scheduling-theorie.html",
+  "quelle_url": "https://sebastianhanisch-job-shop-demo.streamlit.app/",
+  "quelle_titel": "Job Shop Konvergenzpunkt: eigene Reihenfolge je Auftrag",
+  "ziel_url": "https://sebastianhanisch-rcpsp-demo.streamlit.app/",
+  "ziel_titel": "RCPSP Ressourcen statt nur Maschinen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-bfs-demo.streamlit.app/",
+  "quelle_titel": "Breitensuche Kanten zählen, nicht Kosten",
+  "ziel_url": "https://sebastianhanisch-dijkstra-demo.streamlit.app/",
+  "ziel_titel": "Dijkstra berücksichtigt Kantengewichte, blind in alle Richtungen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-dijkstra-demo.streamlit.app/",
+  "quelle_titel": "Dijkstra berücksichtigt Kantengewichte, blind in alle Richtungen",
+  "ziel_url": "https://sebastianhanisch-bidirectional-demo.streamlit.app/",
+  "ziel_titel": "Bidirektionale Suche von beiden Enden",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-bidirectional-demo.streamlit.app/",
+  "quelle_titel": "Bidirektionale Suche von beiden Enden",
+  "ziel_url": "https://sebastianhanisch-contraction-hierarchies-demo.streamlit.app/",
+  "ziel_titel": "Contraction Hierarchies erst vorrechnen, dann fragen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-contraction-hierarchies-demo.streamlit.app/",
+  "quelle_titel": "Contraction Hierarchies erst vorrechnen, dann fragen",
+  "ziel_url": "https://sebastianhanisch-2hop-labeling-demo.streamlit.app/",
+  "ziel_titel": "Hub Labeling jede Abfrage ein Listen-Merge",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-contraction-hierarchies-demo.streamlit.app/",
+  "quelle_titel": "Contraction Hierarchies erst vorrechnen, dann fragen",
+  "ziel_url": "https://sebastianhanisch-customizable-ch-demo.streamlit.app/",
+  "ziel_titel": "Customizable CH Ordnung einmal, Kosten je Lage",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-dijkstra-demo.streamlit.app/",
+  "quelle_titel": "Dijkstra berücksichtigt Kantengewichte, blind in alle Richtungen",
+  "ziel_url": "https://sebastianhanisch-bellman-ford-demo.streamlit.app/",
+  "ziel_titel": "Bellman-Ford negative Kanten erlaubt",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-bellman-ford-demo.streamlit.app/",
+  "quelle_titel": "Bellman-Ford negative Kanten erlaubt",
+  "ziel_url": "https://sebastianhanisch-floyd-warshall-demo.streamlit.app/",
+  "ziel_titel": "Floyd-Warshall alle Paare mit drei Schleifen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-bellman-ford-demo.streamlit.app/",
+  "quelle_titel": "Bellman-Ford negative Kanten erlaubt",
+  "ziel_url": "https://sebastianhanisch-johnson-demo.streamlit.app/",
+  "ziel_titel": "Johnson umgewichten statt neu erfinden",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-floyd-warshall-demo.streamlit.app/",
+  "quelle_titel": "Floyd-Warshall alle Paare mit drei Schleifen",
+  "ziel_url": "https://sebastianhanisch-johnson-demo.streamlit.app/",
+  "ziel_titel": "Johnson umgewichten statt neu erfinden",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-dijkstra-demo.streamlit.app/",
+  "quelle_titel": "Dijkstra berücksichtigt Kantengewichte, blind in alle Richtungen",
+  "ziel_url": "https://sebastianhanisch-multicriteria-demo.streamlit.app/",
+  "ziel_titel": "Mehrkriterien-Routing zwei Kosten, keine beste Route",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-dijkstra-demo.streamlit.app/",
+  "quelle_titel": "Dijkstra berücksichtigt Kantengewichte, blind in alle Richtungen",
+  "ziel_url": "https://sebastianhanisch-time-dependent-demo.streamlit.app/",
+  "ziel_titel": "Zeitabhängiges Routing die Uhrzeit ändert die Route",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-multicriteria-demo.streamlit.app/",
+  "quelle_titel": "Mehrkriterien-Routing zwei Kosten, keine beste Route",
+  "ziel_url": "https://sebastianhanisch-raptor-demo.streamlit.app/",
+  "ziel_titel": "RAPTOR früher ankommen oder weniger umsteigen",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-kuerzeste-wege.html",
+  "quelle_url": "https://sebastianhanisch-dijkstra-demo.streamlit.app/",
+  "quelle_titel": "Dijkstra berücksichtigt Kantengewichte, blind in alle Richtungen",
+  "ziel_url": "https://sebastianhanisch-raptor-demo.streamlit.app/",
+  "ziel_titel": "RAPTOR früher ankommen oder weniger umsteigen",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-tableau-simplex-demo.streamlit.app/",
+  "quelle_titel": "Tableau-Simplex von Ecke zu Ecke",
+  "ziel_url": "https://sebastianhanisch-pivotregeln-demo.streamlit.app/",
+  "ziel_titel": "Pivotregeln und Entartung Regelwahl, Stillstand, Zyklen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-pivotregeln-demo.streamlit.app/",
+  "quelle_titel": "Pivotregeln und Entartung Regelwahl, Stillstand, Zyklen",
+  "ziel_url": "https://sebastianhanisch-klee-minty-demo.streamlit.app/",
+  "ziel_titel": "Klee-Minty der Würfel mit 2ⁿ − 1 Pivots",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-tableau-simplex-demo.streamlit.app/",
+  "quelle_titel": "Tableau-Simplex von Ecke zu Ecke",
+  "ziel_url": "https://sebastianhanisch-revised-simplex-demo.streamlit.app/",
+  "ziel_titel": "Revised Simplex derselbe Pfad, anderer Aufwand",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-revised-simplex-demo.streamlit.app/",
+  "quelle_titel": "Revised Simplex derselbe Pfad, anderer Aufwand",
+  "ziel_url": "https://sebastianhanisch-praesolve-demo.streamlit.app/",
+  "ziel_titel": "Präsolve, Skalierung und Numerik was Löser vor dem Lösen tun",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-tableau-simplex-demo.streamlit.app/",
+  "quelle_titel": "Tableau-Simplex von Ecke zu Ecke",
+  "ziel_url": "https://sebastianhanisch-lp-dualitaet-demo.streamlit.app/",
+  "ziel_titel": "Dualität und Sensitivität Schattenpreise und ihr Bereich",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-lp-dualitaet-demo.streamlit.app/",
+  "quelle_titel": "Dualität und Sensitivität Schattenpreise und ihr Bereich",
+  "ziel_url": "https://sebastianhanisch-dualer-simplex-demo.streamlit.app/",
+  "ziel_titel": "Dualer Simplex und Neuoptimierung von der alten Basis weiterrechnen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-tableau-simplex-demo.streamlit.app/",
+  "quelle_titel": "Tableau-Simplex von Ecke zu Ecke",
+  "ziel_url": "https://sebastianhanisch-ellipsoid-demo.streamlit.app/",
+  "ziel_titel": "Ellipsoid-Methode polynomial, aber langsam",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-ellipsoid-demo.streamlit.app/",
+  "quelle_titel": "Ellipsoid-Methode polynomial, aber langsam",
+  "ziel_url": "https://sebastianhanisch-innere-punkte-demo.streamlit.app/",
+  "ziel_titel": "Innere-Punkte-Verfahren durch das Innere statt am Rand",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-innere-punkte-demo.streamlit.app/",
+  "quelle_titel": "Innere-Punkte-Verfahren durch das Innere statt am Rand",
+  "ziel_url": "https://sebastianhanisch-pdlp-demo.streamlit.app/",
+  "ziel_titel": "PDLP ohne Faktorisierung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-praesolve-demo.streamlit.app/",
+  "quelle_titel": "Präsolve, Skalierung und Numerik was Löser vor dem Lösen tun",
+  "ziel_url": "https://sebastianhanisch-pdlp-demo.streamlit.app/",
+  "ziel_titel": "PDLP ohne Faktorisierung",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-innere-punkte-demo.streamlit.app/",
+  "quelle_titel": "Innere-Punkte-Verfahren durch das Innere statt am Rand",
+  "ziel_url": "https://sebastianhanisch-basis-recovery-demo.streamlit.app/",
+  "ziel_titel": "Crossover aus dem Inneren zur Ecke",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-lineare-programmierung.html",
+  "quelle_url": "https://sebastianhanisch-pdlp-demo.streamlit.app/",
+  "quelle_titel": "PDLP ohne Faktorisierung",
+  "ziel_url": "https://sebastianhanisch-basis-recovery-demo.streamlit.app/",
+  "ziel_titel": "Crossover aus dem Inneren zur Ecke",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-greedy-matching-demo.streamlit.app/",
+  "quelle_titel": "Greedy-Matching die billigste Zuordnung zuerst",
+  "ziel_url": "https://sebastianhanisch-augmenting-path-demo.streamlit.app/",
+  "ziel_titel": "Augmentierende Pfade eine Zuordnung darf wieder freigegeben werden",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-augmenting-path-demo.streamlit.app/",
+  "quelle_titel": "Augmentierende Pfade eine Zuordnung darf wieder freigegeben werden",
+  "ziel_url": "https://sebastianhanisch-hopcroft-karp-demo.streamlit.app/",
+  "ziel_titel": "Hopcroft–Karp viele kürzeste Wege in einer Phase",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-augmenting-path-demo.streamlit.app/",
+  "quelle_titel": "Augmentierende Pfade eine Zuordnung darf wieder freigegeben werden",
+  "ziel_url": "https://sebastianhanisch-hungarian-demo.streamlit.app/",
+  "ziel_titel": "Ungarische Methode die billigste unter den größtmöglichen Zuordnungen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-hungarian-demo.streamlit.app/",
+  "quelle_titel": "Ungarische Methode die billigste unter den größtmöglichen Zuordnungen",
+  "ziel_url": "https://sebastianhanisch-auction-algorithm-demo.streamlit.app/",
+  "ziel_titel": "Auktionsalgorithmus dezentral bieten statt zentral rechnen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-augmenting-path-demo.streamlit.app/",
+  "quelle_titel": "Augmentierende Pfade eine Zuordnung darf wieder freigegeben werden",
+  "ziel_url": "https://sebastianhanisch-edmonds-matching-demo.streamlit.app/",
+  "ziel_titel": "Blossom Paare in einem allgemeinen Graphen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-hungarian-demo.streamlit.app/",
+  "quelle_titel": "Ungarische Methode die billigste unter den größtmöglichen Zuordnungen",
+  "ziel_url": "https://sebastianhanisch-weighted-edmonds-matching-demo.streamlit.app/",
+  "ziel_titel": "Gewichteter Blossom die billigste Paarung in einem allgemeinen Graphen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-edmonds-matching-demo.streamlit.app/",
+  "quelle_titel": "Blossom Paare in einem allgemeinen Graphen",
+  "ziel_url": "https://sebastianhanisch-weighted-edmonds-matching-demo.streamlit.app/",
+  "ziel_titel": "Gewichteter Blossom die billigste Paarung in einem allgemeinen Graphen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-greedy-matching-demo.streamlit.app/",
+  "quelle_titel": "Greedy-Matching die billigste Zuordnung zuerst",
+  "ziel_url": "https://sebastianhanisch-gale-shapley-demo.streamlit.app/",
+  "ziel_titel": "Gale–Shapley Vorlieben statt Kosten, Stabilität statt Optimum",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-gale-shapley-demo.streamlit.app/",
+  "quelle_titel": "Gale–Shapley Vorlieben statt Kosten, Stabilität statt Optimum",
+  "ziel_url": "https://sebastianhanisch-stabile-mitbewohner-demo.streamlit.app/",
+  "ziel_titel": "Stabile Mitbewohner wenn Stabilität nicht immer möglich ist",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-gale-shapley-demo.streamlit.app/",
+  "quelle_titel": "Gale–Shapley Vorlieben statt Kosten, Stabilität statt Optimum",
+  "ziel_url": "https://sebastianhanisch-krankenhaus-zulassung-demo.streamlit.app/",
+  "ziel_titel": "Krankenhaus-Zulassung wenn eine Klinik mehr als einen Platz hat",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-gale-shapley-demo.streamlit.app/",
+  "quelle_titel": "Gale–Shapley Vorlieben statt Kosten, Stabilität statt Optimum",
+  "ziel_url": "https://sebastianhanisch-top-trading-cycles-demo.streamlit.app/",
+  "ziel_titel": "Top Trading Cycles Tausch ohne Geld",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-top-trading-cycles-demo.streamlit.app/",
+  "quelle_titel": "Top Trading Cycles Tausch ohne Geld",
+  "ziel_url": "https://sebastianhanisch-nierentausch-demo.streamlit.app/",
+  "ziel_titel": "Nierentausch Tausch unter medizinischen Zwängen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-matching.html",
+  "quelle_url": "https://sebastianhanisch-greedy-matching-demo.streamlit.app/",
+  "quelle_titel": "Greedy-Matching die billigste Zuordnung zuerst",
+  "ziel_url": "https://sebastianhanisch-online-matching-demo.streamlit.app/",
+  "ziel_titel": "Online-Matching entscheiden, bevor man alles weiß",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-multiagenten.html",
+  "quelle_url": "https://sebastianhanisch-contract-net-demo.streamlit.app/",
+  "quelle_titel": "Contract Net Aufgaben per Gebot, unwiderruflich",
+  "ziel_url": "https://sebastianhanisch-task-swap-demo.streamlit.app/",
+  "ziel_titel": "Task-Swap-Verhandlung paarweise Tausche danach",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-multiagenten.html",
+  "quelle_url": "https://sebastianhanisch-contract-net-demo.streamlit.app/",
+  "quelle_titel": "Contract Net Aufgaben per Gebot, unwiderruflich",
+  "ziel_url": "https://sebastianhanisch-dcop-demo.streamlit.app/",
+  "ziel_titel": "DCOP mit DPOP exakter Löser, Summen-Modell",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-multiagenten.html",
+  "quelle_url": "https://sebastianhanisch-contract-net-demo.streamlit.app/",
+  "quelle_titel": "Contract Net Aufgaben per Gebot, unwiderruflich",
+  "ziel_url": "https://sebastianhanisch-marl-demo.streamlit.app/",
+  "ziel_titel": "Multi-Agenten-Lernen unabhängiges Q-Learning",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-multiagenten.html",
+  "quelle_url": "https://sebastianhanisch-contract-net-demo.streamlit.app/",
+  "quelle_titel": "Contract Net Aufgaben per Gebot, unwiderruflich",
+  "ziel_url": "https://sebastianhanisch-auction-demo.streamlit.app/",
+  "ziel_titel": "Kombinatorische Auktionen Gebote auf Bündel",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-multiagenten.html",
+  "quelle_url": "https://sebastianhanisch-auction-demo.streamlit.app/",
+  "quelle_titel": "Kombinatorische Auktionen Gebote auf Bündel",
+  "ziel_url": "https://sebastianhanisch-regretnet-demo.streamlit.app/",
+  "ziel_titel": "RegretNet gelernter Mechanismus",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-multiagenten.html",
+  "quelle_url": "https://sebastianhanisch-marl-demo.streamlit.app/",
+  "quelle_titel": "Multi-Agenten-Lernen unabhängiges Q-Learning",
+  "ziel_url": "https://sebastianhanisch-mappo-demo.streamlit.app/",
+  "ziel_titel": "MAPPO zentraler Kritiker im Training",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-multiagenten.html",
+  "quelle_url": "https://sebastianhanisch-dcop-demo.streamlit.app/",
+  "quelle_titel": "DCOP mit DPOP exakter Löser, Summen-Modell",
+  "ziel_url": "https://sebastianhanisch-ladcop-demo.streamlit.app/",
+  "ziel_titel": "Learning-augmented DCOP gelerntes Modell und Nachrichten",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-multiagenten.html",
+  "quelle_url": "https://sebastianhanisch-mappo-demo.streamlit.app/",
+  "quelle_titel": "MAPPO zentraler Kritiker im Training",
+  "ziel_url": "https://sebastianhanisch-ladcop-demo.streamlit.app/",
+  "ziel_titel": "Learning-augmented DCOP gelerntes Modell und Nachrichten",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-edmonds-karp-demo.streamlit.app/",
+  "quelle_titel": "Maximaler Fluss und minimaler Schnitt Edmonds-Karp",
+  "ziel_url": "https://sebastianhanisch-dinic-demo.streamlit.app/",
+  "ziel_titel": "Dinic Niveaugraph und blockierender Fluss",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-edmonds-karp-demo.streamlit.app/",
+  "quelle_titel": "Maximaler Fluss und minimaler Schnitt Edmonds-Karp",
+  "ziel_url": "https://sebastianhanisch-push-relabel-demo.streamlit.app/",
+  "ziel_titel": "Push-Relabel Fluss ohne Wege",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-edmonds-karp-demo.streamlit.app/",
+  "quelle_titel": "Maximaler Fluss und minimaler Schnitt Edmonds-Karp",
+  "ziel_url": "https://sebastianhanisch-ssp-demo.streamlit.app/",
+  "ziel_titel": "Successive Shortest Paths der billigste Fluss",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-ssp-demo.streamlit.app/",
+  "quelle_titel": "Successive Shortest Paths der billigste Fluss",
+  "ziel_url": "https://sebastianhanisch-cycle-canceling-demo.streamlit.app/",
+  "ziel_titel": "Cycle-Canceling negative Kreise löschen",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-ssp-demo.streamlit.app/",
+  "quelle_titel": "Successive Shortest Paths der billigste Fluss",
+  "ziel_url": "https://sebastianhanisch-netzwerksimplex-demo.streamlit.app/",
+  "ziel_titel": "Netzwerksimplex was ist ein Pivot, und was kostet er?",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-cycle-canceling-demo.streamlit.app/",
+  "quelle_titel": "Cycle-Canceling negative Kreise löschen",
+  "ziel_url": "https://sebastianhanisch-netzwerksimplex-demo.streamlit.app/",
+  "ziel_titel": "Netzwerksimplex was ist ein Pivot, und was kostet er?",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-push-relabel-demo.streamlit.app/",
+  "quelle_titel": "Push-Relabel Fluss ohne Wege",
+  "ziel_url": "https://sebastianhanisch-cost-scaling-demo.streamlit.app/",
+  "ziel_titel": "Cost Scaling erst grob, dann fein",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-ssp-demo.streamlit.app/",
+  "quelle_titel": "Successive Shortest Paths der billigste Fluss",
+  "ziel_url": "https://sebastianhanisch-cost-scaling-demo.streamlit.app/",
+  "ziel_titel": "Cost Scaling erst grob, dann fein",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-ssp-demo.streamlit.app/",
+  "quelle_titel": "Successive Shortest Paths der billigste Fluss",
+  "ziel_url": "https://sebastianhanisch-multicommodity-demo.streamlit.app/",
+  "ziel_titel": "Mehrgüterfluss Güter teilen sich die Kanten",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-multicommodity-demo.streamlit.app/",
+  "quelle_titel": "Mehrgüterfluss Güter teilen sich die Kanten",
+  "ziel_url": "https://sebastianhanisch-mcf-column-generation-demo.streamlit.app/",
+  "ziel_titel": "Pfad-Formulierung und Column Generation nur die Pfade, die sich lohnen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-mcf-column-generation-demo.streamlit.app/",
+  "quelle_titel": "Pfad-Formulierung und Column Generation nur die Pfade, die sich lohnen",
+  "ziel_url": "https://sebastianhanisch-garg-koenemann-demo.streamlit.app/",
+  "ziel_titel": "Garg–Könemann Näherung ohne LP-Löser",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-multicommodity-demo.streamlit.app/",
+  "quelle_titel": "Mehrgüterfluss Güter teilen sich die Kanten",
+  "ziel_url": "https://sebastianhanisch-fixkosten-netzdesign-demo.streamlit.app/",
+  "ziel_titel": "Fixkosten-Netzdesign warum die Schranke schwach ist",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-fixkosten-netzdesign-demo.streamlit.app/",
+  "quelle_titel": "Fixkosten-Netzdesign warum die Schranke schwach ist",
+  "ziel_url": "https://sebastianhanisch-benders-demo.streamlit.app/",
+  "ziel_titel": "Benders-Zerlegung Entwurf im Master, Fluss im Teilproblem",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-netzwerkfluss.html",
+  "quelle_url": "https://sebastianhanisch-fixkosten-netzdesign-demo.streamlit.app/",
+  "quelle_titel": "Fixkosten-Netzdesign warum die Schranke schwach ist",
+  "ziel_url": "https://sebastianhanisch-slope-scaling-demo.streamlit.app/",
+  "ziel_titel": "Slope Scaling Fixkosten linearisieren",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-neuronale-netze.html",
+  "quelle_url": "https://sebastianhanisch-perceptron-demo.streamlit.app/",
+  "quelle_titel": "Perceptron wo hört eine Gerade auf zu reichen?",
+  "ziel_url": "https://sebastianhanisch-mlp-backprop-demo.streamlit.app/",
+  "ziel_titel": "MLP + Backpropagation wie eine verdeckte Schicht XOR löst",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-neuronale-netze.html",
+  "quelle_url": "https://sebastianhanisch-mlp-backprop-demo.streamlit.app/",
+  "quelle_titel": "MLP + Backpropagation wie eine verdeckte Schicht XOR löst",
+  "ziel_url": "https://sebastianhanisch-cnn-demo.streamlit.app/",
+  "ziel_titel": "CNN was Gewichtsteilung bringt",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-neuronale-netze.html",
+  "quelle_url": "https://sebastianhanisch-mlp-backprop-demo.streamlit.app/",
+  "quelle_titel": "MLP + Backpropagation wie eine verdeckte Schicht XOR löst",
+  "ziel_url": "https://sebastianhanisch-rnn-demo.streamlit.app/",
+  "ziel_titel": "RNN Zustand über die Zeit",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-neuronale-netze.html",
+  "quelle_url": "https://sebastianhanisch-rnn-demo.streamlit.app/",
+  "quelle_titel": "RNN Zustand über die Zeit",
+  "ziel_url": "https://sebastianhanisch-lstm-demo.streamlit.app/",
+  "ziel_titel": "LSTM wie Gatter den Gradienten retten",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-neuronale-netze.html",
+  "quelle_url": "https://sebastianhanisch-lstm-demo.streamlit.app/",
+  "quelle_titel": "LSTM wie Gatter den Gradienten retten",
+  "ziel_url": "https://sebastianhanisch-attention-transformer-demo.streamlit.app/",
+  "ziel_titel": "Attention/Transformer Zugriff statt Weitergabe",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-nichtlineare-optimierung.html",
+  "quelle_url": "https://sebastianhanisch-gradient-descent-demo.streamlit.app/",
+  "quelle_titel": "Gradientenabstieg der erste Schritt bergab",
+  "ziel_url": "https://sebastianhanisch-newton-verfahren-demo.streamlit.app/",
+  "ziel_titel": "Newton-Verfahren Krümmung nutzen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-nichtlineare-optimierung.html",
+  "quelle_url": "https://sebastianhanisch-newton-verfahren-demo.streamlit.app/",
+  "quelle_titel": "Newton-Verfahren Krümmung nutzen",
+  "ziel_url": "https://sebastianhanisch-quasi-newton-demo.streamlit.app/",
+  "ziel_titel": "Quasi-Newton (BFGS/L-BFGS) Krümmung schätzen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-nichtlineare-optimierung.html",
+  "quelle_url": "https://sebastianhanisch-quasi-newton-demo.streamlit.app/",
+  "quelle_titel": "Quasi-Newton (BFGS/L-BFGS) Krümmung schätzen",
+  "ziel_url": "https://sebastianhanisch-lagrange-kkt-demo.streamlit.app/",
+  "ziel_titel": "Lagrange/KKT Nebenbedingungen zum ersten Mal",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-nichtlineare-optimierung.html",
+  "quelle_url": "https://sebastianhanisch-lagrange-kkt-demo.streamlit.app/",
+  "quelle_titel": "Lagrange/KKT Nebenbedingungen zum ersten Mal",
+  "ziel_url": "https://sebastianhanisch-straf-barriere-demo.streamlit.app/",
+  "ziel_titel": "Straf-/Barriere-Verfahren Folge statt direkter Lösung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-nichtlineare-optimierung.html",
+  "quelle_url": "https://sebastianhanisch-lagrange-kkt-demo.streamlit.app/",
+  "quelle_titel": "Lagrange/KKT Nebenbedingungen zum ersten Mal",
+  "ziel_url": "https://sebastianhanisch-sqp-demo.streamlit.app/",
+  "ziel_titel": "SQP Sequential Quadratic Programming",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-nichtlineare-optimierung.html",
+  "quelle_url": "https://sebastianhanisch-sqp-demo.streamlit.app/",
+  "quelle_titel": "SQP Sequential Quadratic Programming",
+  "ziel_url": "https://sebastianhanisch-interior-point-nlp-demo.streamlit.app/",
+  "ziel_titel": "Innere-Punkte-Verfahren für NLP Schlupf statt Fallunterscheidung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-nichtlineare-optimierung.html",
+  "quelle_url": "https://sebastianhanisch-gradient-descent-demo.streamlit.app/",
+  "quelle_titel": "Gradientenabstieg der erste Schritt bergab",
+  "ziel_url": "https://sebastianhanisch-stochastische-gradientenverfahren-demo.streamlit.app/",
+  "ziel_titel": "Stochastische Gradientenverfahren die Brücke zu Deep Learning",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-populations-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/",
+  "quelle_titel": "Genetischer Algorithmus Selektion, Crossover, Mutation",
+  "ziel_url": "https://sebastianhanisch-nsga2-demo.streamlit.app/",
+  "ziel_titel": "NSGA-II Pareto-Dominanz statt fester Gewichtung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-populations-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-nsga2-demo.streamlit.app/",
+  "quelle_titel": "NSGA-II Pareto-Dominanz statt fester Gewichtung",
+  "ziel_url": "https://sebastianhanisch-nsga3-demo.streamlit.app/",
+  "ziel_titel": "NSGA-III Referenzpunkte statt Crowding-Distance",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-populations-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-nsga2-demo.streamlit.app/",
+  "quelle_titel": "NSGA-II Pareto-Dominanz statt fester Gewichtung",
+  "ziel_url": "https://sebastianhanisch-moead-demo.streamlit.app/",
+  "ziel_titel": "MOEA/D Zerlegung statt Dominanz-Sortierung",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-populations-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/",
+  "quelle_titel": "Genetischer Algorithmus Selektion, Crossover, Mutation",
+  "ziel_url": "https://sebastianhanisch-cma-es-demo.streamlit.app/",
+  "ziel_titel": "CMA-ES Selbstadaptive Kovarianzmatrix",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-populations-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/",
+  "quelle_titel": "Genetischer Algorithmus Selektion, Crossover, Mutation",
+  "ziel_url": "https://sebastianhanisch-differential-evolution-demo.streamlit.app/",
+  "ziel_titel": "Differential Evolution Mutation über den Differenzvektor",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-populations-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-differential-evolution-demo.streamlit.app/",
+  "quelle_titel": "Differential Evolution Mutation über den Differenzvektor",
+  "ziel_url": "https://sebastianhanisch-l-shade-demo.streamlit.app/",
+  "ziel_titel": "L-SHADE Selbstadaptive Differential Evolution",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-populations-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/",
+  "quelle_titel": "Genetischer Algorithmus Selektion, Crossover, Mutation",
+  "ziel_url": "https://sebastianhanisch-pso-demo.streamlit.app/",
+  "ziel_titel": "Partikelschwarm-Optimierung Geschwindigkeit statt Mutation",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-populations-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/",
+  "quelle_titel": "Genetischer Algorithmus Selektion, Crossover, Mutation",
+  "ziel_url": "https://sebastianhanisch-ant-system-demo.streamlit.app/",
+  "ziel_titel": "Ant System Stigmergie statt Population-Operatoren",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-populations-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-ant-system-demo.streamlit.app/",
+  "quelle_titel": "Ant System Stigmergie statt Population-Operatoren",
+  "ziel_url": "https://sebastianhanisch-max-min-ant-system-demo.streamlit.app/",
+  "ziel_titel": "Max-Min Ant System begrenztes Pheromon",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-populations-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/",
+  "quelle_titel": "Genetischer Algorithmus Selektion, Crossover, Mutation",
+  "ziel_url": "https://sebastianhanisch-memetic-demo.streamlit.app/",
+  "ziel_titel": "Memetischer Algorithmus lokale Suche poliert die Population",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-populations-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+  "quelle_titel": "Hill Climbing (Trajektorien-Linie)",
+  "ziel_url": "https://sebastianhanisch-memetic-demo.streamlit.app/",
+  "ziel_titel": "Memetischer Algorithmus lokale Suche poliert die Population",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-quellentrennung.html",
+  "quelle_url": "https://sebastianhanisch-ica-demo.streamlit.app/",
+  "quelle_titel": "ICA Unabhängigkeit",
+  "ziel_url": "https://sebastianhanisch-sobi-demo.streamlit.app/",
+  "ziel_titel": "SOBI Autokorrelation",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-quellentrennung.html",
+  "quelle_url": "https://sebastianhanisch-ica-demo.streamlit.app/",
+  "quelle_titel": "ICA Unabhängigkeit",
+  "ziel_url": "https://sebastianhanisch-sca-demo.streamlit.app/",
+  "ziel_titel": "Sparse Component Analysis mehr Quellen als Sensoren",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-quellentrennung.html",
+  "quelle_url": "https://sebastianhanisch-sobi-demo.streamlit.app/",
+  "quelle_titel": "SOBI Autokorrelation",
+  "ziel_url": "https://sebastianhanisch-sca-demo.streamlit.app/",
+  "ziel_titel": "Sparse Component Analysis mehr Quellen als Sensoren",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-quellentrennung.html",
+  "quelle_url": "https://sebastianhanisch-pca-demo.streamlit.app/",
+  "quelle_titel": "PCA (Dimensionsreduktion)",
+  "ziel_url": "https://sebastianhanisch-ica-demo.streamlit.app/",
+  "ziel_titel": "ICA Unabhängigkeit",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-quellentrennung.html",
+  "quelle_url": "https://sebastianhanisch-ica-demo.streamlit.app/",
+  "quelle_titel": "ICA Unabhängigkeit",
+  "ziel_url": "https://sebastianhanisch-nmf-demo.streamlit.app/",
+  "ziel_titel": "NMF Nicht-Negativität",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-quellentrennung.html",
+  "quelle_url": "https://sebastianhanisch-pca-demo.streamlit.app/",
+  "quelle_titel": "PCA (Dimensionsreduktion)",
+  "ziel_url": "https://sebastianhanisch-spike-sorting-demo.streamlit.app/",
+  "ziel_titel": "Standard-Pipeline Schwelle, PCA, k-Means",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-quellentrennung.html",
+  "quelle_url": "https://sebastianhanisch-kmeans-demo.streamlit.app/",
+  "quelle_titel": "k-Means (Clustering)",
+  "ziel_url": "https://sebastianhanisch-spike-sorting-demo.streamlit.app/",
+  "ziel_titel": "Standard-Pipeline Schwelle, PCA, k-Means",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-quellentrennung.html",
+  "quelle_url": "https://sebastianhanisch-spike-sorting-demo.streamlit.app/",
+  "quelle_titel": "Standard-Pipeline Schwelle, PCA, k-Means",
+  "ziel_url": "https://sebastianhanisch-template-matching-demo.streamlit.app/",
+  "ziel_titel": "Vorlagenabgleich überlappende Spikes",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-quellentrennung.html",
+  "quelle_url": "https://sebastianhanisch-spike-sorting-demo.streamlit.app/",
+  "quelle_titel": "Standard-Pipeline Schwelle, PCA, k-Means",
+  "ziel_url": "https://sebastianhanisch-delay-graph-demo.streamlit.app/",
+  "ziel_titel": "Verzögerungsgraph Laufzeit statt Wellenform",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-reinforcement-learning.html",
+  "quelle_url": "https://sebastianhanisch-bandit-demo.streamlit.app/",
+  "quelle_titel": "🎰 Bandit Erkunden oder ausnutzen bei unbekannter Belohnung",
+  "ziel_url": "https://sebastianhanisch-value-iteration-demo.streamlit.app/",
+  "ziel_titel": "🗺️ Value Iteration und Policy Iteration die optimale Politik aus einem bekannten Modell berechnen",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-reinforcement-learning.html",
+  "quelle_url": "https://sebastianhanisch-value-iteration-demo.streamlit.app/",
+  "quelle_titel": "🗺️ Value Iteration und Policy Iteration die optimale Politik aus einem bekannten Modell berechnen",
+  "ziel_url": "https://sebastianhanisch-q-learning-demo.streamlit.app/",
+  "ziel_titel": "🤖 Q-Learning dieselbe Politik lernen, wenn das Modell unbekannt ist",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-reinforcement-learning.html",
+  "quelle_url": "https://sebastianhanisch-q-learning-demo.streamlit.app/",
+  "quelle_titel": "🤖 Q-Learning dieselbe Politik lernen, wenn das Modell unbekannt ist",
+  "ziel_url": "https://sebastianhanisch-sarsa-demo.streamlit.app/",
+  "ziel_titel": "🧗 SARSA gegen Q-Learning on-policy gegen off-policy an der Klippe",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-reinforcement-learning.html",
+  "quelle_url": "https://sebastianhanisch-q-learning-demo.streamlit.app/",
+  "quelle_titel": "🤖 Q-Learning dieselbe Politik lernen, wenn das Modell unbekannt ist",
+  "ziel_url": "https://sebastianhanisch-dyna-q-demo.streamlit.app/",
+  "ziel_titel": "🗺️ Dyna-Q zusätzlich ein Modell lernen und damit planen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-reinforcement-learning.html",
+  "quelle_url": "https://sebastianhanisch-q-learning-demo.streamlit.app/",
+  "quelle_titel": "🤖 Q-Learning dieselbe Politik lernen, wenn das Modell unbekannt ist",
+  "ziel_url": "https://sebastianhanisch-dqn-demo.streamlit.app/",
+  "ziel_titel": "🧠 DQN / Funktionsapproximation ein kleines Netz statt einer Tabelle",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-reinforcement-learning.html",
+  "quelle_url": "https://sebastianhanisch-q-learning-demo.streamlit.app/",
+  "quelle_titel": "🤖 Q-Learning dieselbe Politik lernen, wenn das Modell unbekannt ist",
+  "ziel_url": "https://sebastianhanisch-policy-gradient-demo.streamlit.app/",
+  "ziel_titel": "🧭 Policy Gradient / REINFORCE die Politik direkt parametrisieren",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-reinforcement-learning.html",
+  "quelle_url": "https://sebastianhanisch-policy-gradient-demo.streamlit.app/",
+  "quelle_titel": "🧭 Policy Gradient / REINFORCE die Politik direkt parametrisieren",
+  "ziel_url": "https://sebastianhanisch-actor-critic-demo.streamlit.app/",
+  "ziel_titel": "🎭 Actor-Critic ein gelernter Kritiker senkt die Varianz",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spannbaum.html",
+  "quelle_url": "https://sebastianhanisch-kruskal-demo.streamlit.app/",
+  "quelle_titel": "Kruskal der billigste Weg, alle zu verbinden",
+  "ziel_url": "https://sebastianhanisch-prim-demo.streamlit.app/",
+  "ziel_titel": "Prim ein Baum, der von einem Punkt aus wächst",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-spannbaum.html",
+  "quelle_url": "https://sebastianhanisch-kruskal-demo.streamlit.app/",
+  "quelle_titel": "Kruskal der billigste Weg, alle zu verbinden",
+  "ziel_url": "https://sebastianhanisch-boruvka-demo.streamlit.app/",
+  "ziel_titel": "Borůvka alle Komponenten wählen gleichzeitig",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-spannbaum.html",
+  "quelle_url": "https://sebastianhanisch-kruskal-demo.streamlit.app/",
+  "quelle_titel": "Kruskal der billigste Weg, alle zu verbinden",
+  "ziel_url": "https://sebastianhanisch-euclidean-mst-demo.streamlit.app/",
+  "ziel_titel": "Euklidischer MST Delaunay statt n² Kanten",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spannbaum.html",
+  "quelle_url": "https://sebastianhanisch-kruskal-demo.streamlit.app/",
+  "quelle_titel": "Kruskal der billigste Weg, alle zu verbinden",
+  "ziel_url": "https://sebastianhanisch-arborescence-demo.streamlit.app/",
+  "ziel_titel": "Gerichteter Spannbaum die Arboreszenz (Chu-Liu/Edmonds)",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spannbaum.html",
+  "quelle_url": "https://sebastianhanisch-kruskal-demo.streamlit.app/",
+  "quelle_titel": "Kruskal der billigste Weg, alle zu verbinden",
+  "ziel_url": "https://sebastianhanisch-constrained-mst-demo.streamlit.app/",
+  "ziel_titel": "Beschränkte Spannbäume Bottleneck, Knotengrad, Hops",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spannbaum.html",
+  "quelle_url": "https://sebastianhanisch-constrained-mst-demo.streamlit.app/",
+  "quelle_titel": "Beschränkte Spannbäume Bottleneck, Knotengrad, Hops",
+  "ziel_url": "https://sebastianhanisch-cmst-demo.streamlit.app/",
+  "ziel_titel": "Kapazitierter Spannbaum Esau-Williams, Kruskal, Lokalsuche, exakt",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spannbaum.html",
+  "quelle_url": "https://sebastianhanisch-kruskal-demo.streamlit.app/",
+  "quelle_titel": "Kruskal der billigste Weg, alle zu verbinden",
+  "ziel_url": "https://sebastianhanisch-steiner-tree-demo.streamlit.app/",
+  "ziel_titel": "Steiner-Baum KMB, Takahashi-Matsuyama, Lokalsuche, exakt",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spannbaum.html",
+  "quelle_url": "https://sebastianhanisch-steiner-tree-demo.streamlit.app/",
+  "quelle_titel": "Steiner-Baum KMB, Takahashi-Matsuyama, Lokalsuche, exakt",
+  "ziel_url": "https://sebastianhanisch-pcst-demo.streamlit.app/",
+  "ziel_titel": "Prize-Collecting Steiner-Baum Goemans-Williamson, Beschneiden, exakt",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spannbaum.html",
+  "quelle_url": "https://sebastianhanisch-kruskal-demo.streamlit.app/",
+  "quelle_titel": "Kruskal der billigste Weg, alle zu verbinden",
+  "ziel_url": "https://sebastianhanisch-mst-sensitivity-demo.streamlit.app/",
+  "ziel_titel": "MST-Sensitivität Toleranzen, Ausfall, dynamischer Baum",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spannbaum.html",
+  "quelle_url": "https://sebastianhanisch-kruskal-demo.streamlit.app/",
+  "quelle_titel": "Kruskal der billigste Weg, alle zu verbinden",
+  "ziel_url": "https://sebastianhanisch-random-spanning-tree-demo.streamlit.app/",
+  "ziel_titel": "Zufällige Spannbäume zählen und würfeln statt optimieren",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-spieltheorie.html",
+  "quelle_url": "https://sebastianhanisch-nash-demo.streamlit.app/",
+  "quelle_titel": "Nash-Gleichgewicht wenn jeder Lkw sich selbst das beste Tor sucht",
+  "ziel_url": "https://sebastianhanisch-poa-braess-demo.streamlit.app/",
+  "ziel_titel": "Preis der Anarchie und Braess warum eine zusätzliche Straße alle langsamer machen kann",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spieltheorie.html",
+  "quelle_url": "https://sebastianhanisch-poa-braess-demo.streamlit.app/",
+  "quelle_titel": "Preis der Anarchie und Braess warum eine zusätzliche Straße alle langsamer machen kann",
+  "ziel_url": "https://sebastianhanisch-maut-demo.streamlit.app/",
+  "ziel_titel": "Maut und Grenzkosten-Preise Eigennutz auf das Optimum lenken",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spieltheorie.html",
+  "quelle_url": "https://sebastianhanisch-nash-demo.streamlit.app/",
+  "quelle_titel": "Nash-Gleichgewicht wenn jeder Lkw sich selbst das beste Tor sucht",
+  "ziel_url": "https://sebastianhanisch-noregret-demo.streamlit.app/",
+  "ziel_titel": "No-Regret-Lernen aus Erfahrung lernen, ohne die Kosten der anderen zu kennen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spieltheorie.html",
+  "quelle_url": "https://sebastianhanisch-noregret-demo.streamlit.app/",
+  "quelle_titel": "No-Regret-Lernen aus Erfahrung lernen, ohne die Kosten der anderen zu kennen",
+  "ziel_url": "https://sebastianhanisch-korreliert-demo.streamlit.app/",
+  "ziel_titel": "Korrelierte Gleichgewichte ein Vermittler empfiehlt, jeder darf ablehnen",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spieltheorie.html",
+  "quelle_url": "https://sebastianhanisch-nash-demo.streamlit.app/",
+  "quelle_titel": "Nash-Gleichgewicht wenn jeder Lkw sich selbst das beste Tor sucht",
+  "ziel_url": "https://sebastianhanisch-stackelberg-demo.streamlit.app/",
+  "ziel_titel": "Stackelberg wer sich zuerst festlegt, lenkt das Ergebnis",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-spieltheorie.html",
+  "quelle_url": "https://sebastianhanisch-shapley-demo.streamlit.app/",
+  "quelle_titel": "Shapley-Wert den Nutzen einer Sammeltour fair teilen",
+  "ziel_url": "https://sebastianhanisch-kern-demo.streamlit.app/",
+  "ziel_titel": "Kern und Nukleolus wann ist eine Aufteilung stabil, und welche am stabilsten?",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spieltheorie.html",
+  "quelle_url": "https://sebastianhanisch-kern-demo.streamlit.app/",
+  "quelle_titel": "Kern und Nukleolus wann ist eine Aufteilung stabil, und welche am stabilsten?",
+  "ziel_url": "https://sebastianhanisch-moulin-demo.streamlit.app/",
+  "ziel_titel": "Moulin-Mechanismus Kosten teilen, wenn niemand ehrlich sein muss",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spieltheorie.html",
+  "quelle_url": "https://sebastianhanisch-moulin-demo.streamlit.app/",
+  "quelle_titel": "Moulin-Mechanismus Kosten teilen, wenn niemand ehrlich sein muss",
+  "ziel_url": "https://sebastianhanisch-myerson-satterthwaite-demo.streamlit.app/",
+  "ziel_titel": "Myerson-Satterthwaite warum ehrlicher Handel nie ganz effizient ist",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-spieltheorie.html",
+  "quelle_url": "https://sebastianhanisch-maut-demo.streamlit.app/",
+  "quelle_titel": "Maut und Grenzkosten-Preise Eigennutz auf das Optimum lenken",
+  "ziel_url": "https://sebastianhanisch-moulin-demo.streamlit.app/",
+  "ziel_titel": "Moulin-Mechanismus Kosten teilen, wenn niemand ehrlich sein muss",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-standortplanung.html",
+  "quelle_url": "https://sebastianhanisch-standortplanung-demo.streamlit.app/",
+  "quelle_titel": "Standortplanung warum ist die Schranke hier fast exakt?",
+  "ziel_url": "https://sebastianhanisch-kapazitierte-standortplanung-demo.streamlit.app/",
+  "ziel_titel": "Kapazitierte Standortplanung was leistet die Lagrange-Relaxation?",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-standortplanung.html",
+  "quelle_url": "https://sebastianhanisch-standortplanung-demo.streamlit.app/",
+  "quelle_titel": "Standortplanung warum ist die Schranke hier fast exakt?",
+  "ziel_url": "https://sebastianhanisch-p-center-demo.streamlit.app/",
+  "ziel_titel": "p-Center wie weit ist der Weiteste noch weg?",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-standortplanung.html",
+  "quelle_url": "https://sebastianhanisch-standortplanung-demo.streamlit.app/",
+  "quelle_titel": "Standortplanung warum ist die Schranke hier fast exakt?",
+  "ziel_url": "https://sebastianhanisch-standort-bestand-demo.streamlit.app/",
+  "ziel_titel": "Standort + Bestand warum wenige große Lager billiger sind",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-standortplanung.html",
+  "quelle_url": "https://sebastianhanisch-standortplanung-demo.streamlit.app/",
+  "quelle_titel": "Standortplanung warum ist die Schranke hier fast exakt?",
+  "ziel_url": "https://sebastianhanisch-wettbewerbsstandort-demo.streamlit.app/",
+  "ziel_titel": "Standortwettbewerb wer vorwegnimmt, gewinnt",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-standortplanung.html",
+  "quelle_url": "https://sebastianhanisch-standortplanung-demo.streamlit.app/",
+  "quelle_titel": "Standortplanung warum ist die Schranke hier fast exakt?",
+  "ziel_url": "https://sebastianhanisch-drehscheiben-demo.streamlit.app/",
+  "ziel_titel": "p-Hub-Median wer profitiert vom Rabatt?",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+  "quelle_titel": "Hill Climbing bleibt im ersten Optimum stecken",
+  "ziel_url": "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/",
+  "ziel_titel": "Simulated Annealing nimmt Verschlechterungen an",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+  "quelle_titel": "Hill Climbing bleibt im ersten Optimum stecken",
+  "ziel_url": "https://sebastianhanisch-iterated-local-search-demo.streamlit.app/",
+  "ziel_titel": "Iterated Local Search stört statt wirft weg",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+  "quelle_titel": "Hill Climbing bleibt im ersten Optimum stecken",
+  "ziel_url": "https://sebastianhanisch-tabu-search-demo.streamlit.app/",
+  "ziel_titel": "Tabu Search Gedächtnis gegen Rückwege",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+  "quelle_titel": "Hill Climbing bleibt im ersten Optimum stecken",
+  "ziel_url": "https://sebastianhanisch-grasp-demo.streamlit.app/",
+  "ziel_titel": "GRASP randomisiert-gierige Konstruktion",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+  "quelle_titel": "Hill Climbing bleibt im ersten Optimum stecken",
+  "ziel_url": "https://sebastianhanisch-lin-kernighan-demo.streamlit.app/",
+  "ziel_titel": "Lin-Kernighan tiefere Suche (variable Tiefe)",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+  "quelle_titel": "Hill Climbing bleibt im ersten Optimum stecken",
+  "ziel_url": "https://sebastianhanisch-dynasearch-demo.streamlit.app/",
+  "ziel_titel": "Dynasearch unabhängige Züge auf einmal",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-hill-climbing-demo.streamlit.app/",
+  "quelle_titel": "Hill Climbing bleibt im ersten Optimum stecken",
+  "ziel_url": "https://sebastianhanisch-vrp-nachbarschaften-demo.streamlit.app/",
+  "ziel_titel": "VRP-Nachbarschaften Züge zwischen Routen (CVRP)",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-simulated-annealing-demo.streamlit.app/",
+  "quelle_titel": "Simulated Annealing nimmt Verschlechterungen an",
+  "ziel_url": "https://sebastianhanisch-parallel-tempering-demo.streamlit.app/",
+  "ziel_titel": "Parallel Tempering mehrere Ketten statt Abkühlplan",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-iterated-local-search-demo.streamlit.app/",
+  "quelle_titel": "Iterated Local Search stört statt wirft weg",
+  "ziel_url": "https://sebastianhanisch-variable-neighborhood-search-demo.streamlit.app/",
+  "ziel_titel": "Variable Neighborhood Search Störstärke eskaliert + Reset",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-variable-neighborhood-search-demo.streamlit.app/",
+  "quelle_titel": "Variable Neighborhood Search Störstärke eskaliert + Reset",
+  "ziel_url": "https://sebastianhanisch-alns-demo.streamlit.app/",
+  "ziel_titel": "ALNS großer statt kleiner Zug",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-vrp-nachbarschaften-demo.streamlit.app/",
+  "quelle_titel": "VRP-Nachbarschaften Züge zwischen Routen (CVRP)",
+  "ziel_url": "https://sebastianhanisch-alns-demo.streamlit.app/",
+  "ziel_titel": "ALNS großer statt kleiner Zug",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-iterated-local-search-demo.streamlit.app/",
+  "quelle_titel": "Iterated Local Search stört statt wirft weg",
+  "ziel_url": "https://sebastianhanisch-lin-kernighan-demo.streamlit.app/",
+  "ziel_titel": "Lin-Kernighan tiefere Suche (variable Tiefe)",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-trajektorien-metaheuristiken.html",
+  "quelle_url": "https://sebastianhanisch-tabu-search-demo.streamlit.app/",
+  "quelle_titel": "Tabu Search Gedächtnis gegen Rückwege",
+  "ziel_url": "https://sebastianhanisch-guided-local-search-demo.streamlit.app/",
+  "ziel_titel": "Guided Local Search Strafe statt verfallender Sperre",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-turnierplanung.html",
+  "quelle_url": "https://sebastianhanisch-round-robin-demo.streamlit.app/",
+  "quelle_titel": "Rundenturnier die Zirkelmethode (Berger-Tafeln)",
+  "ziel_url": "https://sebastianhanisch-bracket-seeding-demo.streamlit.app/",
+  "ziel_titel": "K.-o.-System und Setzliste Struktur statt Punktwertung",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-turnierplanung.html",
+  "quelle_url": "https://sebastianhanisch-round-robin-demo.streamlit.app/",
+  "quelle_titel": "Rundenturnier die Zirkelmethode (Berger-Tafeln)",
+  "ziel_url": "https://sebastianhanisch-schweizer-system-demo.streamlit.app/",
+  "ziel_titel": "Schweizer System FIDE Dutch System, C1–C21",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-turnierplanung.html",
+  "quelle_url": "https://sebastianhanisch-round-robin-demo.streamlit.app/",
+  "quelle_titel": "Rundenturnier die Zirkelmethode (Berger-Tafeln)",
+  "ziel_url": "https://sebastianhanisch-double-round-robin-demo.streamlit.app/",
+  "ziel_titel": "Doppelrunden-Liga Heim/Auswärts-Balance",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-turnierplanung.html",
+  "quelle_url": "https://sebastianhanisch-double-round-robin-demo.streamlit.app/",
+  "quelle_titel": "Doppelrunden-Liga Heim/Auswärts-Balance",
+  "ziel_url": "https://sebastianhanisch-traveling-tournament-demo.streamlit.app/",
+  "ziel_titel": "Traveling Tournament Problem Reisedistanz, freie Paarstruktur",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-turnierplanung.html",
+  "quelle_url": "https://sebastianhanisch-round-robin-demo.streamlit.app/",
+  "quelle_titel": "Rundenturnier die Zirkelmethode (Berger-Tafeln)",
+  "ziel_url": "https://sebastianhanisch-group-knockout-demo.streamlit.app/",
+  "ziel_titel": "Gruppenphase + K.-o. Fußball-WM-Struktur",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-turnierplanung.html",
+  "quelle_url": "https://sebastianhanisch-bracket-seeding-demo.streamlit.app/",
+  "quelle_titel": "K.-o.-System und Setzliste Struktur statt Punktwertung",
+  "ziel_url": "https://sebastianhanisch-group-knockout-demo.streamlit.app/",
+  "ziel_titel": "Gruppenphase + K.-o. Fußball-WM-Struktur",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-turnierplanung.html",
+  "quelle_url": "https://sebastianhanisch-bracket-seeding-demo.streamlit.app/",
+  "quelle_titel": "K.-o.-System und Setzliste Struktur statt Punktwertung",
+  "ziel_url": "https://sebastianhanisch-double-elimination-demo.streamlit.app/",
+  "ziel_titel": "Doppel-K.-o.-System Verlierer-Baum, zweite Chance",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-naive-forecast-demo.streamlit.app/",
+  "quelle_titel": "Naive Prognose die Messlatte",
+  "ziel_url": "https://sebastianhanisch-exponential-smoothing-demo.streamlit.app/",
+  "ziel_titel": "Exponentielle Glättung Niveau, Trend, Wochenmuster",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-exponential-smoothing-demo.streamlit.app/",
+  "quelle_titel": "Exponentielle Glättung Niveau, Trend, Wochenmuster",
+  "ziel_url": "https://sebastianhanisch-arima-demo.streamlit.app/",
+  "ziel_titel": "ARIMA Modelle aus Bausteinen",
+  "art": "kontrast"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-exponential-smoothing-demo.streamlit.app/",
+  "quelle_titel": "Exponentielle Glättung Niveau, Trend, Wochenmuster",
+  "ziel_url": "https://sebastianhanisch-dynamic-regression-demo.streamlit.app/",
+  "ziel_titel": "Dynamische Regression Prognose mit bekanntem Kalender",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-arima-demo.streamlit.app/",
+  "quelle_titel": "ARIMA Modelle aus Bausteinen",
+  "ziel_url": "https://sebastianhanisch-dynamic-regression-demo.streamlit.app/",
+  "ziel_titel": "Dynamische Regression Prognose mit bekanntem Kalender",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-exponential-smoothing-demo.streamlit.app/",
+  "quelle_titel": "Exponentielle Glättung Niveau, Trend, Wochenmuster",
+  "ziel_url": "https://sebastianhanisch-croston-demo.streamlit.app/",
+  "ziel_titel": "Croston, SBA, TSB sporadische Nachfrage",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-dynamic-regression-demo.streamlit.app/",
+  "quelle_titel": "Dynamische Regression Prognose mit bekanntem Kalender",
+  "ziel_url": "https://sebastianhanisch-boosting-forecast-demo.streamlit.app/",
+  "ziel_titel": "Boosting mit Lag-Merkmalen ein Modell für alle Depots",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-dynamic-regression-demo.streamlit.app/",
+  "quelle_titel": "Dynamische Regression Prognose mit bekanntem Kalender",
+  "ziel_url": "https://sebastianhanisch-forecast-interval-demo.streamlit.app/",
+  "ziel_titel": "Prognoseintervalle wie sicher ist die Prognose?",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-dynamic-regression-demo.streamlit.app/",
+  "quelle_titel": "Dynamische Regression Prognose mit bekanntem Kalender",
+  "ziel_url": "https://sebastianhanisch-hierarchy-forecast-demo.streamlit.app/",
+  "ziel_titel": "Hierarchische Abstimmung Prognosen, die sich addieren",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-dynamic-regression-demo.streamlit.app/",
+  "quelle_titel": "Dynamische Regression Prognose mit bekanntem Kalender",
+  "ziel_url": "https://sebastianhanisch-forecast-combination-demo.streamlit.app/",
+  "ziel_titel": "Prognosekombination viele Prognosen zu einer",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-boosting-forecast-demo.streamlit.app/",
+  "quelle_titel": "Boosting mit Lag-Merkmalen ein Modell für alle Depots",
+  "ziel_url": "https://sebastianhanisch-forecast-combination-demo.streamlit.app/",
+  "ziel_titel": "Prognosekombination viele Prognosen zu einer",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-boosting-forecast-demo.streamlit.app/",
+  "quelle_titel": "Boosting mit Lag-Merkmalen ein Modell für alle Depots",
+  "ziel_url": "https://sebastianhanisch-pretrained-net-demo.streamlit.app/",
+  "ziel_titel": "Vortrainiertes Netz Wissen aus vielen Depots",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-pretrained-net-demo.streamlit.app/",
+  "quelle_titel": "Vortrainiertes Netz Wissen aus vielen Depots",
+  "ziel_url": "https://sebastianhanisch-forecast-combination-demo.streamlit.app/",
+  "ziel_titel": "Prognosekombination viele Prognosen zu einer",
+  "art": "idee"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-forecast-interval-demo.streamlit.app/",
+  "quelle_titel": "Prognoseintervalle wie sicher ist die Prognose?",
+  "ziel_url": "https://sebastianhanisch-forecast-inventory-demo.streamlit.app/",
+  "ziel_titel": "Von der Prognose zum Bestand Sicherheitsbestand aus Unsicherheit",
+  "art": "fix"
+ },
+ {
+  "linie_seite": "konzepte-zeitreihen-prognose.html",
+  "quelle_url": "https://sebastianhanisch-forecast-combination-demo.streamlit.app/",
+  "quelle_titel": "Prognosekombination viele Prognosen zu einer",
+  "ziel_url": "https://sebastianhanisch-forecast-inventory-demo.streamlit.app/",
+  "ziel_titel": "Von der Prognose zum Bestand Sicherheitsbestand aus Unsicherheit",
+  "art": "fix"
+ }
+]

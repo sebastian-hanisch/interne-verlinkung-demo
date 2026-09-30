@@ -13,7 +13,7 @@ from __future__ import annotations
 import plotly.graph_objects as go
 import streamlit as st
 
-from analyse import groesste_gewinner, index_kontakt_anteil, konzepte_linien, linien_mittel
+from analyse import dag_vs_live_diagnose, groesste_gewinner, index_kontakt_anteil, konzepte_linien, linien_mittel
 from graph import build_base_graph, build_mit_basis_fix, build_mit_vollem_fix, load_snapshot, pagerank
 
 st.set_page_config(page_title="Interne Verlinkung: Diagnose und Wirkung", page_icon="🔗", layout="wide")
@@ -138,6 +138,47 @@ with st.expander("Warum keine Auswahl/Optimierung unter den Demos?"):
         "genau die Rücklinks, die zu ihrer bereits dokumentierten Position auf der Website passen "
         "(eigene Linie, echte Crosslink-Nachbarn) - nicht mehr und nicht weniger."
     )
+
+st.header("3. Diagnose: hält die Baureihenfolge, was die Diagramme versprechen?")
+st.markdown(
+    "Jede Konzepte-Linie hat ein `*_dag.dot`-Diagramm, das die Baureihenfolge der Verfahren "
+    "dokumentiert (z. B. Hill Climbing → Simulated Annealing → Tabu Search) - die Grundlage für die "
+    "Querverlinkung zwischen den Demos derselben Linie. Hier wird verglichen, was diese Diagramme "
+    "an Kanten vorsehen mit dem, was die Demos in ihrem `app.py` tatsächlich verlinken."
+)
+
+diag = dag_vs_live_diagnose(SNAP)
+col1, col2, col3 = st.columns(3)
+col1.metric("Dokumentierte Kanten (27 Diagramme)", diag["anzahl_dokumentiert"])
+col2.metric("Tatsächliche Live-Querlinks", diag["anzahl_live"])
+col3.metric("Davon deckungsgleich", diag["anzahl_treffer"])
+
+fig_dag = go.Figure(go.Bar(
+    x=["Dokumentiert, aber nicht live verlinkt", "Live verlinkt, aber nicht dokumentiert", "Deckungsgleich"],
+    y=[diag["anzahl_fehlend"], diag["anzahl_undokumentiert"], diag["anzahl_treffer"]],
+    marker_color=["#D68A2E", "#3E8E86", "#14233B"],
+))
+fig_dag.update_layout(title="Dokumentierte vs. tatsächliche Demo-zu-Demo-Kanten", yaxis_title="Anzahl Kanten",
+                       height=380, margin=dict(l=10, r=10, t=40, b=10))
+st.plotly_chart(fig_dag, width="stretch")
+
+st.caption(
+    f"Von {diag['anzahl_dokumentiert']} dokumentierten Kanten ist nur **{diag['anzahl_treffer']}** "
+    f"tatsächlich live verlinkt - **{diag['anzahl_fehlend']}** dokumentierte Kanten fehlen live, und "
+    f"umgekehrt gibt es **{diag['anzahl_undokumentiert']}** Live-Querlinks, die in keinem Diagramm "
+    "dokumentiert sind. Die Diagramme sind die Planung, die Demos die Umsetzung - und beide laufen "
+    "an den meisten Stellen auseinander."
+)
+
+col1, col2 = st.columns(2)
+with col1:
+    st.markdown("**Beispiele: dokumentiert, aber nicht live verlinkt**")
+    for quelle, ziel in diag["beispiele_fehlend"]:
+        st.markdown(f"- {quelle} → {ziel}")
+with col2:
+    st.markdown("**Beispiele: live verlinkt, aber nicht dokumentiert**")
+    for quelle, ziel in diag["beispiele_undokumentiert"]:
+        st.markdown(f"- {quelle} → {ziel}")
 
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) - "

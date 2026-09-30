@@ -47,6 +47,27 @@ Der Gesamtanteil, der überhaupt an den 300 Demo-Knoten hängt, ändert sich dab
 den eingehenden Links der 50 Website-Seiten, die die Fixes nicht anfassen) – die Fixes ändern nicht,
 *wie viel* Linkkraft an den Demos hängt, sondern *wohin* sie von dort zurückfließt.
 
+## Diagnose 2: hält die Baureihenfolge, was die Diagramme versprechen?
+
+Jede Konzepte-Linie hat ein `*_dag.dot`-Diagramm, das die Baureihenfolge der Verfahren dokumentiert
+(z. B. Hill Climbing → Simulated Annealing → Tabu Search) – die Grundlage für die Querverlinkung
+zwischen den Demos derselben Linie. Ein Abgleich aller 27 Diagramme (255 dokumentierte Kanten,
+254 ohne Duplikate) mit den tatsächlichen Live-Querlinks der 300 Demos (69 Kanten) zeigt eine große
+Lücke:
+
+| | Anzahl |
+|---|---|
+| Dokumentierte Kanten (Diagramme) | 254 |
+| Tatsächliche Live-Querlinks | 69 |
+| Davon deckungsgleich | 1 |
+| Dokumentiert, aber nicht live verlinkt | 253 |
+| Live verlinkt, aber nicht dokumentiert | 68 |
+
+Die Diagramme sind die Planung, die Demos die Umsetzung – und beide laufen an fast allen Stellen
+auseinander. Diese Demo zeigt das nur als Bestandsaufnahme; eine Bewertung, welche der beiden
+Quellen korrigiert werden sollte, und die eigentliche Änderung an den 300 Demo-Repos sind bewusst
+nicht Teil dieser Demo.
+
 ## Daten
 
 `data/linkgraph_snapshot.json` enthält den vollständigen Schnappschuss: die internen Links
@@ -55,7 +76,9 @@ verweisen, und – durch Abruf aller 300 `app.py`-Dateien der Demo-Repos über d
 tatsächlichen Rücklink-Fußzeilentext und die 69 echten Demo-zu-Demo-Querverlinkungen. Erhoben am
 2026-09-30, nicht künstlich erzeugt. `data/crosslink_map.json` enthält zusätzlich die echten
 Crosslink-Beziehungen zwischen den 26 Konzepte-Linien (aus den `crosslinks`-Feldern der
-Linien-JSONs) – die Grundlage für den vollen Fix.
+Linien-JSONs) – die Grundlage für den vollen Fix. `data/dag_edges.json` enthält die 255
+dokumentierten Abhängigkeitskanten aus allen 27 `*_dag.dot`-Diagrammen der Website (Quelle, Ziel,
+Kanten-Art) – die Grundlage für Diagnose 2.
 
 ## Was die Demo zeigt
 
@@ -66,12 +89,16 @@ zur Konzentration auf index.html + kontakt.html.
 Szenarien nebeneinander; die größten Gewinner beim vollen Fix; eine Einordnung, warum das eine feste
 Korrektur und keine Optimierung unter Alternativen ist.
 
+**3. Diagnose (Diagramme vs. Live):** Abgleich der 254 dokumentierten Baureihenfolge-Kanten aus den
+27 `*_dag.dot`-Diagrammen mit den 69 tatsächlichen Live-Querlinks der Demos – nur 1 Kante ist
+deckungsgleich, mit Beispielen für beide Arten der Abweichung.
+
 ## Dateien
 
 - `graph.py` – lädt den Schnappschuss, baut die drei Szenario-Graphen (Ist-Zustand, Basis-Fix, voller Fix), berechnet PageRank
-- `analyse.py` – Kennzahlen für die Diagnose/Wirkungsanalyse (Konzentration auf index+kontakt, Ø PageRank je Linie, größte Gewinner)
+- `analyse.py` – Kennzahlen für die Diagnose/Wirkungsanalyse (Konzentration auf index+kontakt, Ø PageRank je Linie, größte Gewinner, Diagramme-vs-Live-Abgleich)
 - `app.py` – die Streamlit-Oberfläche
-- `tests/` – Korrektheitstests (PageRank-Summe in allen drei Szenarien, Fix verlinkt tatsächlich die richtigen Seiten, AppTest-Smoke-Tests)
+- `tests/` – Korrektheitstests (PageRank-Summe in allen drei Szenarien, Fix verlinkt tatsächlich die richtigen Seiten, Diagramme-vs-Live-Zahlen konsistent, AppTest-Smoke-Tests)
 
 ## Lokal ausführen
 

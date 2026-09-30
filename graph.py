@@ -27,6 +27,10 @@ class Snapshot:
     demo_cross_links: dict[str, list[str]]
     demo_backlink_targets: list[str]
     crosslink_map: dict[str, list[str]]
+    # Dokumentierte Abhängigkeitskanten aus allen 27 *_dag.dot-Dateien (255 Kanten, je mit
+    # linie_seite, quelle_url/-titel, ziel_url/-titel, art) - die "Soll"-Struktur jeder Linie,
+    # wird in Diagnose 2 gegen die tatsächlichen Live-Querverlinkungen (demo_cross_links) verglichen.
+    dag_edges: list[dict]
 
     @property
     def demo_urls(self) -> list[str]:
@@ -49,6 +53,7 @@ class Snapshot:
 def load_snapshot(path: Path = DATA_PATH) -> Snapshot:
     raw = json.loads(path.read_text(encoding="utf-8"))
     crosslink_map = json.loads((path.parent / "crosslink_map.json").read_text(encoding="utf-8"))
+    dag_edges = json.loads((path.parent / "dag_edges.json").read_text(encoding="utf-8"))
     return Snapshot(
         stand=raw["stand"],
         pages=raw["pages"],
@@ -59,6 +64,7 @@ def load_snapshot(path: Path = DATA_PATH) -> Snapshot:
         demo_cross_links=raw["demo_cross_links"],
         demo_backlink_targets=raw["demo_backlink_targets"],
         crosslink_map=crosslink_map,
+        dag_edges=dag_edges,
     )
 
 

@@ -39,3 +39,40 @@ def groesste_gewinner(snap: Snapshot, pr_vorher: dict[str, float], pr_nachher: d
     diffs = [(p, pr_vorher[p], pr_nachher[p]) for p in snap.pages]
     diffs.sort(key=lambda t: t[2] - t[1], reverse=True)
     return diffs[:n]
+
+
+def dokumentierte_kanten(snap: Snapshot) -> set[tuple[str, str]]:
+    """Die in den *_dag.dot-Dateien dokumentierten Demo-zu-Demo-Kanten als (Quelle, Ziel)-Paare -
+    unabhängig von Kante-Art (fix/kontrast/idee) und ohne Duplikate."""
+    return {(e["quelle_url"], e["ziel_url"]) for e in snap.dag_edges}
+
+
+def live_kanten(snap: Snapshot) -> set[tuple[str, str]]:
+    """Die tatsächlich im laufenden app.py jeder Demo verbauten Querlinks als (Quelle, Ziel)-Paare."""
+    return {(src, dst) for src, ziele in snap.demo_cross_links.items() for dst in ziele}
+
+
+def dag_vs_live_diagnose(snap: Snapshot) -> dict:
+    """Vergleicht die dokumentierte Soll-Struktur (dag_edges) mit den tatsächlichen Live-Querlinks
+    (demo_cross_links): wie viele Kanten stimmen überein, welche dokumentierten Kanten fehlen live,
+    welche Live-Kanten sind nirgends dokumentiert. Reine Bestandsaufnahme, keine Bewertung, welche
+    der beiden Quellen "richtig" ist - die Diagramme sind die Planung, die Live-Links die Umsetzung,
+    und diese Diagnose zeigt, wie weit beide auseinanderlaufen."""
+    dokumentiert = dokumentierte_kanten(snap)
+    live = live_kanten(snap)
+    treffer = dokumentiert & live
+    fehlend = dokumentiert - live
+    undokumentiert = live - dokumentiert
+
+    def titel(url: str) -> str:
+        return snap.demo_title.get(url, url)
+
+    return {
+        "anzahl_dokumentiert": len(dokumentiert),
+        "anzahl_live": len(live),
+        "anzahl_treffer": len(treffer),
+        "anzahl_fehlend": len(fehlend),
+        "anzahl_undokumentiert": len(undokumentiert),
+        "beispiele_fehlend": [(titel(s), titel(z)) for s, z in sorted(fehlend)[:8]],
+        "beispiele_undokumentiert": [(titel(s), titel(z)) for s, z in sorted(undokumentiert)[:8]],
+    }

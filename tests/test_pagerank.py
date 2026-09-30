@@ -3,7 +3,15 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from analyse import groesste_gewinner, index_kontakt_anteil, konzepte_linien, linien_mittel
+from analyse import (
+    dag_vs_live_diagnose,
+    dokumentierte_kanten,
+    groesste_gewinner,
+    index_kontakt_anteil,
+    konzepte_linien,
+    linien_mittel,
+    live_kanten,
+)
 from graph import build_base_graph, build_mit_basis_fix, build_mit_vollem_fix, load_snapshot, pagerank
 
 SNAP = load_snapshot()
@@ -95,3 +103,31 @@ def test_ist_zustand_heute_zeigt_das_bekannte_ungleichgewicht():
     Schnitt deutlich unter der Startseite, weil alle 300 Demos einheitlich dorthin zurueckverlinken."""
     pr = pagerank(build_base_graph(SNAP))
     assert pr["index.html"] > linien_mittel(SNAP, pr) * 10
+
+
+def test_dag_und_live_kanten_sind_nicht_leer():
+    assert len(dokumentierte_kanten(SNAP)) > 200
+    assert len(live_kanten(SNAP)) > 50
+
+
+def test_dag_vs_live_diagnose_zaehlt_treffer_fehlende_und_undokumentierte_konsistent():
+    diag = dag_vs_live_diagnose(SNAP)
+    assert diag["anzahl_treffer"] + diag["anzahl_fehlend"] == diag["anzahl_dokumentiert"]
+    assert diag["anzahl_treffer"] + diag["anzahl_undokumentiert"] == diag["anzahl_live"]
+    assert diag["anzahl_treffer"] >= 1
+
+
+def test_dag_vs_live_diagnose_zeigt_die_bekannte_grosse_luecke():
+    """Regressionstest gegen den am 2026-09-30 erhobenen Stand: die dokumentierten Diagramme und die
+    tatsächlichen Live-Querlinks der Demos stimmen fast nirgends überein."""
+    diag = dag_vs_live_diagnose(SNAP)
+    assert diag["anzahl_treffer"] < 5
+    assert diag["anzahl_fehlend"] > 200
+    assert diag["anzahl_undokumentiert"] > 50
+
+
+def test_beispiele_fehlend_und_undokumentiert_enthalten_lesbare_titel_nicht_urls():
+    diag = dag_vs_live_diagnose(SNAP)
+    for quelle, ziel in diag["beispiele_fehlend"] + diag["beispiele_undokumentiert"]:
+        assert not quelle.startswith("http")
+        assert not ziel.startswith("http")
