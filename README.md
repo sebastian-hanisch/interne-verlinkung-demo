@@ -4,10 +4,19 @@
 
 Analyse-Karte der **Graphen-und-Netzwerke-Linie** der "Konzepte"-Reihe für die Website
 "Sebastian Hanisch – Operations Research und Machine Learning": anders als eine Optimierung
-(mehrere Verfahren im Vergleich) ist das hier eine Netzwerkanalyse am echten Fall – passend zu den
-anderen Analyse-Karten der Linie (Zentralität, Strukturkennzahlen): eine Kennzahl berechnen und
-interpretieren, keine Verfahren gegeneinander optimieren. Rechnet mit dem **echten**
+(mehrere Verfahren im Vergleich) ist das hier eine Netzwerkanalyse am echten Fall – eine Kennzahl
+berechnen und interpretieren, keine Verfahren gegeneinander optimieren. Rechnet mit dem **echten**
 Verlinkungsgraphen von sebastianhanisch.net selbst, nicht mit synthetischen Daten.
+
+**Zusammenhänge zu anderen Stücken der Linie:** [Zentralität](https://sebastianhanisch-centrality-demo.streamlit.app/)
+führt PageRank bereits als eines von vier Maßen ein – dort an synthetischen Vehikeln (Raster,
+Betriebsnetz, skalenfreies Netz), mit dem Befund, dass PageRank auf einem ungesperrten Raster mit
+0,26 der schwächste Vorhersager für Ausfallschäden ist. Diese Demo wendet dasselbe Verfahren auf ein
+einzelnes, aber echtes Netz an (kein Widerspruch: das Lehrbuch-Ergebnis sagt nichts über einen echten,
+asymmetrischen Web-Graphen aus). [Strukturkennzahlen und Nullmodelle](https://sebastianhanisch-strukturkennzahlen-demo.streamlit.app/)
+ist die andere Analyse-Karte der Linie, mit anderen Kennzahlen (Clustering, Kleine Welt,
+Assortativität) an einem Nullmodell statt einem realen Fall. Alle zwölf Stücke im Zusammenhang:
+[Graphen und Netzwerke erklärt](https://sebastianhanisch.net/konzepte-graphen-netzwerke.html).
 
 ## Diagnose (Stand 2026-09-30, vollständig erhoben, keine Stichprobe)
 

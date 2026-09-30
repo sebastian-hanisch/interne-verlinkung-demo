@@ -36,6 +36,16 @@ PR = _pageranks()
 st.title("🔗 Interne Verlinkung: Diagnose und Wirkungsanalyse")
 st.caption(f"Echte Daten von sebastianhanisch.net, Stand {SNAP.stand} - kein künstliches Beispiel.")
 
+st.markdown(
+    "Diese Demo gehört zur **Graphen-und-Netzwerke-Linie** der Konzepte-Reihe von "
+    "[sebastianhanisch.net](https://sebastianhanisch.net) - anders als die dortigen Verfahrens-Demos "
+    "(ein Algorithmus an einem wachsenden, meist künstlichen Beispiel) ist das hier eine "
+    "**Analyse-Karte**: eine Kennzahl an einem einzigen, aber echten Fall berechnen und interpretieren, "
+    "kein Verfahrensvergleich. PageRank misst hier nicht an einem Lehrbuch-Graphen, sondern am "
+    "tatsächlichen Verlinkungsgraphen der Website selbst, in dem diese Demo läuft - inklusive aller "
+    "50 Seiten und 300 externen Demos."
+)
+
 st.header("1. Diagnose: wohin fließt die Linkkraft heute?")
 st.markdown(
     "Alle 300 Demos der Website verlinken im laufenden `app.py`-Footer einheitlich auf "
@@ -179,6 +189,28 @@ with col2:
     st.markdown("**Beispiele: live verlinkt, aber nicht dokumentiert**")
     for quelle, ziel in diag["beispiele_undokumentiert"]:
         st.markdown(f"- {quelle} → {ziel}")
+
+st.header("Zusammenhänge zu anderen Stücken der Graphen-und-Netzwerke-Linie")
+st.markdown(
+    "- **[Zentralität](https://sebastianhanisch-centrality-demo.streamlit.app/)** führt PageRank "
+    "bereits als eines von vier Zentralitätsmaßen ein - dort an synthetischen Vehikeln (Raster, "
+    "Betriebsnetz, skalenfreies Netz), mit einem ernüchternden Befund: Auf einem ungesperrten, "
+    "regelmäßigen Raster ist PageRank mit einer Rangkorrelation von nur 0,26 der schwächste "
+    "Vorhersager für Ausfallschäden, deutlich hinter Betweenness. Diese Demo hier nimmt genau dasselbe "
+    "Verfahren und wendet es auf ein einzelnes, aber echtes Netz an - die Website selbst -, statt "
+    "mehrere synthetische Vehikel zu vergleichen. Kein Widerspruch: Dass PageRank auf einem "
+    "Lehrbuch-Raster schlecht vorhersagt, sagt nichts darüber, ob es auf einem echten, stark "
+    "asymmetrischen Web-Graphen ein aussagekräftiges Bild liefert - und genau das zeigt Abschnitt 1 "
+    "oben.\n"
+    "- **[Strukturkennzahlen und Nullmodelle](https://sebastianhanisch-strukturkennzahlen-demo.streamlit.app/)** "
+    "ist die andere Analyse-Karte der Linie: dieselbe Grundidee (eine Kennzahl berechnen und "
+    "interpretieren, kein Verfahrensvergleich), aber an einem Nullmodell statt an einem realen Fall - "
+    "und mit Clustering/Kleine-Welt/Assortativität andere Kennzahlen als PageRank.\n"
+    "- Alle zwölf Stücke der Linie im Zusammenhang: "
+    "**[Graphen und Netzwerke erklärt](https://sebastianhanisch.net/konzepte-graphen-netzwerke.html)** "
+    "auf der Website - dort auch der Abhängigkeitsgraph, der zeigt, wie Zentralität selbst ein "
+    "Zusammenfluss aus BFS/DFS und Brücken ist und zu Strukturkennzahlen und weiter zu Robustheit führt."
+)
 
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) - "
