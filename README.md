@@ -15,7 +15,7 @@ Betriebsnetz, skalenfreies Netz), mit dem Befund, dass PageRank auf einem ungesp
 einzelnes, aber echtes Netz an (kein Widerspruch: das Lehrbuch-Ergebnis sagt nichts über einen echten,
 asymmetrischen Web-Graphen aus). [Strukturkennzahlen und Nullmodelle](https://sebastianhanisch-strukturkennzahlen-demo.streamlit.app/)
 ist die andere Analyse-Karte der Linie, mit anderen Kennzahlen (Clustering, Kleine Welt,
-Assortativität) an einem Nullmodell statt einem realen Fall. Alle zwölf Stücke im Zusammenhang:
+Assortativität) an einem Nullmodell statt einem realen Fall. Alle dreizehn Stücke im Zusammenhang:
 [Graphen und Netzwerke erklärt](https://sebastianhanisch.net/konzepte-graphen-netzwerke.html).
 
 ## Diagnose (Stand 2026-09-30, vollständig erhoben, keine Stichprobe)

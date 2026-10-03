@@ -206,7 +206,7 @@ st.markdown(
     "ist die andere Analyse-Karte der Linie: dieselbe Grundidee (eine Kennzahl berechnen und "
     "interpretieren, kein Verfahrensvergleich), aber an einem Nullmodell statt an einem realen Fall - "
     "und mit Clustering/Kleine-Welt/Assortativität andere Kennzahlen als PageRank.\n"
-    "- Alle zwölf Stücke der Linie im Zusammenhang: "
+    "- Alle dreizehn Stücke der Linie im Zusammenhang: "
     "**[Graphen und Netzwerke erklärt](https://sebastianhanisch.net/konzepte-graphen-netzwerke.html)** "
     "auf der Website - dort auch der Abhängigkeitsgraph, der zeigt, wie Zentralität selbst ein "
     "Zusammenfluss aus BFS/DFS und Brücken ist und zu Strukturkennzahlen und weiter zu Robustheit führt."
